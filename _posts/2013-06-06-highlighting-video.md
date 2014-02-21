@@ -140,6 +140,7 @@ You can add a highlight by inserting its representation (dictionary) into the `h
 Highlighting is one of the main forms of interaction with text. Pick up an avid reader's books or printed papers and you'll see this:
 
 ![](http://static.benet.ai/skitch/skitched-20130608-031524.png)
+
 ![](http://static.benet.ai/skitch/skitched-20130608-031137.png)
 
 These humble markings are powerful. A simple background color shift demands attention, and implies importance. Scrawls jotted along margins suggest new ideas, or remind us of old ones.
