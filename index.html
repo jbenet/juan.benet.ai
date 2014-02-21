@@ -1,82 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="description"
-    content="juan.benet.ai: personal website of Juan Batiz-Benet" />
-  <meta name="keywords" content="Juan Batiz-Benet" />
+---
+layout: default
+title: Your New Jekyll Site
+---
 
-  <title>juan.benet.ai | Juan Batiz-Benet</title>
-  <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap-responsive.min.css" />
-  <style>
-  .container {
-    width: 650px;
-    margin: 50px auto;
-  }
-
-  .container > div > div {
-    margin: 20px auto;
-  }
-
-  img#profile {
-    width: 100%;
-  }
-
-  .info {
-    padding: 50px;
-    text-align: center;
-    line-height: 34px;
-  }
-  #quote {
-    margin: 40px auto;
-    text-align: center;
-  }
-  .faded, li {
-    color: rgba(0, 0, 0, 0.5);
-  }
-  li * {
-    margin-right: 10px;
-  }
-  li .timestamp {
-    display: inline-block;
-    width: 80px;
-  }
-  li .context {
-    display: inline-block;
-    width: 100px;
-  }
-  body {
-    text-align: center;
-  }
-  </style>
-</head>
-<body>
-
-<div class="container">
-  <div class="row-fluid">
-    <div id="quote" class="span12 faded">
-      "if something isn't forbidden by the laws of physics, <br />
-      then what could possibly prevent us from doing it
-      but knowing how?"<br />
-      - David Deutsch
-    </div>
-
-    <div>
-      <iframe width='700' height='460' src='//acorn.athena.ai/embed/xwkbokwxti'          scrolling='no' frameborder='0' allowfullscreen webkitallowfullscreen          mozallowfullscreen></iframe>
-    </div>
-
-    <div>
-      <iframe width='700' height='460' src='//acorn.athena.ai/embed/tobfypbkyw'          scrolling='no' frameborder='0' allowfullscreen webkitallowfullscreen          mozallowfullscreen></iframe>
-    </div>
-
-    <div>
-      <img src="/img/juan.batizbenet.headshotsq.jpg" />
-    </div>
-
-  </div>
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div>
-
-</body>
-</html>
