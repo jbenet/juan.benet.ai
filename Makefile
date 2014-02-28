@@ -1,7 +1,15 @@
-all: less
+all: build less
 
-less: css/main.css
+less: _site/css/main.css
 
 css/%.css: css/%.less
 	lessc -x css/main.less > css/main.css
-	cp css/main.css _site/css/main.css
+
+_site/css/%.css: css/%.css
+	cp $< $@
+
+build: css/main.css
+	jekyll build
+
+deploy: build less
+	./deploy.sh
