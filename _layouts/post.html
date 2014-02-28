@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-<h2><a href="/">Home</a> / {{ page.title }}</h2>
+<h2>
+  <small><a href="/">Juan Benet</a> /
+  <a class="category" href="/{{ page.categories[0] }}">
+  {{ page.categories[0] }}</a> /</small>
+  {{ page.title }}</h2>
 <p class="meta">{{ page.date | date: "%Y-%m-%d" }}</p>
 
 <div class="post">

@@ -4,3 +4,5 @@ description: Juan Benet's Website
 github: jbenet
 markdown: redcarpet
 highlighter: rouge
+category_dir: "."
+category_title_prefix: ""
