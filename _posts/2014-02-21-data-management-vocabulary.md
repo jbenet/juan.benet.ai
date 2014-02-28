@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  Data Management Vocabulary
-date:   2014-02-21 05:57:58
+date:   2014-02-21 05:57:58 -08:00
 categories: data
 ---
 
-Last updated: 2014-02-28
+Last updated: 2014-02-28.
 
 This is a vocabulary for the purpose of precisely defining propblems and solutions in my data management efforts. Many are standard **version control** concepts.
 

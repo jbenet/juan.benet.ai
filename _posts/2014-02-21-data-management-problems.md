@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  Data Management Problems
-date:   2014-02-21 06:57:58
+date:   2014-02-21 06:57:58 -08:00
 categories: data
 ---
 
-Numerous problems plague data sharing today. This post identifies some of them. Note: to make sure we're on the same page semantically, check my [data vocabulary]({% post_url 2014-02-20-data-management-vocabulary %}).
+Numerous problems plague data sharing today. This post identifies some of them. Note: to make sure we're on the same page semantically, check my [data vocabulary]({% post_url 2014-02-21-data-management-vocabulary %}).
 
 ## Distribution
 
