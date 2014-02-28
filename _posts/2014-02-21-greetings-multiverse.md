@@ -2,7 +2,7 @@
 layout: post
 title:  "Greetings Multiverse!"
 date:   2014-02-21 04:57:58
-categories:
+categories: meta
 ---
 
 Greetings multiverse. This is the personal website of

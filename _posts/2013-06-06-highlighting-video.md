@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Video Highlights
-categories: athena acorn
+categories: acorn
 ---
 
 At Athena, we strive to make explanations intuitive and accessible so that knowledge can be spread easily. There are lots of great explanations embedded within longer video lectures, so we built [Acorn](http://acorn.athena.ai) -- our media remixer -- to find and share them.

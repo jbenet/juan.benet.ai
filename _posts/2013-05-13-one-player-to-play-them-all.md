@@ -1,7 +1,7 @@
 ---
 layout: post
 title: One Player to Play Them All
-categories: athena acorn
+categories: acorn
 ---
 
 _The Lord of the Rings_ is one of my favorite books. This little-known tale of adventure features an amazingly powerful ring, bearing an enchanted inscription that reads:
