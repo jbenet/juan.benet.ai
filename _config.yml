@@ -3,6 +3,7 @@ url: http://juan.benet.ai
 description: Juan Benet's Website
 github: jbenet
 markdown: redcarpet
+permalink: /:categories/:year-:month-:day/:title
 highlighter: rouge
 category_dir: "."
 category_title_prefix: ""
