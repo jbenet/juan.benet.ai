@@ -63,7 +63,8 @@ The Open Access discussion often focuses on journals and access to papers. But, 
 - [Big Data for Development: From Information to Knowledge Societies](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2205145)
 - [The impact of open access on research and scholarship](http://crln.acrl.org/content/73/2/83.full)
 
-The takeaway is data should be **open-source**, for **distribution** and **modification**. Imagine a world where researchers can fork and re-publish fixed, cleaned, reformatted datasets as easily as programmers fork code.
+The takeaway is data should be **open-source**, for **distribution** and **modification**. What is often left out of these discussions is the friction people experience when attempting to do either. From undergoing a lengthy peer-review process, to applying for accounts, to asking for modification permission for others' data... the hurdles are numerous, _even in **open access** repositories_. We need to complement **open access** with **easy access**, to both read and write, or download and publish.
+
+Imagine a world where researchers can fork and re-publish fixed, cleaned, reformatted datasets as easily as programmers fork code.
 
 Friends, the promised land is in sight.
-
