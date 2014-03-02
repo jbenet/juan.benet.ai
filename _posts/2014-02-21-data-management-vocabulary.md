@@ -14,7 +14,6 @@ This is a vocabulary for the purpose of precisely defining propblems and solutio
 - **dataset**: a meaningful collection of related **data**, usually packaged as a set of files and identified with a name.
 
 - **git**: a popular **distributed version control system**.
-- **hg**: another populat **distributed version control system**.
 
 - **storage**: for our purposes, digital storage of files in computers.
 - **bandwidth**: for our purposes, capacity to distribute files across a network, mainly the internet.

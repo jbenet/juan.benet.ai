@@ -30,15 +30,15 @@ Better ones exist (like timestamping the filenames), but still fail to support u
 Sometimes published datasets are no longer available in their original location, so one must find them again. Sometimes, datasets disappear completely. [This paper](https://www.cell.com/current-biology/abstract/S0960-9822(13)01400-0) found that, in biology alone, "the odds of a data set being extant fall by 17%
 per year."
 
-This is absurd. The point of research is to gather and reason on data. We ought to be able to keep the data around, in _precisely_ the exact form it was originally published. No single dataset should _ever_ go missing. More, no single dataset _version_ should ever go missing either. Getting data published is hard enough. We cannot afford to then lose it.
+This is absurd. The point of research is to gather and reason on data. We ought to be able to keep the data around, in _precisely_ the exact form it was originally published. No single dataset should _ever_ go missing. No single dataset _version_ should ever go missing either. Getting data published is hard enough. We cannot afford to then lose it.
 
 We need a _permanent_ repository, where all data survives.
 
 ## Indexing
 
-Datasets are strewn across the web. Generally, dataset authors need to arrange for the distribution and upkeep of the files, which means they setup whatever solution happens to be most convenient for them. This leads to distribution over a myriad different methods, with widely varying user experiences. Additionally, there is no global system to track published datasets, or their publication meta-data (date, authors, license, version, etc). Some aggregated collections exist, but they are often field-specific and wildy varying in quality, usability, or completeness. This makes searching for datasets tedius at best, and often fruitless.
+Datasets are strewn across the web. Generally, dataset authors need to arrange for the distribution and upkeep of the files, which means they setup whatever solution happens to be most convenient for them. This leads to distribution over a myriad different methods, with widely varying user experiences. And there is no global system to track published datasets, or their publication meta-data (date, authors, license, version, etc). Some aggregated collections exist, but they are often field-specific and wildy varying in quality, usability, or completeness. This all makes searching for datasets tedius at best, and often fruitless.
 
-Imagine a world where every dataset published can be found in one single, persistent global index -- across fields. Imagine this index also tracks the version histories, publication meta-data, related datasets, people, figures, etc. Imagine all this information standardized and easily searchable. Imagine all URLs to this index are guaranteed not to change, and to support a scriptable API.
+Imagine a world where every dataset published can be found in one single, persistent global index -- across fields. Imagine this index also tracks the version histories, publication meta-data, related datasets, people, figures, etc. Imagine all this information standardized and easily searchable. Imagine all URLs to this index are guaranteed not to change, and to support a programmable API.
 
 ## Formatting
 
