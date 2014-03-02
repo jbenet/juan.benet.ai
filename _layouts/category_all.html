@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<h2>
+  <small><a href="/">Juan Benet</a> /
+  <a href="/{{ page.category }}">{{ page.category }}</a> /</small>
+  all
+</h2>
+
+{% assign all = site.categories[page.category] %}
+
+<!-- toc -->
+<ul id="toc" class="posts">
+{% for post in all %}
+  <li><span>{{ post.date | date: "%Y-%m-%d" }}</span> &raquo;
+  <a href="#{{ post.title | handleize }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
+<!-- posts -->
+{% for post in all %}
+<hr />
+<h2 id="{{ post.title | handleize }}">
+  <a href="{{ post.url }}">{{ post.title }}</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">{{ post.date | date: "%Y-%m-%d" }}</p>
+
+<div class="post">
+{{ post.content | markdownify }}
+</div>
+{% endfor %}

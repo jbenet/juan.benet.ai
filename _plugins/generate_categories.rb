@@ -111,6 +111,22 @@ module Jekyll
 
   end
 
+  # The CategoryAll class creates a single category page for the specified category.
+  class CategoryAll < CategoryPage
+
+    # Initializes a new CategoryAll.
+    #
+    #  +site+         is the Jekyll Site instance.
+    #  +base+         is the String path to the <source>.
+    #  +category_dir+ is the String path between <source> and the category folder.
+    #  +category+     is the category currently being processed.
+    def initialize(site, base, category_dir, category)
+      template_path = File.join(base, '_layouts', 'category_all.html')
+      super(template_path, '/all/index.html', site, base, category_dir, category)
+    end
+
+  end
+
   # The CategoryFeed class creates an Atom feed for the specified category.
   class CategoryFeed < CategoryPage
 
@@ -146,6 +162,16 @@ module Jekyll
         # Record the fact that this pages has been added, otherwise Site::cleanup will remove it.
         self.pages << index
       end
+
+      # Create a single page for all posts in category
+      all = CategoryAll.new(self, self.source, target_dir, category)
+      if all.render?
+        all.render(self.layouts, site_payload)
+        all.write(self.dest)
+        # Record the fact that this pages has been added, otherwise Site::cleanup will remove it.
+        self.pages << all
+      end
+
 
       # Create an Atom-feed for each index.
       feed = CategoryFeed.new(self, self.source, target_dir, category)
