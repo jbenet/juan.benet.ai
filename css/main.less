@@ -258,6 +258,35 @@ img.gravatar.large {
   font-size: 12px;
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+  &:hover .header-links a {
+    text-decoration: none;
+    opacity: 0.4;
+    color: gray;
+  }
+
+  .header-links {
+    float: left;
+    text-align: right;
+    margin-left: -40px;
+    padding-right: 10px;
+    width: 40px;
+
+    a {
+      text-decoration: none;
+      opacity: 0.0; // show on hover
+      color: gray;
+    }
+
+    a:hover, a:active, a:focus {
+      text-decoration: none;
+      opacity: 0.6;
+      color: #428bca;
+    }
+  }
+}
+
 /* Better styles for embedding GitHub Gists */
 .gist{font-size:13px;line-height:18px;margin-bottom:20px;width:100%}
 .gist pre{font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important}
