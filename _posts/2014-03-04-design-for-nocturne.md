@@ -7,7 +7,7 @@ categories: note
 
 People ask me why my websites are "so light"
 ([athena](http://engine1.athena.ai), [acorn](http://acorn.athena.ai),
-[juan.benet.ai](http://juan.benet.ai), [datadex.io](http://datadex.io)),
+[juan.benet.ai](http://juan.benet.ai), [datadex.io](http://datadex.io))
 when my computer is usually dark, from a shell or text editor. Well...
 
 First, [white](http://github.com)
