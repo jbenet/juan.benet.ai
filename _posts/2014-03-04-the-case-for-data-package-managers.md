@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Data Package Management
+title:  The Case for Data Package Managers
 date:   2014-03-04 07:03:03 -08:00
 categories: data
 ---
