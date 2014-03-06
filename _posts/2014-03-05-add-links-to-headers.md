@@ -16,7 +16,6 @@ I couldn't find markdown renderers that included it. So, I wrote my post-process
 ## Here's the `js` (assumes [`$`](http://jquery.com/) and [`_`](http://underscorejs.org) are defined):
 
 ```js
-<script type="text/javascript">
 $(document).ready(function() {
 
   // Modify this template to add or change links.
@@ -33,7 +32,6 @@ $(document).ready(function() {
     })));
   });
 });
-</script>
 ```
 
 ## Here's the `less` (assumes FontAwesome icons `css`):
