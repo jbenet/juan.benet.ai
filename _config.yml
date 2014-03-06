@@ -2,7 +2,8 @@ name: Juan Benet
 url: http://juan.benet.ai
 description: Juan Benet's Website
 github: jbenet
-markdown: redcarpet
+# markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions: [with_toc_data]
 permalink: /:categories/:year-:month-:day/:title
