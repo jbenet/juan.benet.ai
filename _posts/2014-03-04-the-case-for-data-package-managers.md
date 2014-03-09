@@ -5,7 +5,7 @@ date:   2014-03-04 07:03:03 -08:00
 categories: data
 ---
 
-# WARNING: DRAFT
+# WARNING: Work in Progress
 
 [Numerous problems plague data sharing today]({% post_url 2014-02-21-data-management-problems %}). This post proposes Package Management as the foundation to address them. Note: to make sure we're on the same page semantically, check my [data vocabulary]({% post_url 2014-02-21-data-management-vocabulary %}).
 
