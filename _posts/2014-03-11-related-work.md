@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  related work
+title:  Related Work
 date:   2014-03-11 14:04:37 -08:00
 categories: data
 ---
@@ -9,7 +9,7 @@ categories: data
 Warning: This is a Living Document.
 </h3>
 
-It is important to catalog related work. I will expand on these tools and efforts over time. Please contact me if I should be aware of something else.
+It is important to catalog related work. I will expand on these tools and efforts over time. This list is in its infancy. Please contact me if I should be aware of something else.
 
 
 ## [AcademicTorrents.com](http://academictorrents.com)
