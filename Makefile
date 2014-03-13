@@ -13,3 +13,6 @@ build: css/main.css
 
 deploy: build less
 	./deploy.sh
+
+publish: deploy
+	git push
