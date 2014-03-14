@@ -5,6 +5,8 @@ date:   2014-03-05 23:21:27 -08:00
 categories: note
 ---
 
+[Version history](https://github.com/jbenet/jbenet.github.com/commits/source/_posts/2014-03-05-add-links-to-headers.md).
+
 I've always likes how [github](http://github.com) adds on-hover links to headers on their rendered markdown:
 
 ---
@@ -25,8 +27,24 @@ $(document).ready(function() {
     </div>\
   ');
 
+  // If your headers dont already have ids, use this slug fn
+  var slugize = function(title) {
+    return title.toLowerCase()
+      .replace(/[^\w ()]+/g,'')
+      .replace(/ +/g,'-');
+  }
+
   // Modify the ':header' selector to apply to other elems
   $(':header').each(function(i, h) {
+
+    // Add an id, if it doesn't have one.
+    if (!$(h).attr('id')) {
+      var id = $(h).text().replace(/[^A-Za-z0-9_]+/g, '-')
+      id = id.replace(/^-+|-+$/g, '')
+      $(h).attr('id', slugize($(h).text()));
+    }
+
+    // Add the link div
     $(h).append($(links({
       id: $(h).attr('id')
     })));
