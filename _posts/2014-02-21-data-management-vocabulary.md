@@ -150,7 +150,7 @@ a measure of whether a particular [format](#format) is able to represent a parti
 
 ## Schema-laden Format
 
-a [format](#format) designed to represent a particular [schema](#schema). _Schema-less_ or general formats, such as [JSON](http://json.org), can represent any schema. _Schema-laden_ formats, such as [GeoJSON](http://geojson.org), are tuned to represent a particular set of schemas. Schema-laden formats tend to implement schema specifications on top of a general format.
+a [format](#format) designed to represent a particular [schema](#schema). _Schema-less_ or universal formats, such as [JSON](http://json.org), can represent any schema. _Schema-laden_ formats, such as [GeoJSON](http://geojson.org), are tuned to represent a particular set of schemas. Schema-laden formats tend to implement schema specifications on top of a general format.
 
 ## Schema Compatibility
 
@@ -158,6 +158,9 @@ a measure of whether a particular [schema](#schema) is able to express another. 
 
 ## storage
 for our purposes, digital storage of files in computers.
+
+## Universal Format
+For our purposes, a format capable of storing any schema. Examples: JSON, XML. Contrast to GeoJSON, a format specific to a set of schemas, or a [_schema-laden_ format](#schema-laden-format).
 
 ## Version
 a snapshot of files at a particular point in time. Versions are useful to trace histories of changes.
