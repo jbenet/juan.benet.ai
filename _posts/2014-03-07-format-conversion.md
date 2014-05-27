@@ -3,11 +3,14 @@ layout: post
 title:  Format Conversion
 date:   2014-03-07 04:11:31 -08:00
 categories: data
+vocab: /data/2014-02-21/data-management-vocabulary/
 ---
 
-# Warning: Work In Progress
+<div class="alert alert-danger">
+  <h1>Warning: Work In Progress</h1>
+</div>
 
-File conversion is cumbersome and more complex than it needs to be. There is no good reason why we need thousands of different programs that convert from one format to another. It is possible to create a program which **converts to and from _all_ formats without sacrificing performance or flexibility**.[^proof]
+File conversion is cumbersome and more complex than it needs to be. There is no good reason why we need thousands of different programs that convert from one format to another. I claim it is possible to create a program which **converts to and from _all_ formats without sacrificing performance or flexibility**.[^proof]
 
 [^proof]: At present, I offer a framework to think about the problem. In the future, I hope to offer an existence proof.
 
@@ -15,34 +18,47 @@ File conversion is cumbersome and more complex than it needs to be. There is no 
 
 Before describing such a program, it is important to define our semantic framework. It strikes me that people use the words `encoding`, `format`, and `schema` too loosely. This is perhaps because the words and their semantic boundaries are not precisely defined. Here are ours:
 
-- [schema]({% post_url 2014-02-21-data-management-vocabulary %}#schema): the structure, or specification of how information represents meaning.
+- [schema]({{ page.vocab }}#schema): the structure, or specification of how information represents meaning.
 
-- [format]({% post_url 2014-02-21-data-management-vocabulary %}#format): "the way in which something is arranged"; a specification for how to `encode` and `decode` a message.
+- [format]({{ page.vocab }}#format): "the way in which something is arranged"; a specification for how to `encode` and `decode` a message.
 
-- [encoding]({% post_url 2014-02-21-data-management-vocabulary %}#encoding): the process of converting _information_ into _encoded information_, according to a `format`. The inverse of `decoding`.
+- [encoding]({{ page.vocab }}#encoding): the process of converting _information_ into _encoded information_, according to a `format`. The inverse of `decoding`.
 
-In general, we can say that data is structured according to a `schema`, and `encoded` into a [`format` compatible with the `schema`]({% post_url 2014-02-21-data-management-vocabulary %}#schema-format-compatibility).
+In general, we can say that data is structured according to a `schema`, and `encoded` into a [`format` compatible with the `schema`]({{ page.vocab }}#schema-format-compatibility).
 
 ## Problem
 
-Using these definitions, then, the program should convert any [compatible format]({% post_url 2014-02-21-data-management-vocabulary %}#format-compatibility) into another.
+Using these definitions, then, the program should convert any [compatible format]({{ page.vocab }}#format-compatibility) into another.
 
-Conversion tools between two general formats are not complicated to build. The hard part about building a conversion tool for _all_ formats is that most formats are not general. They are [_schema-laden_]({% post_url 2014-02-21-data-management-vocabulary %}#schema-laden), and are thus not perfectly compatible. Parsing and generating byte sequences is tedious and error-prone, but not hard. The real problem, I claim, is _converting between schemas_.
+Conversion tools between two general formats are not complicated to build. The hard part about building a conversion tool for _all_ formats is that most formats are not general. They are [_schema-laden_]({{ page.vocab }}#schema-laden), and are thus not perfectly compatible. Parsing and generating byte sequences is tedious and error-prone, but not hard. The real problem, I claim, is _converting between schemas_.
 
-There are two approaches to doing this between large numbers of formats:
+## The Graph of Formats
 
-- The [Graph of Formats](#graph-of-formats) approach
-- The [Hub with Universal Data Representation](#hub-with-universal-data-representation) approach
+Today, most format conversions happen via format-pair-specific tools. Examples: "json to xml", "png to jpg", "xsl to csv". Actually, these examples are not quite right, because most "format conversions" are not between [universal  formats]({{ page.vocab }}#universal-format), but rather between [_schema-laden_ formats]({{ page.vocab}}#schema-laden}). This means tools that convert from "this custom format expressing geometries" to "GeoJSON", or between csvs with different column sets, or value ranges. For example:
 
-The former is simpler and the latter is more elegant. Both require a highly modular design, which leaves parsing and emitting the formats to format-specific modules.
+```csv
+% cat area-codes.csv
+CITY,STATE,AREACODE
+SAN DIEGO,CA,619
+SAN FRANCISCO,CA,415
+SAN JOSE,CA,408
 
-## Graph of Formats
+% ./us-city-codes.py area-codes.csv
+City,Dial Code
+San Diego,+1-619
+San Francisco,+1-415
+San Jose,+1-408
+```
 
-WIP
+This transformation is trivial: (a) the `STATE` column was dropped, (b) the casing changed, (c) the `AREACODE` column shifted to `Dial Code`, which includes a `+1-` for international calling. And yet, a custom program had to be written to parse the source file and generate the target file. Chances are every time this had to be done, someone had to write a program to create that conversion. Consider more complex format conversions, with files with dozens of columns or deeply nested JSON or XML trees, with numerous transformations here and there. So much valuable time is wasted creating these conversion programs. More is wasted by end users -- particularly non-programmers -- struggling to wrangle data to make it "look right". This is silly.
+
+Consider a graph of formats where directed edges represent conversion programs. Every time one format needs to be converted into another, a program is written and an edge is added. Sometimes people publish those programs and they can be found on the internet. And if we're lucky, it's possible a conversion through an intermediate format exists. This is a pretty brittle system though. Often, programs do not exist, only work one-way, are out of date, or are written again and again but never published anywhere.
+
+<!-- format graph -->
 
 ## Hub with Universal Data Representation
 
-Instead of using a [graph with converter edges between formats](), consider a hub graph, where the center node is a "master" format that can then be translated to any other format. While it is ambitious to build _one_ format to convert between all other formats losslessly, the benefits are significant. Rather than building `<num formats>^2`[^num-max] tools to convert to-and-from, we would only need to build `<num formats>`.
+Instead of using a graph with converter edges between formats, consider a hub graph, where the center node is a "master" format that can then be translated to any other format. While it is ambitious to build _one_ format to convert between all other formats losslessly, the benefits are significant. Rather than building `<num formats>^2`[^num-max] tools to convert to-and-from, we would only need to build `<num formats>`.
 
 [^num-max]: Maximum, of course. Many converters would never be built as most format pairs are incompatible.
 
