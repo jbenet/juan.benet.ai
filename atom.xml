@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Juan Benet</title>
+ <link href="http://juan.benet.ai/atom.xml" rel="self"/>
+ <link href="http://juan.benet.ai/"/>
+ <updated>2016-02-29T20:47:02-05:00</updated>
+ <id>http://juan.benet.ai</id>
+ <author>
+   <name>Juan Benet</name>
+ </author>
+
+ 
+ <entry>
+   <title>Data Discussion @ScienceExchange</title>
+   <link href="http://juan.benet.ai/data/2014-03-11/discussion-scienceexchange"/>
+   <updated>2014-03-11T19:42:23-04:00</updated>
+   <id>http://juan.benet.ai/data/2014-03-11/discussion-scienceexchange</id>
+   <content type="html">&lt;p&gt;The awesome folks over at &lt;a href=&quot;http://scienceexchange.com&quot;&gt;ScienceExchange&lt;/a&gt; had me over to talk about data management in science, and the tools I&amp;#39;m working on. Slides below.&lt;/p&gt;
+
+&lt;script async class=&quot;speakerdeck-embed&quot; data-id=&quot;1617fcc08c760131a1e9669157168c6d&quot; data-ratio=&quot;1.33333333333333&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Note: &lt;a href=&quot;https://github.com/jbenet/data&quot;&gt;data&lt;/a&gt;, &lt;a href=&quot;https://github.com/jbenet/datadex&quot;&gt;datadex&lt;/a&gt;, and &lt;a href=&quot;http://datadex.io&quot;&gt;datadex.io&lt;/a&gt; are live and work; though, I haven&amp;#39;t written them up and are still early in development&lt;/p&gt;
+
+&lt;p&gt;The seemingly unclickable links in the deck are, in order of appearance:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://juan.benet.ai/data/2014-02-21/lets-solve-data-management&quot;&gt;http://juan.benet.ai/data/2014-02-21/lets-solve-data-management&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://juan.benet.ai/data/2014-02-21/data-management-problems&quot;&gt;http://juan.benet.ai/data/2014-02-21/data-management-problems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://juan.benet.ai/data/2014-03-04/the-case-for-data-package-managers&quot;&gt;http://juan.benet.ai/data/2014-03-04/the-case-for-data-package-managers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jbenet/data&quot;&gt;https://github.com/jbenet/data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/jbenet/datadex&quot;&gt;https://github.com/jbenet/datadex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://datadex.io&quot;&gt;http://datadex.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://juan.benet.ai/data&quot;&gt;http://juan.benet.ai/data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://okfn.org/opendata&quot;&gt;http://okfn.org/opendata&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://dat-data.com&quot;&gt;http://dat-data.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://academictorrents.com&quot;&gt;http://academictorrents.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://juan.benet.ai/data/2014-03-11/related-work&quot;&gt;http://juan.benet.ai/data/2014-03-11/related-work&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>which data icon?</title>
+   <link href="http://juan.benet.ai/note/2014-03-11/which-data-icon"/>
+   <updated>2014-03-11T19:12:37-04:00</updated>
+   <id>http://juan.benet.ai/note/2014-03-11/which-data-icon</id>
+   <content type="html">&lt;p&gt;Picking between data icons... which one do you like?&lt;/p&gt;
+
+&lt;h2 id=&quot;flap-bright&quot;&gt;Flap Bright&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jbenet.static.s3.amazonaws.com/51cd6a8/data-flap.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;side-bright&quot;&gt;Side Bright&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jbenet.static.s3.amazonaws.com/43d65d3/data-side.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;flap-dark&quot;&gt;Flap Dark&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jbenet.static.s3.amazonaws.com/be846bf/data-flap.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;side-dark&quot;&gt;Side Dark&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jbenet.static.s3.amazonaws.com/80adc4c/data-side.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Related Work</title>
+   <link href="http://juan.benet.ai/data/2014-03-11/related-work"/>
+   <updated>2014-03-11T18:04:37-04:00</updated>
+   <id>http://juan.benet.ai/data/2014-03-11/related-work</id>
+   <content type="html">&lt;h3 class=&quot;box-highlight&quot;&gt;
+Warning: This is a Living Document.
+&lt;/h3&gt;
+
+&lt;p&gt;It is important to catalog related work. I will expand on these tools and efforts over time. This list is in its infancy. Please contact me if I should be aware of something else.&lt;/p&gt;
+
+&lt;h2 id=&quot;academictorrents-com&quot;&gt;&lt;a href=&quot;http://academictorrents.com&quot;&gt;AcademicTorrents.com&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;BitTorrent Tracker for scientific datasets&lt;/li&gt;
+&lt;li&gt;like BioTorrents&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;dat-version-control-for-data&quot;&gt;&lt;a href=&quot;http://dat-data.com&quot;&gt;dat&lt;/a&gt; Version Control for Data&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Awesome version control system for tabular datasets.&lt;/li&gt;
+&lt;li&gt;Git inspired, but lots of optimizations for tab-data.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/maxogden/dat&quot;&gt;https://github.com/maxogden/dat&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;datahub-ckan-public-index&quot;&gt;&lt;a href=&quot;http://datahub.io&quot;&gt;datahub&lt;/a&gt; CKAN public index&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;closest thing to a package manager&lt;/li&gt;
+&lt;li&gt;website with lots of features&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;okfn-open-data&quot;&gt;&lt;a href=&quot;http://okfn.org&quot;&gt;OKFN&lt;/a&gt; &lt;a href=&quot;http://okfn.org/opendata/&quot;&gt;Open Data&lt;/a&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;OKFN &lt;em&gt;gets it&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Lots of hard work in standards + evangelizing + tools.&lt;/li&gt;
+&lt;li&gt;behind datahub.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;and-many-more&quot;&gt;and many more...&lt;/h3&gt;
+
+&lt;p&gt;Please &lt;a href=&quot;#contact-me&quot;&gt;contact me&lt;/a&gt; to add to this list.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>CASSERT from libutp</title>
+   <link href="http://juan.benet.ai/note/2014-03-10/cassert-from-libutp"/>
+   <updated>2014-03-10T09:19:11-04:00</updated>
+   <id>http://juan.benet.ai/note/2014-03-10/cassert-from-libutp</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/bittorrent/libutp/blob/master/utp_types.h#L101-L107&quot;&gt;CASSERT&lt;/a&gt; from &lt;a href=&quot;https://github.com/bittorrent/libutp&quot;&gt;libutp&lt;/a&gt;. Clever.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-cpp&quot; data-lang=&quot;cpp&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/* compile-time assert */&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#ifndef CASSERT
+#define CASSERT( exp, name ) typedef int is_not_##name [ (exp ) ? 1 : -1 ];
+#endif
+&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;CASSERT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;uint64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sizeof_uint64_is_8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;CASSERT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;sizeof&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;int64&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sizeof_int64_is_8&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>tikz2svg</title>
+   <link href="http://juan.benet.ai/note/2014-03-09/tikz2svg"/>
+   <updated>2014-03-09T12:05:52-04:00</updated>
+   <id>http://juan.benet.ai/note/2014-03-09/tikz2svg</id>
+   <content type="html">&lt;p&gt;I wrote a TikZ to SVG converter. It uses &lt;code&gt;pdflatex&lt;/code&gt; and &lt;code&gt;pdf2svg&lt;/code&gt;. It unfortunately litters the &lt;code&gt;pdflatex&lt;/code&gt; output (into &lt;code&gt;/tmp/&amp;lt;sha1 of input&amp;gt;/&lt;/code&gt;). I leave it in case you need to debug. And because this was a quick hack. As such, the code is not very good. But it works well! If you have questions, &lt;a href=&quot;https://gist.github.com/jbenet/9449155&quot;&gt;post in the gist&lt;/a&gt; and send me an email (gist does not notify). Cheers!&lt;/p&gt;
+
+&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;# input files
+&amp;gt; tikz2svg in.tikz &amp;gt; out.svg
+
+# input stdin
+&amp;gt; tikz2svg &amp;lt; in.tikz &amp;gt; out.svg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;&amp;gt; cat in.tikz&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-latex&quot; data-lang=&quot;latex&quot;&gt;&lt;span class=&quot;nt&quot;&gt;\begin{tikzpicture}&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;\fill&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[red!90!black]&lt;/span&gt;   ( 90:.6) circle (1);
+  &lt;span class=&quot;k&quot;&gt;\fill&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[green!80!black]&lt;/span&gt; (210:.6) circle (1);
+  &lt;span class=&quot;k&quot;&gt;\fill&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;[blue!90!black]&lt;/span&gt; (330:.6) circle (1);
+&lt;span class=&quot;nt&quot;&gt;\end{tikzpicture}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;&amp;gt; cat out.svg&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-svg&quot; data-lang=&quot;svg&quot;&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt;
+&amp;lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; width=&quot;93.472pt&quot; height=&quot;86.205pt&quot; viewBox=&quot;0 0 93.472 86.205&quot; version=&quot;1.1&quot;&amp;gt;
+&amp;lt;g id=&quot;surface1&quot;&amp;gt;
+&amp;lt;path style=&quot; stroke:none;fill-rule:nonzero;fill:rgb(89.99939%,0%,0%);fill-opacity:1;&quot; d=&quot;M 76.742188 30.347656 C 76.742188 14.691406 64.050781 2 48.394531 2 C 32.742188 2 20.050781 14.691406 20.050781 30.347656 C 20.050781 46.003906 32.742188 58.695312 48.394531 58.695312 C 64.050781 58.695312 76.742188 46.003906 76.742188 30.347656 Z &quot;/&amp;gt;
+&amp;lt;path style=&quot; stroke:none;fill-rule:nonzero;fill:rgb(0%,79.998779%,0%);fill-opacity:1;&quot; d=&quot;M 62.011719 55.859375 C 62.011719 40.203125 49.324219 27.511719 33.667969 27.511719 C 18.011719 27.511719 5.320312 40.203125 5.320312 55.859375 C 5.320312 71.515625 18.011719 84.207031 33.667969 84.207031 C 49.324219 84.207031 62.011719 71.515625 62.011719 55.859375 Z &quot;/&amp;gt;
+&amp;lt;path style=&quot; stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,89.99939%);fill-opacity:1;&quot; d=&quot;M 91.472656 55.859375 C 91.472656 40.203125 78.78125 27.511719 63.125 27.511719 C 47.46875 27.511719 34.777344 40.203125 34.777344 55.859375 C 34.777344 71.515625 47.46875 84.207031 63.125 84.207031 C 78.78125 84.207031 91.472656 71.515625 91.472656 55.859375 Z &quot;/&amp;gt;
+&amp;lt;/g&amp;gt;
+&amp;lt;/svg&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;&amp;gt; echo out.svg&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; width=&quot;93.472pt&quot; height=&quot;86.205pt&quot; viewBox=&quot;0 0 93.472 86.205&quot; version=&quot;1.1&quot;&gt;
+&lt;g id=&quot;surface1&quot;&gt;
+&lt;path style=&quot; stroke:none;fill-rule:nonzero;fill:rgb(89.99939%,0%,0%);fill-opacity:1;&quot; d=&quot;M 76.742188 30.347656 C 76.742188 14.691406 64.050781 2 48.394531 2 C 32.742188 2 20.050781 14.691406 20.050781 30.347656 C 20.050781 46.003906 32.742188 58.695312 48.394531 58.695312 C 64.050781 58.695312 76.742188 46.003906 76.742188 30.347656 Z &quot;/&gt;
+&lt;path style=&quot; stroke:none;fill-rule:nonzero;fill:rgb(0%,79.998779%,0%);fill-opacity:1;&quot; d=&quot;M 62.011719 55.859375 C 62.011719 40.203125 49.324219 27.511719 33.667969 27.511719 C 18.011719 27.511719 5.320312 40.203125 5.320312 55.859375 C 5.320312 71.515625 18.011719 84.207031 33.667969 84.207031 C 49.324219 84.207031 62.011719 71.515625 62.011719 55.859375 Z &quot;/&gt;
+&lt;path style=&quot; stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,89.99939%);fill-opacity:1;&quot; d=&quot;M 91.472656 55.859375 C 91.472656 40.203125 78.78125 27.511719 63.125 27.511719 C 47.46875 27.511719 34.777344 40.203125 34.777344 55.859375 C 34.777344 71.515625 47.46875 84.207031 63.125 84.207031 C 78.78125 84.207031 91.472656 71.515625 91.472656 55.859375 Z &quot;/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;install&quot;&gt;Install&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Install &lt;code&gt;pdflatex&lt;/code&gt; (comes with your TeX distribution).&lt;/li&gt;
+&lt;li&gt;Install &lt;code&gt;pdf2svg&lt;/code&gt; (&lt;code&gt;brew install pdf2svg&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Install &lt;code&gt;standalone&lt;/code&gt; style (&lt;a href=&quot;http://en.wikibooks.org/wiki/LaTeX/Installing_Extra_Packages&quot;&gt;with your TeX package manager&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;Put the script below in your &lt;code&gt;$PATH&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;curl https://gist.github.com/jbenet/9449155/raw/tikz2svg &amp;gt; tikz2svg
+chmod +x tikz2svg
+sudo mv tikz2svg /usr/bin/tikz2svg
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;script src=&quot;https://gist.github.com/jbenet/9449155.js&quot;&gt;&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>XML Stifles The Semantic Web</title>
+   <link href="http://juan.benet.ai/note/2014-03-09/xml-stifles-the-semantic-web"/>
+   <updated>2014-03-09T08:49:53-04:00</updated>
+   <id>http://juan.benet.ai/note/2014-03-09/xml-stifles-the-semantic-web</id>
+   <content type="html">&lt;p&gt;I&amp;#39;m coming to think that Semantic Web adoption has been significantly stifled by XML being the main (transport) format. I mean, look at this&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-xml&quot; data-lang=&quot;xml&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;rdf:RDF&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;xmlns:rdf=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&lt;/span&gt;
+         &lt;span class=&quot;na&quot;&gt;xmlns:dc=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://purl.org/dc/elements/1.1/&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;rdf:Description&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rdf:about=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://www.w3.org/TR/rdf-syntax-grammar&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;dc:title&amp;gt;&lt;/span&gt;RDF/XML Syntax Specification (Revised)&lt;span class=&quot;nt&quot;&gt;&amp;lt;/dc:title&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/rdf:Description&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;rdf:Description&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rdf:about=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://example.org/buecher/baum&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;xml:lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;de&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;dc:title&amp;gt;&lt;/span&gt;Der Baum&lt;span class=&quot;nt&quot;&gt;&amp;lt;/dc:title&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;dc:description&amp;gt;&lt;/span&gt;Das Buch ist außergewöhnlich&lt;span class=&quot;nt&quot;&gt;&amp;lt;/dc:description&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/rdf:Description&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/rdf:RDF&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;versus this&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@context&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;dc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://purl.org/dc/elements/1.1/&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@graph&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://www.w3.org/TR/rdf-syntax-grammar&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;dc:title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;RDF/XML Syntax Specification (Revised)&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://example.org/buecher/baum&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;@language&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;de&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;dc:description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Das Buch ist au\u00dfergew\u00f6hnlich&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;dc:title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Der Baum&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;One of these makes my eyes bleed, and parsers weep. Perhaps, now that &lt;a href=&quot;http://json-ld.org&quot;&gt;json-ld&lt;/a&gt; exists and websites are using JSON ubiquitously, we can start linking data robustly. We shall see!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Format Conversion</title>
+   <link href="http://juan.benet.ai/data/2014-03-07/format-conversion"/>
+   <updated>2014-03-07T07:11:31-05:00</updated>
+   <id>http://juan.benet.ai/data/2014-03-07/format-conversion</id>
+   <content type="html">&lt;div class=&quot;alert alert-danger&quot;&gt;
+  &lt;h1&gt;Warning: Work In Progress&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;p&gt;File conversion is cumbersome and more complex than it needs to be. There is no good reason why we need thousands of different programs that convert from one format to another. I claim it is possible to create a program which &lt;strong&gt;converts to and from &lt;em&gt;all&lt;/em&gt; formats without sacrificing performance or flexibility&lt;/strong&gt;.&lt;sup id=&quot;fnref1&quot;&gt;&lt;a href=&quot;#fn1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;semantics&quot;&gt;Semantics&lt;/h2&gt;
+
+&lt;p&gt;Before describing such a program, it is important to define our semantic framework. It strikes me that people use the words &lt;code&gt;encoding&lt;/code&gt;, &lt;code&gt;format&lt;/code&gt;, and &lt;code&gt;schema&lt;/code&gt; too loosely. This is perhaps because the words and their semantic boundaries are not precisely defined. Here are ours:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/data/2014-02-21/data-management-vocabulary/#schema&quot;&gt;schema&lt;/a&gt;: the structure, or specification of how information represents meaning.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/data/2014-02-21/data-management-vocabulary/#format&quot;&gt;format&lt;/a&gt;: &amp;quot;the way in which something is arranged&amp;quot;; a specification for how to &lt;code&gt;encode&lt;/code&gt; and &lt;code&gt;decode&lt;/code&gt; a message.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;/data/2014-02-21/data-management-vocabulary/#encoding&quot;&gt;encoding&lt;/a&gt;: the process of converting &lt;em&gt;information&lt;/em&gt; into &lt;em&gt;encoded information&lt;/em&gt;, according to a &lt;code&gt;format&lt;/code&gt;. The inverse of &lt;code&gt;decoding&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In general, we can say that data is structured according to a &lt;code&gt;schema&lt;/code&gt;, and &lt;code&gt;encoded&lt;/code&gt; into a &lt;a href=&quot;/data/2014-02-21/data-management-vocabulary/#schema-format-compatibility&quot;&gt;&lt;code&gt;format&lt;/code&gt; compatible with the &lt;code&gt;schema&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;problem&quot;&gt;Problem&lt;/h2&gt;
+
+&lt;p&gt;Using these definitions, then, the program should convert any &lt;a href=&quot;/data/2014-02-21/data-management-vocabulary/#format-compatibility&quot;&gt;compatible format&lt;/a&gt; into another.&lt;/p&gt;
+
+&lt;p&gt;Conversion tools between two general formats are not complicated to build. The hard part about building a conversion tool for &lt;em&gt;all&lt;/em&gt; formats is that most formats are not general. They are &lt;a href=&quot;/data/2014-02-21/data-management-vocabulary/#schema-laden&quot;&gt;&lt;em&gt;schema-laden&lt;/em&gt;&lt;/a&gt;, and are thus not perfectly compatible. Parsing and generating byte sequences is tedious and error-prone, but not hard. The real problem, I claim, is &lt;em&gt;converting between schemas&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-graph-of-formats&quot;&gt;The Graph of Formats&lt;/h2&gt;
+
+&lt;p&gt;Today, most format conversions happen via format-pair-specific tools. Examples: &amp;quot;json to xml&amp;quot;, &amp;quot;png to jpg&amp;quot;, &amp;quot;xsl to csv&amp;quot;. Actually, these examples are not quite right, because most &amp;quot;format conversions&amp;quot; are not between &lt;a href=&quot;/data/2014-02-21/data-management-vocabulary/#universal-format&quot;&gt;universal  formats&lt;/a&gt;, but rather between &lt;a href=&quot;/data/2014-02-21/data-management-vocabulary/#schema-laden%7D&quot;&gt;&lt;em&gt;schema-laden&lt;/em&gt; formats&lt;/a&gt;. This means tools that convert from &amp;quot;this custom format expressing geometries&amp;quot; to &amp;quot;GeoJSON&amp;quot;, or between csvs with different column sets, or value ranges. For example:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-csv&quot; data-lang=&quot;csv&quot;&gt;% cat area-codes.csv
+CITY,STATE,AREACODE
+SAN DIEGO,CA,619
+SAN FRANCISCO,CA,415
+SAN JOSE,CA,408
+
+% ./us-city-codes.py area-codes.csv
+City,Dial Code
+San Diego,+1-619
+San Francisco,+1-415
+San Jose,+1-408
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This transformation is trivial: (a) the &lt;code&gt;STATE&lt;/code&gt; column was dropped, (b) the casing changed, (c) the &lt;code&gt;AREACODE&lt;/code&gt; column shifted to &lt;code&gt;Dial Code&lt;/code&gt;, which includes a &lt;code&gt;+1-&lt;/code&gt; for international calling. And yet, a custom program had to be written to parse the source file and generate the target file. Chances are every time this had to be done, someone had to write a program to create that conversion. Consider more complex format conversions, with files with dozens of columns or deeply nested JSON or XML trees, with numerous transformations here and there. So much valuable time is wasted creating these conversion programs. More is wasted by end users -- particularly non-programmers -- struggling to wrangle data to make it &amp;quot;look right&amp;quot;. This is silly.&lt;/p&gt;
+
+&lt;p&gt;Consider a graph of formats where directed edges represent conversion programs. Every time one format needs to be converted into another, a program is written and an edge is added. Sometimes people publish those programs and they can be found on the internet. And if we&amp;#39;re lucky, it&amp;#39;s possible a conversion through an intermediate format exists. This is a pretty brittle system though. Often, programs do not exist, only work one-way, are out of date, or are written again and again but never published anywhere.&lt;/p&gt;
+
+&lt;!-- format graph --&gt;
+
+&lt;h2 id=&quot;hub-with-universal-data-representation&quot;&gt;Hub with Universal Data Representation&lt;/h2&gt;
+
+&lt;p&gt;Instead of using a graph with converter edges between formats, consider a hub graph, where the center node is a &amp;quot;master&amp;quot; format that can then be translated to any other format. While it is ambitious to build &lt;em&gt;one&lt;/em&gt; format to convert between all other formats losslessly, the benefits are significant. Rather than building &lt;code&gt;&amp;lt;num formats&amp;gt;^2&lt;/code&gt;&lt;sup id=&quot;fnref2&quot;&gt;&lt;a href=&quot;#fn2&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; tools to convert to-and-from, we would only need to build &lt;code&gt;&amp;lt;num formats&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;(Figure of hub here)&lt;/p&gt;
+
+&lt;p&gt;\begin{scope}[mindmap, concept color=orange, text=white]
+  \node [concept] {Informatique}[clockwise from=-5]
+    child {node &lt;a href=&quot;log&quot;&gt;concept&lt;/a&gt; {M{\&amp;#39;e}thodes cat{\&amp;#39;e}goriques}}
+    child {node &lt;a href=&quot;alg&quot;&gt;concept&lt;/a&gt; {Algorithmique}}
+    child {node &lt;a href=&quot;cod&quot;&gt;concept&lt;/a&gt; {Compression &amp;amp; transmission}}
+    child {node &lt;a href=&quot;img&quot;&gt;concept&lt;/a&gt; {Tra{^i}tement des images}}
+    child {node &lt;a href=&quot;opt&quot;&gt;concept&lt;/a&gt; {Optimisation}}
+    child {node &lt;a href=&quot;res&quot;&gt;concept&lt;/a&gt; {R{\&amp;#39;e}seaux}};
+\end{scope}&lt;/p&gt;
+
+&lt;h3 id=&quot;hub-is-well-established&quot;&gt;Hub is Well Established&lt;/h3&gt;
+
+&lt;p&gt;This is not new. Compilers have worked with a similar model. Compilers like &lt;a href=&quot;http://llvm.org&quot;&gt;LLVM&lt;/a&gt; take high-level languages, parse them into an Internal Representation (IR), and then emit machine code for the relevant platform. This &lt;em&gt;three-phase design&lt;/em&gt; is a great way to address the multiplicity of target architectures and source languages.&lt;sup id=&quot;fnref3&quot;&gt;&lt;a href=&quot;#fn3&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; Rather than building &lt;code&gt;&amp;lt;langs&amp;gt; * &amp;lt;archs&amp;gt;&lt;/code&gt; compilers, build one compiler with &lt;code&gt;&amp;lt;langs&amp;gt; + &amp;lt;archs&amp;gt;&lt;/code&gt; modules.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jbenet.static.s3.amazonaws.com/f44a8a0/llvm-three-phase-design.png&quot; alt=&quot;llvm-three-phases&quot;&gt;&lt;/p&gt;
+
+&lt;!-- Figure from [the AOSA book](http://www.aosabook.org/en/llvm.html). --&gt;
+
+&lt;p&gt;This is not even new to conversion. Conversion tools our there already employ this design. Notably, &lt;a href=&quot;http://johnmacfarlane.net/pandoc/&quot;&gt;Pandoc&lt;/a&gt; converts text documents between a range of markup languages. Though the Pandoc homepage displays a &lt;a href=&quot;http://johnmacfarlane.net/pandoc/diagram.png&quot;&gt;graph with &lt;code&gt;Source * Target&lt;/code&gt; edges&lt;/a&gt;, it perhaps should display a hub graph; its design uses parsers, an internal representation, and emitters:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Pandoc has a modular design: it consists of a set of readers, which parse text in a given format and produce a native representation of the document, and a set of writers, which convert this native representation into a target format. Thus, adding an input or output format requires only adding a reader or writer.
+&lt;small class=&quot;align-right&quot;&gt;Pandoc Documentation&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;These widely used and well-established software systems use the hub model successfully.&lt;/p&gt;
+
+&lt;h3 id=&quot;hub-design&quot;&gt;Hub Design&lt;/h3&gt;
+
+&lt;p&gt;To concretely specify the design, the Hub Design calls for:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;a Universal Data Representation capable of handling &lt;em&gt;any&lt;/em&gt; data format (ambitious).&lt;/li&gt;
+&lt;li&gt;a module per format, which converts to and from the UDR.&lt;/li&gt;
+&lt;li&gt;a tool that loads and runs format modules, to facilitate conversion.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Building such a Universal Data Representation (UDR) is hard; we need a format that can express &lt;em&gt;every other format&lt;/em&gt; well and efficiently (in storage and conversion computation). Building the modules themselves -- which do the heavy lifting -- should be an easy and straightforward process. Modules could either ship with the base tool (better for end users, but centralized), or shipped independently (falling back to maintaining an index). Of course, the UDR can be piped in and out of format converters manually, but this would &lt;a href=&quot;https://xkcd.com/927/&quot;&gt;do little to shift the status quo&lt;/a&gt;. The adoption of this tool, and the benefits of this system, depend on:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a modular architecture facilitating the building of format modules.&lt;/li&gt;
+&lt;li&gt;a wide set of interfaces to simplify usage (CLI, static lib, language bindings, web API)&lt;/li&gt;
+&lt;li&gt;an open-source project and community to build the modules.&lt;sup id=&quot;fnref4&quot;&gt;&lt;a href=&quot;#fn4&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Though the UDR is a non-trivial question, from a software engineering perspective, I claim this design is much easier to realize than others.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn1&quot;&gt;
+&lt;p&gt;At present, I offer a framework to think about the problem. In the future, I hope to offer an existence proof.&amp;nbsp;&lt;a href=&quot;#fnref1&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li id=&quot;fn2&quot;&gt;
+&lt;p&gt;Maximum, of course. Many converters would never be built as most format pairs are incompatible.&amp;nbsp;&lt;a href=&quot;#fnref2&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li id=&quot;fn3&quot;&gt;
+&lt;p&gt;This compiler design is brilliant for many reasons. It  addresses many challenges elegantly, including applying optimization at the IR level, and even &lt;a href=&quot;http://www.chromium.org/nativeclient/pnacl/introduction-to-portable-native-client&quot;&gt;distributing IR code as &amp;quot;portable&amp;quot; code&lt;/a&gt; that is compiled on-demand at the target machines.&amp;nbsp;&lt;a href=&quot;#fnref3&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li id=&quot;fn4&quot;&gt;
+&lt;p&gt;It is important to emphasize these points because they are so often overlooked. Many elegant software projects have failed due to the lack of an interested community, a hostile codebase, or a difficult usage pattern.&amp;nbsp;&lt;a href=&quot;#fnref4&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Add Links to Headers</title>
+   <link href="http://juan.benet.ai/note/2014-03-06/add-links-to-headers"/>
+   <updated>2014-03-06T02:21:27-05:00</updated>
+   <id>http://juan.benet.ai/note/2014-03-06/add-links-to-headers</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/jbenet/jbenet.github.com/commits/source/_posts/2014-03-05-add-links-to-headers.md&quot;&gt;Version history&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve always likes how &lt;a href=&quot;http://github.com&quot;&gt;github&lt;/a&gt; adds on-hover links to headers on their rendered markdown:&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://note.io/1mXzAgn&quot; alt=&quot;gh-makrdown-links&quot;&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;I couldn&amp;#39;t find markdown renderers that included it. So, I wrote my post-processing js to make them. With any luck, this website should still show it in action. Below&amp;#39;s the code.&lt;/p&gt;
+
+&lt;h2 id=&quot;here-39-s-the-js-assumes-and-_-are-defined&quot;&gt;Here&amp;#39;s the &lt;code&gt;js&lt;/code&gt; (assumes &lt;a href=&quot;http://jquery.com/&quot;&gt;&lt;code&gt;$&lt;/code&gt;&lt;/a&gt; and &lt;a href=&quot;http://underscorejs.org&quot;&gt;&lt;code&gt;_&lt;/code&gt;&lt;/a&gt; are defined):&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ready&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// Modify this template to add or change links.&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;links&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;\
+    &amp;lt;div class=&quot;header-links&quot;&amp;gt;\
+      &amp;lt;a href=&quot;#&amp;lt;%= id %&amp;gt;&quot;&amp;gt;&amp;lt;i class=&quot;icon icon-link&quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/a&amp;gt;\
+    &amp;lt;/div&amp;gt;\
+  &#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// If your headers dont already have ids, use this slug fn&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;slugize&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toLowerCase&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;[^\w&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt; ()&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;+/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/ +/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;-&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;// Modify the &#39;:header&#39; selector to apply to other elems&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;:header&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;each&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// Add an id, if it doesn&#39;t have one.&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;id&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;().&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;[^&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;A-Za-z0-9_&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;+/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;-&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/^-+|-+$/g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;id&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;slugize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()));&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// Add the link div&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;links&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;id&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;})));&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;here-39-s-the-less-assumes-fontawesome-icons-css&quot;&gt;Here&amp;#39;s the &lt;code&gt;less&lt;/code&gt; (assumes FontAwesome icons &lt;code&gt;css&lt;/code&gt;):&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-less&quot; data-lang=&quot;less&quot;&gt;h1, h2, h3, h4, h5, h6 {
+  &amp;amp;:hover .header-links a {
+    text-decoration: none;
+    opacity: 0.4;
+    color: gray;
+  }
+
+  .header-links {
+    float: left;
+    text-align: right;
+    margin-left: -40px;
+    padding-right: 10px;
+    width: 40px;
+
+    a {
+      text-decoration: none;
+      opacity: 0.0; // show on hover
+      color: gray;
+    }
+
+    a:hover, a:active, a:focus {
+      text-decoration: none;
+      opacity: 0.6;
+      color: #428bca;
+    }
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;and-it-looks-like-this&quot;&gt;And it looks like this:&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://note.io/1mXBOMJ&quot; alt=&quot;my-markdown-links&quot;&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Case for Data Package Managers</title>
+   <link href="http://juan.benet.ai/data/2014-03-04/the-case-for-data-package-managers"/>
+   <updated>2014-03-04T10:03:03-05:00</updated>
+   <id>http://juan.benet.ai/data/2014-03-04/the-case-for-data-package-managers</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;/data/2014-02-21/data-management-problems&quot;&gt;Numerous problems plague data sharing today&lt;/a&gt;. This post proposes Package Management as the foundation to address them. Note: to make sure we&amp;#39;re on the same page semantically, check my &lt;a href=&quot;/data/2014-02-21/data-management-vocabulary&quot;&gt;data vocabulary&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;http://jbenet.static.s3.amazonaws.com/51cd6a8/data-flap.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;package-managers&quot;&gt;Package Managers&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;In software, a package management system, also called package manager, is a collection of software tools to automate the process of installing, upgrading, configuring, and removing software packages for a computer&amp;#39;s operating system in a consistent manner. It typically maintains a database of software dependencies and version information to prevent software mismatches and missing prerequisites. &lt;small class=&quot;align-right&quot;&gt;From &lt;a href=&quot;http://en.wikipedia.org/wiki/Package_management_system&quot;&gt;Package Management System (Wikipedia)&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Package managers have been hailed among &lt;a href=&quot;http://ianmurdock.com/solaris/how-package-management-changed-everything/&quot;&gt;the most important innovations&lt;/a&gt; Linux brought to the computing industry. They greatly simplified and improved software distribution. By versioning, carefully bookkeeping, and maintaining centralized repositories, the various linux communities built robust and usable systems.&lt;/p&gt;
+
+&lt;p&gt;For end users, Package Managers automated software installation (adding, upgrading, and removing programs). Typical installation meant having to manually (1) find and download archives, (2) compile binaries (which often failed), (3) move files to their destination, and -- worst of all -- (4) repeat for all dependencies, and dependencies of dependencies. Package managers automated the process into one command: &lt;code&gt;pkgmgr install package-name&lt;/code&gt;. Uninstalling software (reverting  installation, often undocumented) became similarly simple: &lt;code&gt;pkgmgr uninstall package-name&lt;/code&gt;. Users no longer had to search the web for the compatible versions of programs, walk trees of dependencies, wrestle with compilers, and hope that everything interoperated just right. Instead, users could rely on common programs being versioned, listed, and properly packaged for their systems.&lt;/p&gt;
+
+&lt;p&gt;For software authors, Package Managers automated software distribution (packaging, hosting, and disseminating). Before, programmers would have to create bundles of their source code with (often complicated) installation instructions. Though conventions existed (include a &lt;code&gt;Makefile&lt;/code&gt;, &lt;code&gt;README&lt;/code&gt;, and &lt;code&gt;LICENSE&lt;/code&gt;), installation and its documentation were confusing hurdles that harmed the adoption of programs. Additionally, authors had to find a reliable way to transfer the files to end users, which usually meant having to create and maintain a website. If the website failed, the package (and its dependents) would not be installable. Package managers host all files in a central repository and are mirrored for redundancy, which significantly increases the availability of packages and reduces the authors&amp;#39; time and money costs. While packaging across platforms varies from &lt;a href=&quot;http://gist.io/1318304&quot;&gt;simple&lt;/a&gt; to &lt;a href=&quot;http://www.debian.org/doc/manuals/packaging-tutorial/packaging-tutorial.en.pdf&quot;&gt;complex&lt;/a&gt;, it is standardized and well worth it for software authors.&lt;/p&gt;
+
+&lt;h2 id=&quot;solving-data-problems&quot;&gt;Solving Data Problems&lt;/h2&gt;
+
+&lt;p&gt;The activities of both publishers and users of datasets resemble those of authors and users of software packages. Moreover, the problems I presented in &lt;a href=&quot;/data/2014-02-21/data-management-problems&quot;&gt;&lt;em&gt;Data Management Problems&lt;/em&gt;&lt;/a&gt; are precisely the kind of problems package managers solved for software. Below I outline how package managers can also solve them for data; though each issue is large and worth addressing at length in the future. The takeaway is this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;(1) A Package Manager can solve our Data Management problems.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;distribution&quot;&gt;Distribution&lt;/h3&gt;
+
+&lt;p&gt;Package Managers generally use centralized repositories to store and distribute their packages. Individual publishers simply upload their files to the repository, offloading the costs of distribution to the network&amp;#39;s infrastructure. This substantially reduces publishing friction, as individuals no longer need to worry about setting up their own websites, paying for distribution themselves, or sourcing funding. It also &lt;em&gt;reduces overall costs&lt;/em&gt;, by pooling network resources.&lt;/p&gt;
+
+&lt;h4 id=&quot;amortizing-distribution-costs&quot;&gt;Amortizing Distribution Costs&lt;/h4&gt;
+
+&lt;p&gt;Monetary costs are certainly still an issue, but an organization setup with the explicit goal of managing and distributing large datasets is better equipped to handle them than individual dataset authors. By pooling the resources and efforts of interested individuals (engineers, admins, etc), such an organization can better:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Attract and secure funding, such as grants or &lt;a href=&quot;http://en.wikipedia.org/wiki/Crowdfunding&quot;&gt;crowdfunding&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Design and implement complex technical solutions to reduce costs.&lt;/li&gt;
+&lt;li&gt;Simplify the publishing process with tools addressing common pain points.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;(2) A Data Package Manager would amortize distribution costs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;indexing&quot;&gt;Indexing&lt;/h3&gt;
+
+&lt;p&gt;Indexing is the raison d&amp;#39;etre of package managers. They are designed precisely to provide central access points where all packages can be found. By collecting domain-specific meta-data, package managers allow efficient and programmable search for packages. For example, in our dataset case, consider collecting dataset meta-data such as the (a) title, (b) research fields, (c) file formats, (d) abstract, (e) relevant keywords, (f) relevant publications, (g) license, (h) sources, (i) authors, and (j) publication date. A central index of this information would provide powerful and precise search of available datasets. It would also standardize the meta-data requirements, ensure publishers provide it, and allow users to view it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;(3) A Data Package Manager would index and search datasets.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;permanence&quot;&gt;Permanence&lt;/h3&gt;
+
+&lt;p&gt;As &lt;a href=&quot;/data/2014-02-21/data-management-problems%7D&quot;&gt;discussed previously&lt;/a&gt;,  once published, datasets must not disappear. All publications -- paper or data -- must be available indefinitely. When do we know something is completely and utterly unnecessary anymore, even to historians of a field? Never. Thus, it is important to store &lt;em&gt;all&lt;/em&gt; our data -- as we store papers and code. Package managers in software already do this, as it is never clear when an old package will be required. Our Data Package Manager is no different; all datasets would be retrievable at any point in the future, as long as the package manager itself survives. Additionally, as the amount of valuable data stored by the package manager increases, so do the incentives to maintain it. In a sense, by storing all the important datasets together, we increase the survival chances of the whole repository.&lt;sup id=&quot;fnref1&quot;&gt;&lt;a href=&quot;#fn1&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;(4) A Data Package Manager would provide datasets permanently.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;versioning&quot;&gt;Versioning&lt;/h3&gt;
+
+&lt;p&gt;The need for versioning data is clear. Datasets change over time, often after being shared with others or published broadly. It is critical to track and provide access to these changes, or at least to the different published versions. Regardless of correctness or currency, &lt;em&gt;all&lt;/em&gt; versions must be kept available; future work will often seek to understand or compare previous work done with previous dataset versions. To stress the point, &lt;strong&gt;for the sake of the scientific enterprise and data work in general, we must track and distribute all versions of datasets&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;(5) A Data Package Manager would provide all versions of datasets.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;version-control-systems-for-data&quot;&gt;Version Control Systems for Data&lt;/h4&gt;
+
+&lt;p&gt;But how exactly to version data is a complex question. To date, there is no single Version Control System capable of handling datasets as well as &lt;a href=&quot;http://git-scm.com/&quot; title=&quot;Git&quot;&gt;git&lt;/a&gt; handles source code. Unlike code, which is plain text, datasets come in a tremendous variety of formats. Version efforts that assume datasets will follow certain properties (e.g. small size, plaintext format) are bound to be limited in scope. Perhaps this is acceptable, as format-specific VCSes can provide great domain-specific functionality. Or perhaps one VCS could be built to easily accomodate domain-specific extensions.&lt;sup id=&quot;fnref2&quot;&gt;&lt;a href=&quot;#fn2&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; This will be the subject of a future post. For now, let us separate concerns as three different but related needs:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Domain-specific data versioning techniques and tools.&lt;/li&gt;
+&lt;li&gt;Version Control Systems that leverage (1.) and track all separate versions.&lt;/li&gt;
+&lt;li&gt;Indexing services that (a) understand (2.) and provide access to the tracked versions, (b) but are agnostic to (1.).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Separating these needs out provides clear tool scope. Existing or new Version Control Systems can handle (2.), independent of tools built to handle (1.). A Package Manager can handle (3.).&lt;/p&gt;
+
+&lt;p&gt;While git has achieved tremendous success and is currently the most popular version control system, history has shown that preferences shift as better tools emerge (git replaced svn, svn replaced cvs, etc). Unless it becomes abundantly clear that no new VCS would supplant current ones, it would be wise to build Package Managers independent and compatible with various VCSes.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;(6) A Data Package Manager would be independent of VCS.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;formatting&quot;&gt;Formatting&lt;/h3&gt;
+
+&lt;p&gt;The question of formats and conversions is formidable and worth lengthier discussion. For the purposes of this post, package managers would simplify three aspects: re-publishing, tooling, and automation.&lt;/p&gt;
+
+&lt;h4 id=&quot;1-reformat-and-republish&quot;&gt;1. Reformat and Republish&lt;/h4&gt;
+
+&lt;p&gt;As &lt;a href=&quot;#versioning&quot;&gt;discussed above&lt;/a&gt;, all versions of a dataset would be available. This includes versions that do not alter the data itself but change the format of the files themselves. Data formatting is a tedious process fraught with problems; valuable data worker time is spent parsing and converting data from one format to another. With a properly namespaced&lt;sup id=&quot;fnref3&quot;&gt;&lt;a href=&quot;#fn3&quot; rel=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt; package manager, end-users themselves could reformat and republish a new version of the dataset. This permits users to leverage each other&amp;#39;s efforts and save broader community time.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;(7) A Data Package Manager would provide reformatted datasets.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;2-reformatting-tools&quot;&gt;2. Reformatting Tools&lt;/h4&gt;
+
+&lt;p&gt;There exist thousands of tools to clean, convert, reformat, or otherwise modify datasets. A package manager could provide (a) programmable access to datasets, (b) dataset format information, and (c) standardized file layouts for particular formats. This would significantly simplify building these and other tools, as well as broaden their reach to other datasets outside of the authors&amp;#39; knowledge.  The package manager is an infrastructure tool, a platform for other tools to leverage.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;(8) A Data Package Manager would enhance data processing tools.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;3-automating-processes&quot;&gt;3. Automating Processes&lt;/h4&gt;
+
+&lt;p&gt;On the other hand, these provisions would also enable the package manager itself to automate particular processes for the sake of end users. For example, consider a set of interchangeable formats (e.g. encodings like {&lt;code&gt;JSON&lt;/code&gt;, &lt;code&gt;XML&lt;/code&gt;}, or {&lt;code&gt;matlab matrix&lt;/code&gt;, &lt;code&gt;numpy array&lt;/code&gt;}). Suppose these formats and their relationship are registered with the package manager, including bi-directional conversion tools. The package manager would then be able to convert any dataset from one format to another. This could be done either in the user&amp;#39;s own machine, or remotely (e.g. publishing one format automatically produces projections into compatible formats&lt;sup id=&quot;fnref4&quot;&gt;&lt;a href=&quot;#fn4&quot; rel=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;). End users need not be concerned with such simple reformats. Of course, other tasks beyond reformatting could be automated similarly.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;(9) A Data Package Manager would automate data processing tasks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;licensing&quot;&gt;Licensing&lt;/h3&gt;
+
+&lt;p&gt;By requiring a license, a package manager would enforce dataset authors consider, learn about, and formalize the rights of their end users. Additionally, by encouraging particular licenses, it could guide authors towards more open and modification-friendly licensing. This would reduce ambiguity and &lt;a href=&quot;/data/2014-02-21/data-management-vocabulary#forking-friction&quot;&gt;forking friction&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;(10) A Data Package Manager would encourage better licensing.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;open-access&quot;&gt;Open Access&lt;/h3&gt;
+
+&lt;p&gt;First, a package manager would improve &lt;em&gt;accessing&lt;/em&gt; open-access datasets. Currently, it is common to find open-access repositories with many hurdles to retrieving its hosted files. A simple package manager interface would better the experience and save time. Also, a package manager would cover the costs and assuage the distribution concerns of authors and publishers.&lt;/p&gt;
+
+&lt;p&gt;Second, by reducing &lt;a href=&quot;/data/2014-02-21/data-management-vocabulary#forking-friction&quot;&gt;forking friction&lt;/a&gt;, a package manager would greatly support modifying and republishing (forking) of datasets. This is precisely what &lt;em&gt;open access data&lt;/em&gt; should .&lt;/p&gt;
+
+&lt;p&gt;An open Data Package Manager perfectly complements pre-print publication servers like &lt;a href=&quot;http://arxiv.org&quot;&gt;arXiv&lt;/a&gt; and &lt;a href=&quot;http://biorxiv.org&quot;&gt;bioRxiv&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;(11) A Data Package Manager would improve open access.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;A Package Manager can solve &lt;a href=&quot;/data/2014-02-21/data-management-problems&quot;&gt;our Data Management problems&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;It would amortize distribution costs.&lt;/li&gt;
+&lt;li&gt;It would index and search datasets.&lt;/li&gt;
+&lt;li&gt;It would provide datasets permanently.&lt;/li&gt;
+&lt;li&gt;It would provide all versions of datasets.&lt;/li&gt;
+&lt;li&gt;It would be independent of VCS.&lt;/li&gt;
+&lt;li&gt;It would provide reformatted datasets.&lt;/li&gt;
+&lt;li&gt;It would enhance data processing tools.&lt;/li&gt;
+&lt;li&gt;It would automate data processing tasks.&lt;/li&gt;
+&lt;li&gt;It would encourage better licensing.&lt;/li&gt;
+&lt;li&gt;It would improve open access.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It is time to build one.&lt;/p&gt;
+
+&lt;div class=&quot;align-center&quot;&gt;
+&lt;img src=&quot;http://jbenet.static.s3.amazonaws.com/51cd6a8/data-flap.png&quot; /&gt;
+&lt;/div&gt;
+
+&lt;!-- The multiplicity of software package managers is, perhaps, an issue in itself. Thankfully, generally there is one canonical package maneger per use case. Still, arguments can be made for a &quot;Package Manager of Package Managers&quot;, or &quot;One Package Manager to Manage Them All&quot;. Here are some examples:
+
+- Operating System Packages:
+  [apt (debian)](https://packages.debian.org),
+  [apt (ubuntu)](https://packages.ubuntu.com),
+  [rpm (redhat)](http://www.rpm.org),
+  [brew (osx)](http://brew.sh).
+- Source Code:
+  [GitHub](https://github.com/),
+  [Bitbucket](https://bitbucket.org/),
+  [LaunchPad](http://launchpad.net/),
+  [SourceForge](http://sourceforge.net/),
+  [Google Code](http://code.google.com/).
+- Language/Platforms:
+  [PyPI (Python)](https://pypi.python.org/‎),
+  [RubyGems (Ruby)](http://rubygems.org/‎),
+  [npm (node)](https://www.npmjs.org/),
+  [Cabal (Haskell)](http://www.haskell.org/cabal).
+- Text Editors:
+  [Emacs](http://marmalade-repo.org/),
+  [SublimeText](https://sublime.wbond.net/‎),
+  [Atom](https://atom.io/packages).
+- App Stores:
+  Apple ([Mac](http://en.wikipedia.org/wiki/Apple_App_Store),
+         [iOS](http://en.wikipedia.org/wiki/App_Store_(iOS)));
+  Google ([Android](https://play.google.com/store/apps‎),
+          [Chrome](https://chrome.google.com/webstore));
+  Microsoft ([Desktop](windows.microsoft.com/en-us/windows-8/apps‎),
+             [Phone](www.windowsphone.com/en-us/store‎)).
+--&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+
+&lt;li id=&quot;fn1&quot;&gt;
+&lt;p&gt;This is clearly the case in software: a package distributed on its own website is significantly less likely to survive than a package distributed through a mainstream software package manager (e.g. debian aptitude).&amp;nbsp;&lt;a href=&quot;#fnref1&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li id=&quot;fn2&quot;&gt;
+&lt;p&gt;Why &lt;a href=&quot;http://git-scm.com&quot;&gt;git&lt;/a&gt; is not it (yet) is argued in a future post.&amp;nbsp;&lt;a href=&quot;#fnref2&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li id=&quot;fn3&quot;&gt;
+&lt;p&gt;Namespacing is important to reduce publication friction. This is similar to namespacing and forking on github.&amp;nbsp;&lt;a href=&quot;#fnref3&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li id=&quot;fn4&quot;&gt;
+&lt;p&gt;It&amp;#39;s worth mentioning that such automatic reformatting at central repositories should occur &lt;a href=&quot;http://en.wikipedia.org/wiki/Lazy_evaluation&quot;&gt;lazily&lt;/a&gt;.&amp;nbsp;&lt;a href=&quot;#fnref4&quot; rev=&quot;footnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;/ol&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>static - Upload to S3 and copy link tool</title>
+   <link href="http://juan.benet.ai/note/2014-03-04/static-upload-to-s3-and-copy-link-tool"/>
+   <updated>2014-03-04T08:53:59-05:00</updated>
+   <id>http://juan.benet.ai/note/2014-03-04/static-upload-to-s3-and-copy-link-tool</id>
+   <content type="html">&lt;p&gt;I use a script to upload files to an S3 bucket and copy the link to the clipboard. Basically:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;static &amp;lt;file&amp;gt; [&amp;lt;s3path&amp;gt;]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;example&quot;&gt;Example:&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;jbenet @ lorien : /tmp % static 24898.png nocturne.png
+&amp;gt; cat 24898.png | pyhash sha1
+&amp;gt; echo &quot;http://jbenet.static.s3.amazonaws.com/d7b220c/nocturne.png&quot; | pbcopy
+&amp;gt; aws s3 cp --profile juanbenet &quot;24898.png&quot; &quot;s3://jbenet.static/d7b220c/nocturne.png&quot;
+&amp;gt; afplay /System/Library/Sounds/Ping.aiff
+
+http://jbenet.static.s3.amazonaws.com/d7b220c/nocturne.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;how-it-works&quot;&gt;How it works:&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;hash (sha1) the file for the url&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;http://&amp;lt;bucket&amp;gt;.s3.amazonaws.com/&amp;lt;sha1&amp;gt;/&amp;lt;s3path or basename(&amp;lt;file&amp;gt;)&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;copy the url to clipboard; done before upload, so you can paste right away&lt;/li&gt;
+&lt;li&gt;upload the file to the s3 bucket&lt;/li&gt;
+&lt;li&gt;play a sound to announce completion&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;install&quot;&gt;Install:&lt;/h2&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;# install pyhash
+curl https://gist.github.com/jbenet/6502583/raw/pyhash.py -o pyhash
+chmod +x pyhash
+sudo mv pyhash /usr/bin/pyhash
+
+# install static
+curl https://gist.github.com/jbenet/4b2e282eba5a1bf291b7/raw/static &amp;gt; static
+chmod +x static
+sudo mv static /usr/bin/static
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;script src=&quot;https://gist.github.com/jbenet/4b2e282eba5a1bf291b7.js&quot;&gt;&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Design For Nocturne</title>
+   <link href="http://juan.benet.ai/note/2014-03-04/design-for-nocturne"/>
+   <updated>2014-03-04T07:49:39-05:00</updated>
+   <id>http://juan.benet.ai/note/2014-03-04/design-for-nocturne</id>
+   <content type="html">&lt;p&gt;People ask me why my websites are &amp;quot;so light&amp;quot;
+(&lt;a href=&quot;http://engine1.athena.ai&quot;&gt;athena&lt;/a&gt;, &lt;a href=&quot;http://acorn.athena.ai&quot;&gt;acorn&lt;/a&gt;,
+&lt;a href=&quot;http://juan.benet.ai&quot;&gt;juan.benet.ai&lt;/a&gt;, &lt;a href=&quot;http://datadex.io&quot;&gt;datadex.io&lt;/a&gt;)
+when my computer is usually dark, from a shell or text editor. Well...&lt;/p&gt;
+
+&lt;p&gt;First, &lt;a href=&quot;http://github.com&quot;&gt;white&lt;/a&gt;
+&lt;a href=&quot;http://amazon.com&quot;&gt;websites&lt;/a&gt;
+&lt;a href=&quot;http://pinterest.com&quot;&gt;seem&lt;/a&gt;
+&lt;a href=&quot;http://wikipedia.org&quot;&gt;to&lt;/a&gt;
+&lt;a href=&quot;http://youtube.com&quot;&gt;work&lt;/a&gt;
+&lt;a href=&quot;http://linkedin.com&quot;&gt;better&lt;/a&gt;
+&lt;a href=&quot;http://flickr.com&quot;&gt;in&lt;/a&gt;
+&lt;a href=&quot;http://facebook.com&quot;&gt;the&lt;/a&gt;
+&lt;a href=&quot;http://google.com&quot;&gt;mainstream&lt;/a&gt;
+(&lt;a href=&quot;http://myspace.com&quot;&gt;sorry&lt;/a&gt;,
+&lt;a href=&quot;http://rapgenius.com&quot;&gt;guys&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;And second, I don&amp;#39;t. I actually design my websites to be black for me.
+I use &lt;a href=&quot;https://code.google.com/p/blacktree-nocturne/&quot;&gt;Nocturne&lt;/a&gt;,
+which inverts the colors + hues of my display.&lt;/p&gt;
+
+&lt;p&gt;So when you see:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://note.io/1kuqNRg&quot; alt=&quot;you&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I see:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jbenet.static.s3.amazonaws.com/5adf53ab696ba30fe58496fd2cafbe8c4cc78e31/nocturne-home.png&quot; alt=&quot;me&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;This works out great: I get black &amp;quot;easy on the eyes&amp;quot; websites that the
+rest of the world will like.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://code.google.com/p/blacktree-nocturne/&quot;&gt;&lt;img src=&quot;http://jbenet.static.s3.amazonaws.com/d7b220ca45615e8454b7f5c9cc8d98bb667da392/nocturne.png&quot; alt=&quot;Nocturne&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Nocturne is great. Try it out. I recommend toggling it with a hotkey
+(or with Alfred/Spotlight: &lt;code&gt;Alt+Space -&amp;gt; n -&amp;gt; enter&lt;/code&gt;). Though be warned: it&amp;#39;s
+&lt;a href=&quot;https://www.bountysource.com/issues/1430592-hue-inversion-does-not-work-on-mac-os-x-10-9-mavericks&quot;&gt;broken in Mavericks&lt;/a&gt;,
+and it makes pictures of people look absolutely terrifying.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Open in WriteRoom from Command Line</title>
+   <link href="http://juan.benet.ai/note/2014-03-02/open-in-writeroom"/>
+   <updated>2014-03-02T07:12:00-05:00</updated>
+   <id>http://juan.benet.ai/note/2014-03-02/open-in-writeroom</id>
+   <content type="html">&lt;p&gt;I like using &lt;a href=&quot;http://www.hogbaysoftware.com/products/writeroom&quot;&gt;WriteRoom&lt;/a&gt;. I wanted &lt;code&gt;$ wr &amp;lt;file&amp;gt;&lt;/code&gt; to open &lt;code&gt;&amp;lt;file&amp;gt;&lt;/code&gt; in WriteRoom, and &lt;em&gt;Enter Full Screen Single&lt;/em&gt;. So I wrote it. Just put the script below in your &lt;code&gt;$PATH&lt;/code&gt;, say &lt;code&gt;/usr/bin/wr&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;curl https://gist.githubusercontent.com/jbenet/9271733/raw/wr &amp;gt; wr
+chmod +x wr
+sudo mv wr /usr/bin/wr
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;script src=&quot;https://gist.github.com/jbenet/9271733.js&quot;&gt;&lt;/script&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Mutable REPL</title>
+   <link href="http://juan.benet.ai/note/2014-03-01/side-by-side-repl"/>
+   <updated>2014-03-01T21:28:00-05:00</updated>
+   <id>http://juan.benet.ai/note/2014-03-01/side-by-side-repl</id>
+   <content type="html">&lt;p&gt;Would be great to have a REPL with mutable definitions in another pane. The definitions pane lists all state, in the form:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;&amp;lt;expr num&amp;gt;  &amp;lt;name&amp;gt; = &amp;lt;original evaled expression&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;And it reassigns variables as the expressions are edited, on every keystroke (if it evaluates. if not, display eval error in a gutter below).&lt;/p&gt;
+
+&lt;p&gt;I hope LightTable already does this. And, I wish a REPL-UI lib existed to simplify this and other common aspects of writing REPLs. And &lt;code&gt;repl &amp;lt;lang&amp;gt;&lt;/code&gt; should also exist.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Data Management Problems</title>
+   <link href="http://juan.benet.ai/data/2014-02-21/data-management-problems"/>
+   <updated>2014-02-21T09:57:58-05:00</updated>
+   <id>http://juan.benet.ai/data/2014-02-21/data-management-problems</id>
+   <content type="html">&lt;p&gt;Numerous problems plague data sharing today. This post identifies some of them. Note: to make sure we&amp;#39;re on the same page semantically, check my &lt;a href=&quot;/data/2014-02-21/data-management-vocabulary&quot;&gt;data vocabulary&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;distribution&quot;&gt;Distribution&lt;/h2&gt;
+
+&lt;p&gt;Moving files from one computer to another is generally a solved problem. However, when dealing with datasets, there are complexities.&lt;/p&gt;
+
+&lt;p&gt;First, data files can be &lt;em&gt;large&lt;/em&gt; (100MB+), which makes distribution costly in terms of storage and bandwidth. Usually, only organizations (academic or commercial) commit to fronting the financial costs of storing, transmitting, and maintaining large datasets. For example, academic institutions maintain the most popular Machine Learning datasets (NIST, CIFAR, ImageNet, etc). However, thanks to new cloud storage solutions, the costs (both money and time) are dropping.&lt;/p&gt;
+
+&lt;p&gt;Second, unlike source code, few of the people that deal with data files are proficient in setting up reliable and robust distribution of their dataset files over the internet. Today, many scientists outside of computer science are using services like Dropbox, a personal file storage solution, to distribute their data files. The most cost-effective and reliable systems remain obscure to most average users. For example, bittorrent has been used to distribute datasets by only some computer science/bioinformatics research communities.&lt;/p&gt;
+
+&lt;h2 id=&quot;versioning&quot;&gt;Versioning&lt;/h2&gt;
+
+&lt;p&gt;Many people do not realize the importance of versioning at all. Some overwrite files with new versions without considering the repercussions. Others fail to keep old versions available, only distributing the latest -- which is still damaging.&lt;/p&gt;
+
+&lt;p&gt;There are problems even in how versioning is implemented. While &lt;strong&gt;version control systems&lt;/strong&gt; (VCS) have prolifierated in the software engineering world, most data files continue to be managed by ad-hoc and brittle filename &lt;strong&gt;versioning schemes&lt;/strong&gt;. We have all seen the terrible ones (see the cartoon below).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.phdcomics.com/comics/archive/phd101212s.gif&quot; alt=&quot;phd-comics-final&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Better ones exist (like timestamping the filenames), but still fail to support useful VCS features like branching histories, version description messages, version merging, etc. Sure, the world would be better if everybody used git. But they will not. We need to bake VCS into existing workflows.&lt;/p&gt;
+
+&lt;h2 id=&quot;permanence&quot;&gt;Permanence&lt;/h2&gt;
+
+&lt;p&gt;Sometimes published datasets are no longer available in their original location, so one must find them again. Sometimes, datasets disappear completely. &lt;a href=&quot;https://www.cell.com/current-biology/abstract/S0960-9822(13)01400-0&quot;&gt;This paper&lt;/a&gt; found that, in biology alone, &amp;quot;the odds of a data set being extant fall by 17%
+per year.&amp;quot;&lt;/p&gt;
+
+&lt;p&gt;This is absurd. The point of research is to gather and reason on data. We ought to be able to keep the data around, in &lt;em&gt;precisely&lt;/em&gt; the exact form it was originally published. No single dataset should &lt;em&gt;ever&lt;/em&gt; go missing. No single dataset &lt;em&gt;version&lt;/em&gt; should ever go missing either. Getting data published is hard enough. We cannot afford to then lose it.&lt;/p&gt;
+
+&lt;p&gt;We need a &lt;em&gt;permanent&lt;/em&gt; repository, where all data survives.&lt;/p&gt;
+
+&lt;h2 id=&quot;indexing&quot;&gt;Indexing&lt;/h2&gt;
+
+&lt;p&gt;Datasets are strewn across the web. Generally, dataset authors need to arrange for the distribution and upkeep of the files, which means they setup whatever solution happens to be most convenient for them. This leads to distribution over a myriad different methods, with widely varying user experiences. And there is no global system to track published datasets, or their publication meta-data (date, authors, license, version, etc). Some aggregated collections exist, but they are often field-specific and wildy varying in quality, usability, or completeness. This all makes searching for datasets tedious at best, and often fruitless.&lt;/p&gt;
+
+&lt;p&gt;Imagine a world where every dataset published can be found in one single, persistent global index -- across fields. Imagine this index also tracks the version histories, publication meta-data, related datasets, people, figures, etc. Imagine all this information standardized and easily searchable. Imagine all URLs to this index are guaranteed not to change, and to support a programmable API.&lt;/p&gt;
+
+&lt;h2 id=&quot;formatting&quot;&gt;Formatting&lt;/h2&gt;
+
+&lt;p&gt;Researchers often have to clean, reformat, filter, or otherwise modify the data files they wish to work with. This can consume significant time and effort. Sometimes programs have to be written. Sometimes modifications must be done manually -- an error prone waste of valuable time. Often these modifications are the same that others need. Often, re-publishing the dataset after format changes might save the community valuable time.&lt;/p&gt;
+
+&lt;h2 id=&quot;licensing&quot;&gt;Licensing&lt;/h2&gt;
+
+&lt;p&gt;Often, it is unclear what license published datasets carry. People tend to distribute raw data files, neglecting to specify what end users can do with the files. Though this feels &amp;quot;open,&amp;quot; it is unclear whether publishing a modified version of the data is allowed. This ambiguity, with potential legal implications, deters forking and re-publishing of data. Most would rather not risk getting in legal trouble.&lt;/p&gt;
+
+&lt;p&gt;Open Source code solves this problem with clear licenses and licensing guidelines. It is common practice to always include a license with open source code -- this should be the same for data. While the data licenses are not yet as sophisticated as source code licenses, there are already many licenses covering common use cases (see &lt;a href=&quot;http://opendatacommons.org&quot;&gt;opendatacommons.org&lt;/a&gt; and &lt;a href=&quot;http://www.dcc.ac.uk/resources/how-guides/license-research-data&quot;&gt;&lt;em&gt;How to License Research Data&lt;/em&gt;&lt;/a&gt;). We simply need licensing to become common practice. Requiring (or defaulting to) licenses in data publishing repositories may nudge people in the right direction, reduce ambiguity, and foster data forking.&lt;/p&gt;
+
+&lt;h2 id=&quot;open-access&quot;&gt;Open Access&lt;/h2&gt;
+
+&lt;p&gt;The Open Access discussion often focuses on journals and access to papers. But, open access data is just as critical to scientific progress. Others have discussed this problem much better than I can, so I will link you to them directly:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://okfn.org/opendata/&quot;&gt;Open Data - An Introduction (OKFN)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001797&quot;&gt;Data Access for the Open Access Literature (PLOS)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.oecd.org/science/sci-tech/sciencetechnologyandinnovationforthe21stcenturymeetingoftheoecdcommitteeforscientificandtechnologicalpolicyatministeriallevel29-30january2004-finalcommunique.htm&quot;&gt;Declaration on Access to Research Data from Public Funding (OECD)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://precedings.nature.com/documents/1526/version/1&quot;&gt;Open Data in Science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2205145&quot;&gt;Big Data for Development: From Information to Knowledge Societies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://crln.acrl.org/content/73/2/83.full&quot;&gt;The impact of open access on research and scholarship&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The takeaway is data should be &lt;strong&gt;open-source&lt;/strong&gt;, for &lt;strong&gt;distribution&lt;/strong&gt; and &lt;strong&gt;modification&lt;/strong&gt;. What is often left out of these discussions is the friction people experience when attempting to do either. From undergoing a lengthy peer-review process, to applying for accounts, to asking for modification permission for others&amp;#39; data... the hurdles are numerous, &lt;em&gt;even in &lt;strong&gt;open access&lt;/strong&gt; repositories&lt;/em&gt;. We need to complement &lt;strong&gt;open access&lt;/strong&gt; with &lt;strong&gt;easy access&lt;/strong&gt;, to both read and write, or download and publish.&lt;/p&gt;
+
+&lt;p&gt;Imagine a world where researchers can fork and re-publish fixed, cleaned, reformatted datasets as easily as programmers fork code.&lt;/p&gt;
+
+&lt;p&gt;Friends, the promised land is in sight.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Data Management Vocabulary</title>
+   <link href="http://juan.benet.ai/data/2014-02-21/data-management-vocabulary"/>
+   <updated>2014-02-21T08:57:58-05:00</updated>
+   <id>http://juan.benet.ai/data/2014-02-21/data-management-vocabulary</id>
+   <content type="html">&lt;p&gt;Last updated: 2014-02-28.&lt;/p&gt;
+
+&lt;p&gt;This is a vocabulary for the purpose of precisely defining propblems and solutions in my data management efforts. Many are standard &lt;a href=&quot;#version-control&quot;&gt;version control&lt;/a&gt; concepts.&lt;/p&gt;
+
+&lt;style&gt;
+h2 {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+&lt;/style&gt;
+
+&lt;h2 id=&quot;bandwidth&quot;&gt;bandwidth&lt;/h2&gt;
+
+&lt;p&gt;for our purposes, capacity to distribute files across a network, mainly the internet.&lt;/p&gt;
+
+&lt;h2 id=&quot;data&quot;&gt;data&lt;/h2&gt;
+
+&lt;p&gt;information stored in digital files&lt;/p&gt;
+
+&lt;h2 id=&quot;dataset&quot;&gt;dataset&lt;/h2&gt;
+
+&lt;p&gt;a meaningful collection of related &lt;strong&gt;data&lt;/strong&gt;, usually packaged as a set of files and identified with a name.&lt;/p&gt;
+
+&lt;h2 id=&quot;decoding&quot;&gt;Decoding&lt;/h2&gt;
+
+&lt;p&gt;the process of converting &lt;em&gt;encoded information&lt;/em&gt; into &lt;em&gt;information&lt;/em&gt;, according to a &lt;a href=&quot;#format&quot;&gt;format&lt;/a&gt;. The inverse of &lt;a href=&quot;#encoding&quot;&gt;Encoding&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For example, using &lt;code&gt;TMF&lt;/code&gt; &lt;a href=&quot;#tmf-format&quot;&gt;defined below&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-golang&quot; data-lang=&quot;golang&quot;&gt;&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TMFDecode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Devices&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:=&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Decode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;devs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IsValid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;throw&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TMFDecodingError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;distributed-version-control-system-dvcs&quot;&gt;Distributed Version Control System (DVCS)&lt;/h2&gt;
+
+&lt;p&gt;a &lt;strong&gt;version control system&lt;/strong&gt; that operates in a distributed, decentralized fashion. Users do not need to interact with, or obtain permission from, a central authority for normal operation.&lt;/p&gt;
+
+&lt;h2 id=&quot;encoding&quot;&gt;Encoding&lt;/h2&gt;
+
+&lt;p&gt;the process of converting &lt;em&gt;information&lt;/em&gt; into &lt;em&gt;encoded information&lt;/em&gt;, according to a &lt;a href=&quot;#format&quot;&gt;format&lt;/a&gt;. The inverse of &lt;a href=&quot;#decoding&quot;&gt;Decoding&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For example, using &lt;code&gt;TMF&lt;/code&gt; &lt;a href=&quot;#tmf-format&quot;&gt;defined below&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-golang&quot; data-lang=&quot;golang&quot;&gt;&lt;span class=&quot;k&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TMFEncode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Devices&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IsValid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;throw&lt;/span&gt;&lt;span class=&quot;x&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;TMFEncodingError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;x&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;fork&quot;&gt;fork&lt;/h2&gt;
+
+&lt;p&gt;a distinct project which originated by branching -- copying and subsequently modifying -- another. If project B was built by copying and modifying project A, project B is said to be a &lt;em&gt;fork&lt;/em&gt; of project A. Forks are often created to fix bugs, alter or add functionality, or take over maintenance.&lt;/p&gt;
+
+&lt;h2 id=&quot;forking&quot;&gt;forking&lt;/h2&gt;
+
+&lt;p&gt;copying the files from one project and modifying them to create another, distinct project. The new project is said to be a &lt;a href=&quot;#fork&quot;&gt;fork&lt;/a&gt; of the original.&lt;/p&gt;
+
+&lt;h2 id=&quot;forking-friction&quot;&gt;forking friction&lt;/h2&gt;
+
+&lt;p&gt;infrastructural or cultural resistance to &lt;a href=&quot;#forking&quot;&gt;forking&lt;/a&gt; projects.&lt;/p&gt;
+
+&lt;p&gt;In software, developers used to be reluctant to forking because it carried the connotation of an organizational split or schism, and the weight of organizational maintenance. Github greatly reduced &lt;em&gt;forking friction&lt;/em&gt; in software by:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;terming original projects &lt;em&gt;forks&lt;/em&gt; as well (as opposed to only their off-shoots)&lt;/li&gt;
+&lt;li&gt;making forking a common part of contributing to projects&lt;/li&gt;
+&lt;li&gt;namespacing projects under usernames (e.g. &lt;code&gt;userA/project&lt;/code&gt; could be a fork of &lt;code&gt;userB/project&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;effectively combining all open-source communities under one network&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In data management, users are often reluctant to forking a dataset because:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;they do not know whether they are able to (unclear or no licensing)&lt;/li&gt;
+&lt;li&gt;they do not wish to cause an organizational split or schism&lt;/li&gt;
+&lt;li&gt;they face &lt;a href=&quot;#publishing-friction&quot;&gt;publishing friction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;format&quot;&gt;Format&lt;/h2&gt;
+
+&lt;p&gt;&amp;quot;the way in which something is arranged&amp;quot;; a specification for how to &lt;code&gt;encode&lt;/code&gt; and &lt;code&gt;decode&lt;/code&gt; a message.&lt;/p&gt;
+
+&lt;p&gt;For example, consider the following &lt;a href=&quot;#schema-laden&quot;&gt;schema-laden&lt;/a&gt; format spec:&lt;/p&gt;
+
+&lt;div id=&quot;tmf-format&quot;&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Temperature Measurement Format (TMF)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;TMF extends, or is on top of, JSON.&lt;/li&gt;
+&lt;li&gt;A &lt;code&gt;TMFFile&lt;/code&gt; has a &lt;code&gt;.json&lt;/code&gt; extension, and contains &lt;code&gt;TMFData&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;A &lt;code&gt;TMFData&lt;/code&gt; is a sequence of &lt;code&gt;TMFDevice&lt;/code&gt; objects.&lt;/li&gt;
+&lt;li&gt;A &lt;code&gt;TMFDevice&lt;/code&gt; object &lt;em&gt;must&lt;/em&gt; have two keys:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;name&lt;/code&gt;, mapped to a string.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;temps&lt;/code&gt;, mapped to a &lt;code&gt;TMFReadings&lt;/code&gt; object.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;A &lt;code&gt;TMFReadings&lt;/code&gt; object maps &lt;code&gt;ISO Date&lt;/code&gt; to a &lt;code&gt;TMFTemp&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;A &lt;code&gt;TMFTemp&lt;/code&gt; is a string with a &lt;code&gt;float&lt;/code&gt; followed by one scale letter (&lt;code&gt;C&lt;/code&gt;, &lt;code&gt;F&lt;/code&gt;, or &lt;code&gt;K&lt;/code&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;device0&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;temps&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;2014-03-07 05:10:01&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;292.0K&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;2014-03-07 05:10:02&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;291.7K&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;2014-03-07 05:10:03&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;5000.0K&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;2014-03-07 05:10:04&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;291.3K&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;format-compatibility&quot;&gt;Format Compatibility&lt;/h2&gt;
+
+&lt;p&gt;a directed measure of whether a &lt;a href=&quot;#format&quot;&gt;format&lt;/a&gt; is able to represent the same &lt;a href=&quot;#schema&quot;&gt;schemas&lt;/a&gt; as another. For example, &lt;a href=&quot;http://json.org&quot;&gt;JSON&lt;/a&gt; and &lt;a href=&quot;http://en.wikipedia.org/wiki/XML&quot;&gt;XML&lt;/a&gt; are formats perfectly compatible with each other: all schemas represented in JSON can be represented in XML and viceversa. However, &lt;a href=&quot;http://geojson.org&quot;&gt;GeoJSON&lt;/a&gt; &lt;strong&gt;is&lt;/strong&gt; compatible with XML (it follows from JSON being compatible with XML), but XML &lt;strong&gt;is not&lt;/strong&gt; compatible with GeoJSON (not all XML files can be transformed into valid GeoJSON).&lt;/p&gt;
+
+&lt;p&gt;The idea of format-compatibility is useful to better understand how format conversion relationships work.&lt;/p&gt;
+
+&lt;h2 id=&quot;git&quot;&gt;git&lt;/h2&gt;
+
+&lt;p&gt;a popular &lt;a href=&quot;#distributed-version-control-system-(dvcs)&quot;&gt;distributed version control system&lt;/a&gt;. See &lt;a href=&quot;http://git-scm.com&quot;&gt;http://git-scm.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;publishing-friction&quot;&gt;publishing friction&lt;/h2&gt;
+
+&lt;p&gt;individual resistance to &lt;a href=&quot;#publishing&quot;&gt;publishing&lt;/a&gt; projects due to costs or perceived costs in doing so. For example, costs include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;monetary costs for reliable distribution.&lt;/li&gt;
+&lt;li&gt;obligation to maintain a published project indefinitely.&lt;/li&gt;
+&lt;li&gt;loss of reputation if the project is deemed unsatisfactory.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Publishing friction&lt;/em&gt; prevents the publishing of valuable projects. Building tools which decrease it boost the possibilities of progress.&lt;/p&gt;
+
+&lt;h2 id=&quot;schema&quot;&gt;Schema&lt;/h2&gt;
+
+&lt;p&gt;the structure, or specification of how information represents meaning.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Timestamp&lt;/code&gt; specifies the time at which a measurement was taken.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Temperature&lt;/code&gt; specifies the temperature measured.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;TempMeasurements&lt;/code&gt; specifies a sequence relating a &lt;code&gt;Timestamp&lt;/code&gt; with a &lt;code&gt;Temperature&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Device&lt;/code&gt; specifies a particular machine, with a &lt;code&gt;Name&lt;/code&gt; and &lt;code&gt;TempMeasurements&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;schema-format-compatibility&quot;&gt;Schema-Format Compatibility&lt;/h2&gt;
+
+&lt;p&gt;a measure of whether a particular &lt;a href=&quot;#format&quot;&gt;format&lt;/a&gt; is able to represent a particular &lt;a href=&quot;#schema&quot;&gt;schema&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;schema-laden-format&quot;&gt;Schema-laden Format&lt;/h2&gt;
+
+&lt;p&gt;a &lt;a href=&quot;#format&quot;&gt;format&lt;/a&gt; designed to represent a particular &lt;a href=&quot;#schema&quot;&gt;schema&lt;/a&gt;. &lt;em&gt;Schema-less&lt;/em&gt; or universal formats, such as &lt;a href=&quot;http://json.org&quot;&gt;JSON&lt;/a&gt;, can represent any schema. &lt;em&gt;Schema-laden&lt;/em&gt; formats, such as &lt;a href=&quot;http://geojson.org&quot;&gt;GeoJSON&lt;/a&gt;, are tuned to represent a particular set of schemas. Schema-laden formats tend to implement schema specifications on top of a general format.&lt;/p&gt;
+
+&lt;h2 id=&quot;schema-compatibility&quot;&gt;Schema Compatibility&lt;/h2&gt;
+
+&lt;p&gt;a measure of whether a particular &lt;a href=&quot;#schema&quot;&gt;schema&lt;/a&gt; is able to express another. It is useful to consider whether or not data can be transformed from one schema to another.&lt;/p&gt;
+
+&lt;h2 id=&quot;storage&quot;&gt;storage&lt;/h2&gt;
+
+&lt;p&gt;for our purposes, digital storage of files in computers.&lt;/p&gt;
+
+&lt;h2 id=&quot;universal-format&quot;&gt;Universal Format&lt;/h2&gt;
+
+&lt;p&gt;For our purposes, a format capable of storing any schema. Examples: JSON, XML. Contrast to GeoJSON, a format specific to a set of schemas, or a &lt;a href=&quot;#schema-laden-format&quot;&gt;&lt;em&gt;schema-laden&lt;/em&gt; format&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;version&quot;&gt;Version&lt;/h2&gt;
+
+&lt;p&gt;a snapshot of files at a particular point in time. Versions are useful to trace histories of changes.&lt;/p&gt;
+
+&lt;h2 id=&quot;versioning&quot;&gt;Versioning&lt;/h2&gt;
+
+&lt;p&gt;storing multiple versions of a given file to enable tracing the history of changes.&lt;/p&gt;
+
+&lt;h2 id=&quot;versioning-scheme&quot;&gt;Versioning Scheme&lt;/h2&gt;
+
+&lt;p&gt;a scheme or protocol to identify different &lt;strong&gt;versions&lt;/strong&gt; of file.&lt;/p&gt;
+
+&lt;h2 id=&quot;version-control&quot;&gt;Version Control&lt;/h2&gt;
+
+&lt;p&gt;techniques to store, manage, and retrieve numerous digital files, using versioning.&lt;/p&gt;
+
+&lt;h2 id=&quot;version-control-system-vcs&quot;&gt;Version Control System (VCS)&lt;/h2&gt;
+
+&lt;p&gt;a system (usually a software tool) used to enact, support, and simplify a particular form of &lt;strong&gt;version control&lt;/strong&gt;.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Let's Solve Data Management</title>
+   <link href="http://juan.benet.ai/data/2014-02-21/lets-solve-data-management"/>
+   <updated>2014-02-21T07:57:58-05:00</updated>
+   <id>http://juan.benet.ai/data/2014-02-21/lets-solve-data-management</id>
+   <content type="html">&lt;p&gt;Numerous problems plague data sharing today. Scientists, engineers, analysts work with exabytes of data daily. So you would think our data management techniques and technologies are top notch. You would think it trivial to move data files from one computer to another, to share this or that dataset with a collaborator, to keep all versions accounted for, to trace the history of particular data, to convert between this and that format, to create and re-create figures from the data... In short, you would think sophisticated and well designed tools have solved these straightforward problems. After all, these same problems plagued software development decades ago.
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Package_management_system&quot;&gt;And&lt;/a&gt;
+&lt;a href=&quot;http://opensource.org/&quot;&gt;we&lt;/a&gt;
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Revision_control&quot;&gt;have&lt;/a&gt;
+&lt;a href=&quot;http://npmjs.org/&quot;&gt;solved&lt;/a&gt;
+&lt;a href=&quot;http://github.com/&quot;&gt;those&lt;/a&gt;
+&lt;a href=&quot;http://git-scm.com/&quot;&gt;elegantly&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The sad truth is that data management -- particularly among scientists and analysts -- remains almost oblivious of the general solutions software engineering developed to manage code.&lt;/p&gt;
+
+&lt;p&gt;The good news is: we can change that in 2014.&lt;/p&gt;
+
+&lt;p&gt;The foundations of a better future have been laid. Existing source code tools and entirely new solutions are solving the tough problems. What&amp;#39;s left is to connect the dots with easy to use tools, and to drive their adoption.&lt;/p&gt;
+
+&lt;p&gt;Over a series of posts, I will summarize a number of problems I have noticed, discuss potential solutions, and feature current efforts to solve them. I invite you to be part of the discussion, and to help the efforts. My hope is to rally others interested in these problems, and to build the open-source tools to solve them.&lt;/p&gt;
+
+&lt;p&gt;Join me.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Greetings Multiverse!</title>
+   <link href="http://juan.benet.ai/meta/2014-02-18/greetings-multiverse"/>
+   <updated>2014-02-18T04:00:00-05:00</updated>
+   <id>http://juan.benet.ai/meta/2014-02-18/greetings-multiverse</id>
+   <content type="html">&lt;p&gt;Greetings multiverse. This is the personal website of
+&lt;a href=&quot;/about&quot;&gt;Juan Benet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe width=&#39;600&#39; height=&#39;400&#39; src=&#39;//acorn.athena.ai/embed/ggvocebezv&#39; scrolling=&#39;no&#39; frameborder=&#39;0&#39; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt;&lt;/iframe&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Video Highlights</title>
+   <link href="http://juan.benet.ai/acorn/2013-06-06/highlighting-video"/>
+   <updated>2013-06-06T05:00:00-04:00</updated>
+   <id>http://juan.benet.ai/acorn/2013-06-06/highlighting-video</id>
+   <content type="html">&lt;p&gt;At Athena, we strive to make explanations intuitive and accessible so that knowledge can be spread easily. There are lots of great explanations embedded within longer video lectures, so we built &lt;a href=&quot;http://acorn.athena.ai&quot;&gt;Acorn&lt;/a&gt; -- our media remixer -- to find and share them.&lt;/p&gt;
+
+&lt;p&gt;Recently, we wanted to address a particular problem when people share knowledge through video. Sometimes we get emails like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ipfs.io/ipfs/QmW8mRRHbTFCMrNjMYtGhjMFfFrzg6tza1w4C6hUTVbmXs/skitch/Sparrow-20130608-015203.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Sometimes they have diagrams:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ipfs.io/ipfs/QmW8mRRHbTFCMrNjMYtGhjMFfFrzg6tza1w4C6hUTVbmXs/skitch/Sir_Ken_Robinson__Do_schools_kill_creativity%3F_-_YouTube-20130608-014755.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Not so good.&lt;/p&gt;
+
+&lt;h2 id=&quot;introducing-highlights-for-video&quot;&gt;Introducing: Highlights for Video&lt;/h2&gt;
+
+&lt;p&gt;Today, we shipped a small but powerful feature to &lt;a href=&quot;http://acorn.athena.ai&quot;&gt;Acorn&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Highlights: mark and note parts of videos.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;iframe width=&quot;600&quot; height=&quot;338&quot; src=&quot;http://acorn.athena.ai/embed/hhjgxvizys?show=content:paused&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;yes&quot; webkitallowfullscreen=&quot;yes&quot; mozallowfullscreen=&quot;yes&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;With highlights, you can &amp;quot;point out&amp;quot; specific sections of video. Whether for yourself in the future or for others you&amp;#39;re sharing with, you can draw the viewer&amp;#39;s attention to the parts you care about.&lt;/p&gt;
+
+&lt;p&gt;Highlights are similar to YouTube annotations or SoundCloud comments, but they work on any video compatible with Acorn. And they&amp;#39;re scoped (see below). Let&amp;#39;s take an in-depth look:&lt;/p&gt;
+
+&lt;h3 id=&quot;marking-the-timeline-attracts-focus&quot;&gt;Marking the Timeline Attracts Focus&lt;/h3&gt;
+
+&lt;p&gt;Acorn highlights are shown as yellow marks hovering over the playback timeline. They draw attention to the relevant parts, and inform the viewer where the intended messages are.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ipfs.io/ipfs/QmW8mRRHbTFCMrNjMYtGhjMFfFrzg6tza1w4C6hUTVbmXs/skitch/acorn_%7C_media_remixer-20130608-020135.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;active-highlights-improve-viewing-experience&quot;&gt;Active Highlights Improve Viewing Experience&lt;/h3&gt;
+
+&lt;p&gt;As viewers, &lt;em&gt;sometimes&lt;/em&gt; we want to jump directly to the highlighted part, and &lt;em&gt;sometimes&lt;/em&gt; we want to watch the whole video. Our highlights allow both. You can watch the whole video as usual, now aware of where the important parts are. Or you can click on a highlight, and jump directly to the relevant part.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ipfs.io/ipfs/QmW8mRRHbTFCMrNjMYtGhjMFfFrzg6tza1w4C6hUTVbmXs/skitch/acorn_%7C_media_remixer-20130608-015748.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;highlight-notes-improve-navigation&quot;&gt;Highlight Notes Improve Navigation&lt;/h3&gt;
+
+&lt;p&gt;Acorn highlights are also a way of noting video sections, or even indexing what can be found in the video. Highlights can have a short note that displays as playback reaches a highlighted part, and as users inspect (hover near) the highlight.&lt;/p&gt;
+
+&lt;iframe width=&quot;600&quot; height=&quot;340&quot; src=&quot;http://acorn.athena.ai/embed/doproxyntt?show=content&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;yes&quot; webkitallowfullscreen=&quot;yes&quot; mozallowfullscreen=&quot;yes&quot;&gt;&lt;/iframe&gt;
+
+&lt;h3 id=&quot;scoped-highlights&quot;&gt;Scoped Highlights&lt;/h3&gt;
+
+&lt;p&gt;One of the problems with YouTube annotations is that they&amp;#39;re global. Either you see all annotations on a video, or none. With Acorn, anyone can create and share &lt;em&gt;different&lt;/em&gt; sets of annotations on top of the same video.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ipfs.io/ipfs/QmW8mRRHbTFCMrNjMYtGhjMFfFrzg6tza1w4C6hUTVbmXs/skitch/acorn_%7C_media_remixer-20130608-021928.png&quot; alt=&quot;&quot;&gt;
+&lt;img src=&quot;https://ipfs.io/ipfs/QmW8mRRHbTFCMrNjMYtGhjMFfFrzg6tza1w4C6hUTVbmXs/skitch/acorn_%7C_media_remixer-20130608-022114.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;enough-how-do-i-use-it&quot;&gt;Enough! How do I use it!?&lt;/h2&gt;
+
+&lt;p&gt;Here&amp;#39;s how you can add highlighting to a video in seconds:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;a href=&quot;http://acorn.athena.ai/new&quot;&gt;http://acorn.athena.ai/new&lt;/a&gt; and paste the link to the video you want to highlight.&lt;/li&gt;
+&lt;li&gt;Click &lt;code&gt;+ Highlight&lt;/code&gt;, this adds a highlight, and lets you edit it.&lt;/li&gt;
+&lt;li&gt;Adjust the highlighted clip with the sliders (click the green checkbox when done)
+3.5. Add a text note (optional)&lt;/li&gt;
+&lt;li&gt;Save, and Share it!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;iframe width=&quot;600&quot; height=&quot;575&quot; src=&quot;http://acorn.athena.ai/embed/palifzkrgt?show=content:paused&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;yes&quot; webkitallowfullscreen=&quot;yes&quot; mozallowfullscreen=&quot;yes&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Note: the highlight creation experience is still rough -- it ought to be smoother and simpler. But this is our first pass at it :). Expect it to get better -- if you have design suggestions, &lt;a href=&quot;https://github.com/athenalabs/acorn-player/issues&quot;&gt;let us know&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h3 id=&quot;programmatic-highlighting&quot;&gt;Programmatic Highlighting?&lt;/h3&gt;
+
+&lt;p&gt;Some users have a many videos to highlight, and already know the time codes of the relevant parts. Well, you&amp;#39;re in luck! As &lt;a href=&quot;http://blog.athena.ai/2013/05/13/one-player-to-play-them-all.html&quot;&gt;described in an earlier post&lt;/a&gt;, Acorn stores media playback data as simple &lt;code&gt;json&lt;/code&gt; objects. Thus, you can create highlights by generating Acorn &lt;code&gt;json&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;For example, take a look at the following Acorn &lt;code&gt;json&lt;/code&gt;. Note the &lt;code&gt;highlights&lt;/code&gt; array, and that each highlight is a dictionary with &lt;code&gt;timeStart&lt;/code&gt;, &lt;code&gt;timeEnd&lt;/code&gt;, and &lt;code&gt;title&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;acornid&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hhjgxvizys&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;highlights&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeStart&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;165&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Whaaaale&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeEnd&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;167&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeStart&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;22&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Little Psy&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeEnd&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;29&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeStart&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;130&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Metro&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeEnd&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;153&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shellid&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;acorn.HighlightsShell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;loops&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;one&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shellid&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;acorn.YouTubeShell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeEnd&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;253&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeTotal&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;253&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeStart&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;link&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://www.youtube.com/watch?v=9bZkp7q19f0&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;description&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Remix of \&quot;PSY - GANGNAM STYLE\&quot;.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;thumbnail&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://img.youtube.com/vi/9bZkp7q19f0/0.jpg&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;PSY - GANGNAM STYLE - Funniest Parts&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;owner&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;juan&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;thumbnail&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://acorn.athena.ai/img/acorn.png&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;created&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2013-06-08 07:51:32.444176&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;updated&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2013-06-08 07:51:32.444176&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;You can add a highlight by inserting its representation (dictionary) into the &lt;code&gt;highlights&lt;/code&gt; array. Here we added the &lt;code&gt;Elevator Guy&lt;/code&gt; highlight:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;acornid&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hhjgxvizys&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;highlights&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeStart&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;114.5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Elevator Guy&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeEnd&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeStart&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;165&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;title&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Whaaaale&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeEnd&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;167&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;why-is-highlighting-important&quot;&gt;Why is highlighting important?&lt;/h2&gt;
+
+&lt;p&gt;Highlighting is one of the main forms of interaction with text. Pick up an avid reader&amp;#39;s books or printed papers and you&amp;#39;ll see this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ipfs.io/ipfs/QmW8mRRHbTFCMrNjMYtGhjMFfFrzg6tza1w4C6hUTVbmXs/skitch/skitched-20130608-031524.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ipfs.io/ipfs/QmW8mRRHbTFCMrNjMYtGhjMFfFrzg6tza1w4C6hUTVbmXs/skitch/skitched-20130608-031137.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;These humble markings are powerful. A simple background color shift demands attention, and implies importance. Scrawls jotted along margins suggest new ideas, or remind us of old ones.&lt;/p&gt;
+
+&lt;p&gt;These are recordings of our focus, of our thoughts.
+These are conversations, with the author, ourselves, and other readers.
+These are the shadows of ideas harmonizing together.&lt;/p&gt;
+
+&lt;p&gt;They are such an important part of the &amp;quot;&lt;em&gt;text experience&lt;/em&gt;&amp;quot; that most widely used digital reading tools include a virtual version of highlighting:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ipfs.io/ipfs/QmW8mRRHbTFCMrNjMYtGhjMFfFrzg6tza1w4C6hUTVbmXs/skitch/skitched-20130608-031957.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;But, why is this important experience limited to text?&lt;/p&gt;
+
+&lt;p&gt;No equivalent interaction existed with audio or video. The reason is obvious: these media (audio and video) had fundamentally different beginnings from text; they emerged ephemeral and broadcasted. There was no &lt;em&gt;highlight marker&lt;/em&gt; for Radio or TV. No &lt;em&gt;pen&lt;/em&gt; could annotate the information packets representing sounds or images. The technology simply didn&amp;#39;t exist.&lt;/p&gt;
+
+&lt;p&gt;With computers, we can suddenly interact with video and audio as much as we interact with text. Over time, powerful video editing software began adding annotation features. Video creators could add notes, highlights, and sketches on top of video. But this has remained exclusively the realm of video &lt;em&gt;creators&lt;/em&gt;, not &lt;em&gt;viewers&lt;/em&gt;. To match the text experience, viewers should be able to &lt;em&gt;easily&lt;/em&gt; and &lt;em&gt;quickly&lt;/em&gt; annotate or highlight the videos they watch.&lt;/p&gt;
+
+&lt;p&gt;In building Acorn, we realized that the simple and powerful human interfaces we use for text (highlight markers, pens) can carry over to the web. In seconds we can &amp;quot;mark&amp;quot; a timeline to highlight a video section. And we can add &amp;quot;margin notes&amp;quot; just the same. So we had to build it! We&amp;#39;re proud to move the web forward with our first stab at video annotations -- yes, there&amp;#39;s more to come :)&lt;/p&gt;
+
+&lt;h2 id=&quot;the-annotated-web&quot;&gt;The Annotated Web&lt;/h2&gt;
+
+&lt;p&gt;Marc Andreessen talks about how &lt;a href=&quot;http://news.rapgenius.com/1105129/Marc-andreessen-why-andreessen-horowitz-is-investing-in-rap-genius/Mosaic&quot;&gt;annotations were originally built into Mosaic&lt;/a&gt;. Unfortunately, the primeval browser lost that paradigm, but perhaps we can bring it back. Today, Evernote clips text and images, RapGenius annotates texts, and now Acorn highlights video. Others are coming -- join the conversation at &lt;a href=&quot;http://iannotate.org/&quot;&gt;iannotate&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;The web is starting to bloom with the traces of our thoughts. Perhaps soon, we might just realize the &lt;em&gt;annotated trails&lt;/em&gt; of Vannevar Bush&amp;#39;s  &lt;a href=&quot;http://en.wikipedia.org/wiki/Memex&quot;&gt;Memex&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#39;s just avoid carrying over this madness:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ipfs.io/ipfs/QmW8mRRHbTFCMrNjMYtGhjMFfFrzg6tza1w4C6hUTVbmXs/skitch/skitched-20130607-035606.png&quot; alt=&quot;highlight-all-the-things&quot;&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>One Player to Play Them All</title>
+   <link href="http://juan.benet.ai/acorn/2013-05-13/one-player-to-play-them-all"/>
+   <updated>2013-05-13T05:00:00-04:00</updated>
+   <id>http://juan.benet.ai/acorn/2013-05-13/one-player-to-play-them-all</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;The Lord of the Rings&lt;/em&gt; is one of my favorite books. This little-known tale of adventure features an amazingly powerful ring, bearing an enchanted inscription that reads:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;Ash nazg durbatulûk, ash nazg gimbatul,
+Ash nazg thrakatulûk agh burzum-ishi krimpatul.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That&amp;#39;s in &lt;a href=&quot;http://acorn.athena.ai/dyzemxzogd&quot;&gt;orcish&lt;/a&gt;, a most soothing language. It loosely translates to:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;One player to play them all, one player to detect them,
+One player to embed them all and in your webpage play them.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;How or why a ring of power forged in the fires of a terrible active volcano ages ago would bear such prescient web-development advice, we&amp;#39;ll never know. But we have heeded it. We have answered J.R.R. Tolkien&amp;#39;s call for a powerful media player that can leverage all other media players, to play &lt;em&gt;anything&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-birth-of-acorn-player&quot;&gt;The birth of Acorn-Player&lt;/h2&gt;
+
+&lt;p&gt;At Athena, we need to collect the world&amp;#39;s best explanations for all knowledge. These explanations are strewn across the web, in all sorts of formats. One YouTube video features Feynman explaining
+&lt;a href=&quot;http://www.youtube.com/watch?v=v3pYRn5j7oI&quot;&gt;what heat is&lt;/a&gt;. Another video, in Vimeo this time, explains &amp;quot;&lt;a href=&quot;http://vimeo.com/40271657&quot;&gt;What is a flame?&lt;/a&gt;&amp;quot; Beyond video, there are scores of &lt;a href=&quot;https://ipfs.io/ipfs/QmW8mRRHbTFCMrNjMYtGhjMFfFrzg6tza1w4C6hUTVbmXs/skitch/conditional-probability-20130513-124137.png&quot;&gt;images&lt;/a&gt;, &lt;a href=&quot;http://www.ohio.edu/people/williar4/html/HapEd/NSF/Phys/Newton.pdf&quot;&gt;documents&lt;/a&gt;, &lt;a href=&quot;http://acko.net/blog/how-to-fold-a-julia-fractal/&quot;&gt;interactive webpages&lt;/a&gt;, and so on.&lt;/p&gt;
+
+&lt;p&gt;We needed a way to allow our users to input &lt;em&gt;ANY&lt;/em&gt; link to the explanations they find across the net, and embed them uniformly. In particular, the embedding should be smart: links to videos should embed only the video, regardless of the hosting service (and their particular embed code). Moreover, one ought to be able to clip the video and embed only the relevant part.&lt;/p&gt;
+
+&lt;p&gt;We looked around the web to find existing javascript libraries that would do such things. We figured that since sites like facebook and twitter do some smart embedding, there would be an open source library to help us. But to our surprise we found none! So... we wrote one.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-it&quot;&gt;What is it?&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/athenalabs/acorn-player&quot;&gt;Acorn-Player&lt;/a&gt; is an open-source JS/CSS/HTML library that:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;recognizes how to properly embed all kinds of links&lt;/li&gt;
+&lt;li&gt;provides a uniform player interface&lt;/li&gt;
+&lt;li&gt;can remix media (more on that in later posts)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The github repo is at:
+&lt;a href=&quot;https://github.com/athenalabs/acorn-player&quot;&gt;https://github.com/athenalabs/acorn-player&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see it in action at:
+&lt;a href=&quot;https://acorn.athena.ai&quot;&gt;https://acorn.athena.ai&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And it looks like this:&lt;/p&gt;
+
+&lt;iframe width=&#39;600&#39; height=&#39;400&#39; src=&#39;//acorn.athena.ai/embed/xwkbokwxti&#39; scrolling=&#39;no&#39; frameborder=&#39;0&#39; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;how-do-i-use-it&quot;&gt;How do I use it?&lt;/h2&gt;
+
+&lt;p&gt;So Acorn-Player can take &lt;em&gt;any&lt;/em&gt; sort of media link and embed it correctly in your website. You can see the types of media it recognizes specially &lt;a href=&quot;https://github.com/athenalabs/acorn-player/tree/master/coffee/src/shells&quot;&gt;here&lt;/a&gt; (the worst case is a simple iframe). Right now, it&amp;#39;s not that smart yet, but the infrastructure is all in place and now it&amp;#39;s learning about more and more kinds of media. It also lets you combine those pieces of media in various ways: playlists, galleries, spliced videos, and more.&lt;/p&gt;
+
+&lt;p&gt;You can use it in two ways:&lt;/p&gt;
+
+&lt;h3 id=&quot;embed-acorns-in-your-website&quot;&gt;Embed Acorns in your Website&lt;/h3&gt;
+
+&lt;p&gt;You can make and save acorns at &lt;a href=&quot;https://acorn.athena.ai&quot;&gt;https://acorn.athena.ai&lt;/a&gt;. You can then embed them with code like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;iframe&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;600&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;400&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://acorn.athena.ai/embed/wijkrivqtr&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;scrolling=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;no&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;frameborder=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;0&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;allowfullscreen=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;yes&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;webkitallowfullscreen=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;yes&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;mozallowfullscreen=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;yes&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;add-acorn-player-js&quot;&gt;Add &lt;code&gt;acorn-player.js&lt;/code&gt;&lt;/h3&gt;
+
+&lt;p&gt;You can add the library to your website (see &lt;a href=&quot;https://github.com/athenalabs/acorn-player&quot;&gt;github repo&lt;/a&gt; for details), and then
+create and embed acorns like this:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// with just a link&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;http://www.youtube.com/watch?v=CbIZU8cQWXc&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;player&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;acorn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;body&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// or with more complicated data&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;player&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;acorn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;acornid&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;new&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;acorn.YouTubeShell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;link&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;http://www.youtube.com/watch?v=CbIZU8cQWXc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;timeStart&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;160&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;s2&quot;&gt;&quot;timeEnd&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;320&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}});&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;player&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendTo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;body&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;how-does-it-work&quot;&gt;How does it work?&lt;/h2&gt;
+
+&lt;p&gt;Acorn-Player plays &lt;code&gt;acorns&lt;/code&gt; (surprise!). What are &lt;code&gt;acorns&lt;/code&gt;? They are data-representations of web media. Acorn-player takes these as input, and transforms them into playable media. For example, see these JSON &lt;code&gt;acorns&lt;/code&gt; and what happens when they&amp;#39;re fed to acorn-players:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;an&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;acorn&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;plays&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;youtube&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;video&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;acorn.YouTubeShell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;link&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://www.youtube.com/watch?v=CbIZU8cQWXc&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeStart&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;160&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;timeEnd&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;320&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;iframe width=&#39;600&#39; height=&#39;400&#39; src=&#39;//acorn.athena.ai/embed/ozqjmhmomv&#39; scrolling=&#39;no&#39; frameborder=&#39;0&#39; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt;&lt;/iframe&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;an&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;acorn&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;displays&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;an&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;acorn.ImageShell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;link&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://static.benet.ai/t/purpose.png&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;iframe width=&#39;600&#39; height=&#39;480&#39; src=&#39;//acorn.athena.ai/embed/ecqknmozkr&#39; scrolling=&#39;no&#39; frameborder=&#39;0&#39; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt;&lt;/iframe&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;err&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;an&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;acorn&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;that&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;displays&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;playlist&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;acorn.CollectionShell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shells&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;acorn.YouTubeShell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;link&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://www.youtube.com/watch?v=CbIZU8cQWXc&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;acorn.YouTubeShell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;link&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://www.youtube.com/watch?v=BFO2usVjfQc&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;acorn.YouTubeShell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;link&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://www.youtube.com/watch?v=WlGemHL5vLY&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;shell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;acorn.VimeoShell&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+        &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&quot;link&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://vimeo.com/38101676&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+      &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+  &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;iframe width=&#39;600&#39; height=&#39;400&#39; src=&#39;//acorn.athena.ai/embed/wijkrivqtr&#39; scrolling=&#39;no&#39; frameborder=&#39;0&#39; allowfullscreen webkitallowfullscreen mozallowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;and-what-else&quot;&gt;And what else?&lt;/h2&gt;
+
+&lt;p&gt;Acorn-Player is a work in progress. It is already pretty powerful, but there is so much more we have planned for it. This is just the beginning. Go check out the &lt;a href=&quot;https://github.com/athenalabs/acorn-player&quot;&gt;github repo&lt;/a&gt;, and see what we&amp;#39;re working on now, what&amp;#39;s coming soon, etc.&lt;/p&gt;
+
+&lt;p&gt;And, it&amp;#39;s open-source! So please report issues + send us pull requests.&lt;/p&gt;
+
+&lt;p&gt;We also built a free web service, &lt;a href=&quot;https://acorn.athena.ai&quot;&gt;https://acorn.athena.ai&lt;/a&gt;, to store &lt;code&gt;acorn&lt;/code&gt; data. More on that later :).&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

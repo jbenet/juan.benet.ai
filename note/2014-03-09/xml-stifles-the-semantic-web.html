@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>XML Stifles The Semantic Web - juan.benet.ai</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- CSS -->
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link href="/css/main.css" media="all" rel="stylesheet" type="text/css" />
+
+  <!-- jQuery for inlined $ -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+
+</head>
+<body>
+
+<div class="site">
+
+  <div class="content markdown">
+  <h2>
+  <small><a href="/">Juan Benet</a> /
+  <a class="category" href="/note">
+  note</a> /</small>
+  XML Stifles The Semantic Web</h2>
+<p class="meta">2014-03-09</p>
+
+<div class="post">
+<p>I&#39;m coming to think that Semantic Web adoption has been significantly stifled by XML being the main (transport) format. I mean, look at this</p>
+<div class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="cp">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span>
+<span class="nt">&lt;rdf:RDF</span> <span class="na">xmlns:rdf=</span><span class="s">"http://www.w3.org/1999/02/22-rdf-syntax-ns#"</span>
+         <span class="na">xmlns:dc=</span><span class="s">"http://purl.org/dc/elements/1.1/"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;rdf:Description</span> <span class="na">rdf:about=</span><span class="s">"http://www.w3.org/TR/rdf-syntax-grammar"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;dc:title&gt;</span>RDF/XML Syntax Specification (Revised)<span class="nt">&lt;/dc:title&gt;</span>
+  <span class="nt">&lt;/rdf:Description&gt;</span>
+
+  <span class="nt">&lt;rdf:Description</span> <span class="na">rdf:about=</span><span class="s">"http://example.org/buecher/baum"</span> <span class="na">xml:lang=</span><span class="s">"de"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;dc:title&gt;</span>Der Baum<span class="nt">&lt;/dc:title&gt;</span>
+    <span class="nt">&lt;dc:description&gt;</span>Das Buch ist außergewöhnlich<span class="nt">&lt;/dc:description&gt;</span>
+  <span class="nt">&lt;/rdf:Description&gt;</span>
+<span class="nt">&lt;/rdf:RDF&gt;</span>
+</code></pre></div>
+<p>versus this</p>
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">{</span><span class="w">
+  </span><span class="nt">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"dc"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://purl.org/dc/elements/1.1/"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nt">"@graph"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.w3.org/TR/rdf-syntax-grammar"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"dc:title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"RDF/XML Syntax Specification (Revised)"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://example.org/buecher/baum"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"@language"</span><span class="p">:</span><span class="w"> </span><span class="s2">"de"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"dc:description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Das Buch ist au\u00dfergew\u00f6hnlich"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"dc:title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Der Baum"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<p>One of these makes my eyes bleed, and parsers weep. Perhaps, now that <a href="http://json-ld.org">json-ld</a> exists and websites are using JSON ubiquitously, we can start linking data robustly. We shall see!</p>
+
+</div>
+
+  </div>
+
+
+ <!-- Footer -->
+  <footer>
+    <div id="site-map">
+      <h5>juan.benet.ai</h5>
+      <ul class="links no-bullet">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </div>
+    <div id="contact-me">
+      <h5>Contact</h5>
+      <ul class="links no-bullet">
+        <li><a href="https://twitter.com/intent/user?screen_name=juanbenet" target="_blank"><i class="icon-twitter"></i> @juanbenet</a></li>
+        <li><a href="https://github.com/jbenet" id="new-issue" target="_blank"><i class="icon-github"></i> github.com/jbenet</a></li>
+        <li>
+        <a href="http://www.google.com/recaptcha/mailhide/d?k=01LaO8uNTV8Ss8kghGlxHXCw==&amp;c=eEwF2u87Cdkgipi5COLbnA=="
+        onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501LaO8uNTV8Ss8kghGlxHXCw\75\75\46c\75eEwF2u87Cdkgipi5COLbnA\75\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+        title="Reveal this e-mail address"><i class="icon-envelope"></i>
+        click-to-reveal@benet.ai</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+</div>
+
+<!-- cdnlibs -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css"></script>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48626381-1', 'benet.ai');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Modify this template to add or change links.
+  var links = _.template('\
+    <div class="header-links">\
+      <a href="#<%= id %>"><i class="icon icon-link"></i></a>\
+    </div>\
+  ');
+
+  // If your headers dont already have ids, use this slug fn
+  var slugize = function(title) {
+    return title.toLowerCase()
+      .replace(/[^\w ()]+/g,'')
+      .replace(/ +/g,'-');
+  }
+
+  // Modify the ':header' selector to apply to other elems
+  $(':header').each(function(i, h) {
+
+    // Add an id, if it doesn't have one.
+    if (!$(h).attr('id')) {
+      var id = $(h).text().replace(/[^A-Za-z0-9_]+/g, '-')
+      id = id.replace(/^-+|-+$/g, '')
+      $(h).attr('id', slugize($(h).text()));
+    }
+
+    // Add the link div
+    $(h).append($(links({
+      id: $(h).attr('id')
+    })));
+  });
+});
+</script>
+
+</body>
+</html>

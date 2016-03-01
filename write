@@ -1,0 +1,56 @@
+#!/usr/bin/env python
+
+import os
+import re
+import datetime
+
+text_tmpl = """---
+layout: post
+title:  %(title)s
+date:   %(date_full)s
+categories: %(category)s
+---
+
+"""
+
+path_tmpl = '_posts/%(date_day)s-%(title_dashed)s.md'
+
+def dashize(s):
+  s = re.sub(r'[^A-Za-z0-9_]+', '-', s)
+  s = s.strip('-')
+  s = s.lower()
+  return s
+
+def init_file(category, title):
+  date = datetime.datetime.now()
+  date_full = date.strftime('%Y-%m-%d %H:%M:%S -08:00')
+  date_day = date.strftime('%Y-%m-%d')
+
+  title_dashed = dashize(title)
+  text = text_tmpl % locals()
+  path = path_tmpl % locals()
+
+  if os.path.exists(path):
+    print path, 'already exists'
+    return path
+
+  with open(path, 'w') as f:
+    f.write(text)
+
+  print 'wrote', path
+  return path
+
+def main():
+  import sys
+
+  if len(sys.argv) < 3:
+    print 'Usage: %s <category> <title>'
+    exit(-1)
+
+  category = sys.argv[1]
+  title = ' '.join(sys.argv[2:])
+  path = init_file(category, title)
+  os.system('$EDITOR %s' % path)
+
+if __name__ == '__main__':
+  main()

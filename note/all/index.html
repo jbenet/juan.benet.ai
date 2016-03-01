@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>note - juan.benet.ai</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- CSS -->
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link href="/css/main.css" media="all" rel="stylesheet" type="text/css" />
+
+  <!-- jQuery for inlined $ -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+
+</head>
+<body>
+
+<div class="site">
+
+  <div class="content markdown">
+  <h2>
+  <small><a href="/">Juan Benet</a> /
+  <a href="/note">note</a> /</small>
+  all
+</h2>
+
+
+
+<!-- toc -->
+<ul id="toc" class="posts">
+
+  <li><span>2014-03-11</span> &raquo;
+  <a href="#which-data-icon">which data icon?</a></li>
+
+  <li><span>2014-03-10</span> &raquo;
+  <a href="#cassert-from-libutp">CASSERT from libutp</a></li>
+
+  <li><span>2014-03-09</span> &raquo;
+  <a href="#tikz2svg">tikz2svg</a></li>
+
+  <li><span>2014-03-09</span> &raquo;
+  <a href="#xml-stifles-the-semantic-web">XML Stifles The Semantic Web</a></li>
+
+  <li><span>2014-03-06</span> &raquo;
+  <a href="#add-links-to-headers">Add Links to Headers</a></li>
+
+  <li><span>2014-03-04</span> &raquo;
+  <a href="#static---upload-to-s3-and-copy-link-tool">static - Upload to S3 and copy link tool</a></li>
+
+  <li><span>2014-03-04</span> &raquo;
+  <a href="#design-for-nocturne">Design For Nocturne</a></li>
+
+  <li><span>2014-03-02</span> &raquo;
+  <a href="#open-in-writeroom-from-command-line">Open in WriteRoom from Command Line</a></li>
+
+  <li><span>2014-03-01</span> &raquo;
+  <a href="#mutable-repl">Mutable REPL</a></li>
+
+</ul>
+
+<!-- posts -->
+
+<hr />
+<h2 id="which-data-icon">
+  <a href="/note/2014-03-11/which-data-icon">which data icon?</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-03-11</p>
+
+<div class="post">
+<p>Picking between data icons... which one do you like?</p>
+
+<h2 id="flap-bright">Flap Bright</h2>
+
+<p><img src="http://jbenet.static.s3.amazonaws.com/51cd6a8/data-flap.png" alt=""></p>
+
+<h2 id="side-bright">Side Bright</h2>
+
+<p><img src="http://jbenet.static.s3.amazonaws.com/43d65d3/data-side.png" alt=""></p>
+
+<h2 id="flap-dark">Flap Dark</h2>
+
+<p><img src="http://jbenet.static.s3.amazonaws.com/be846bf/data-flap.png" alt=""></p>
+
+<h2 id="side-dark">Side Dark</h2>
+
+<p><img src="http://jbenet.static.s3.amazonaws.com/80adc4c/data-side.png" alt=""></p>
+
+</div>
+
+<hr />
+<h2 id="cassert-from-libutp">
+  <a href="/note/2014-03-10/cassert-from-libutp">CASSERT from libutp</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-03-10</p>
+
+<div class="post">
+<p><a href="https://github.com/bittorrent/libutp/blob/master/utp_types.h#L101-L107">CASSERT</a> from <a href="https://github.com/bittorrent/libutp">libutp</a>. Clever.</p>
+<div class="highlight"><pre><code class="language-cpp" data-lang="cpp"><span class="cm">/* compile-time assert */</span>
+<span class="cp">#ifndef CASSERT
+#define CASSERT( exp, name ) typedef int is_not_##name [ (exp ) ? 1 : -1 ];
+#endif
+</span>
+<span class="n">CASSERT</span><span class="p">(</span><span class="mi">8</span> <span class="o">==</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">uint64</span><span class="p">),</span> <span class="n">sizeof_uint64_is_8</span><span class="p">)</span>
+<span class="n">CASSERT</span><span class="p">(</span><span class="mi">8</span> <span class="o">==</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">int64</span><span class="p">),</span> <span class="n">sizeof_int64_is_8</span><span class="p">)</span>
+</code></pre></div>
+</div>
+
+<hr />
+<h2 id="tikz2svg">
+  <a href="/note/2014-03-09/tikz2svg">tikz2svg</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-03-09</p>
+
+<div class="post">
+<p>I wrote a TikZ to SVG converter. It uses <code>pdflatex</code> and <code>pdf2svg</code>. It unfortunately litters the <code>pdflatex</code> output (into <code>/tmp/&lt;sha1 of input&gt;/</code>). I leave it in case you need to debug. And because this was a quick hack. As such, the code is not very good. But it works well! If you have questions, <a href="https://gist.github.com/jbenet/9449155">post in the gist</a> and send me an email (gist does not notify). Cheers!</p>
+
+<h2 id="usage">Usage</h2>
+<div class="highlight"><pre><code class="language-" data-lang=""># input files
+&gt; tikz2svg in.tikz &gt; out.svg
+
+# input stdin
+&gt; tikz2svg &lt; in.tikz &gt; out.svg
+</code></pre></div>
+<p><code>&gt; cat in.tikz</code></p>
+<div class="highlight"><pre><code class="language-latex" data-lang="latex"><span class="nt">\begin{tikzpicture}</span>
+  <span class="k">\fill</span><span class="na">[red!90!black]</span>   ( 90:.6) circle (1);
+  <span class="k">\fill</span><span class="na">[green!80!black]</span> (210:.6) circle (1);
+  <span class="k">\fill</span><span class="na">[blue!90!black]</span> (330:.6) circle (1);
+<span class="nt">\end{tikzpicture}</span>
+</code></pre></div>
+<p><code>&gt; cat out.svg</code></p>
+<div class="highlight"><pre><code class="language-svg" data-lang="svg">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93.472pt" height="86.205pt" viewBox="0 0 93.472 86.205" version="1.1"&gt;
+&lt;g id="surface1"&gt;
+&lt;path style=" stroke:none;fill-rule:nonzero;fill:rgb(89.99939%,0%,0%);fill-opacity:1;" d="M 76.742188 30.347656 C 76.742188 14.691406 64.050781 2 48.394531 2 C 32.742188 2 20.050781 14.691406 20.050781 30.347656 C 20.050781 46.003906 32.742188 58.695312 48.394531 58.695312 C 64.050781 58.695312 76.742188 46.003906 76.742188 30.347656 Z "/&gt;
+&lt;path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,79.998779%,0%);fill-opacity:1;" d="M 62.011719 55.859375 C 62.011719 40.203125 49.324219 27.511719 33.667969 27.511719 C 18.011719 27.511719 5.320312 40.203125 5.320312 55.859375 C 5.320312 71.515625 18.011719 84.207031 33.667969 84.207031 C 49.324219 84.207031 62.011719 71.515625 62.011719 55.859375 Z "/&gt;
+&lt;path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,89.99939%);fill-opacity:1;" d="M 91.472656 55.859375 C 91.472656 40.203125 78.78125 27.511719 63.125 27.511719 C 47.46875 27.511719 34.777344 40.203125 34.777344 55.859375 C 34.777344 71.515625 47.46875 84.207031 63.125 84.207031 C 78.78125 84.207031 91.472656 71.515625 91.472656 55.859375 Z "/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</code></pre></div>
+<p><code>&gt; echo out.svg</code></p>
+
+<p><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93.472pt" height="86.205pt" viewBox="0 0 93.472 86.205" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(89.99939%,0%,0%);fill-opacity:1;" d="M 76.742188 30.347656 C 76.742188 14.691406 64.050781 2 48.394531 2 C 32.742188 2 20.050781 14.691406 20.050781 30.347656 C 20.050781 46.003906 32.742188 58.695312 48.394531 58.695312 C 64.050781 58.695312 76.742188 46.003906 76.742188 30.347656 Z "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,79.998779%,0%);fill-opacity:1;" d="M 62.011719 55.859375 C 62.011719 40.203125 49.324219 27.511719 33.667969 27.511719 C 18.011719 27.511719 5.320312 40.203125 5.320312 55.859375 C 5.320312 71.515625 18.011719 84.207031 33.667969 84.207031 C 49.324219 84.207031 62.011719 71.515625 62.011719 55.859375 Z "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,89.99939%);fill-opacity:1;" d="M 91.472656 55.859375 C 91.472656 40.203125 78.78125 27.511719 63.125 27.511719 C 47.46875 27.511719 34.777344 40.203125 34.777344 55.859375 C 34.777344 71.515625 47.46875 84.207031 63.125 84.207031 C 78.78125 84.207031 91.472656 71.515625 91.472656 55.859375 Z "/>
+</g>
+</svg></p>
+
+<h2 id="install">Install</h2>
+
+<ul>
+<li>Install <code>pdflatex</code> (comes with your TeX distribution).</li>
+<li>Install <code>pdf2svg</code> (<code>brew install pdf2svg</code>).</li>
+<li>Install <code>standalone</code> style (<a href="http://en.wikibooks.org/wiki/LaTeX/Installing_Extra_Packages">with your TeX package manager</a>).</li>
+<li>Put the script below in your <code>$PATH</code>.</li>
+</ul>
+<div class="highlight"><pre><code class="language-" data-lang="">curl https://gist.github.com/jbenet/9449155/raw/tikz2svg &gt; tikz2svg
+chmod +x tikz2svg
+sudo mv tikz2svg /usr/bin/tikz2svg
+</code></pre></div>
+<script src="https://gist.github.com/jbenet/9449155.js"></script>
+
+</div>
+
+<hr />
+<h2 id="xml-stifles-the-semantic-web">
+  <a href="/note/2014-03-09/xml-stifles-the-semantic-web">XML Stifles The Semantic Web</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-03-09</p>
+
+<div class="post">
+<p>I&#39;m coming to think that Semantic Web adoption has been significantly stifled by XML being the main (transport) format. I mean, look at this</p>
+<div class="highlight"><pre><code class="language-xml" data-lang="xml"><span class="cp">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span>
+<span class="nt">&lt;rdf:RDF</span> <span class="na">xmlns:rdf=</span><span class="s">"http://www.w3.org/1999/02/22-rdf-syntax-ns#"</span>
+         <span class="na">xmlns:dc=</span><span class="s">"http://purl.org/dc/elements/1.1/"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;rdf:Description</span> <span class="na">rdf:about=</span><span class="s">"http://www.w3.org/TR/rdf-syntax-grammar"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;dc:title&gt;</span>RDF/XML Syntax Specification (Revised)<span class="nt">&lt;/dc:title&gt;</span>
+  <span class="nt">&lt;/rdf:Description&gt;</span>
+
+  <span class="nt">&lt;rdf:Description</span> <span class="na">rdf:about=</span><span class="s">"http://example.org/buecher/baum"</span> <span class="na">xml:lang=</span><span class="s">"de"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;dc:title&gt;</span>Der Baum<span class="nt">&lt;/dc:title&gt;</span>
+    <span class="nt">&lt;dc:description&gt;</span>Das Buch ist außergewöhnlich<span class="nt">&lt;/dc:description&gt;</span>
+  <span class="nt">&lt;/rdf:Description&gt;</span>
+<span class="nt">&lt;/rdf:RDF&gt;</span>
+</code></pre></div>
+<p>versus this</p>
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">{</span><span class="w">
+  </span><span class="nt">"@context"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"dc"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://purl.org/dc/elements/1.1/"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nt">"@graph"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.w3.org/TR/rdf-syntax-grammar"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"dc:title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"RDF/XML Syntax Specification (Revised)"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"@id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://example.org/buecher/baum"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"@language"</span><span class="p">:</span><span class="w"> </span><span class="s2">"de"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"dc:description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Das Buch ist au\u00dfergew\u00f6hnlich"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"dc:title"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Der Baum"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<p>One of these makes my eyes bleed, and parsers weep. Perhaps, now that <a href="http://json-ld.org">json-ld</a> exists and websites are using JSON ubiquitously, we can start linking data robustly. We shall see!</p>
+
+</div>
+
+<hr />
+<h2 id="add-links-to-headers">
+  <a href="/note/2014-03-06/add-links-to-headers">Add Links to Headers</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-03-06</p>
+
+<div class="post">
+<p><a href="https://github.com/jbenet/jbenet.github.com/commits/source/_posts/2014-03-05-add-links-to-headers.md">Version history</a>.</p>
+
+<p>I&#39;ve always likes how <a href="http://github.com">github</a> adds on-hover links to headers on their rendered markdown:</p>
+
+<hr>
+
+<p><img src="http://note.io/1mXzAgn" alt="gh-makrdown-links"></p>
+
+<hr>
+
+<p>I couldn&#39;t find markdown renderers that included it. So, I wrote my post-processing js to make them. With any luck, this website should still show it in action. Below&#39;s the code.</p>
+
+<h2 id="here-39-s-the-js-assumes-and-_-are-defined">Here&#39;s the <code>js</code> (assumes <a href="http://jquery.com/"><code>$</code></a> and <a href="http://underscorejs.org"><code>_</code></a> are defined):</h2>
+<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+
+  <span class="c1">// Modify this template to add or change links.</span>
+  <span class="kd">var</span> <span class="nx">links</span> <span class="o">=</span> <span class="nx">_</span><span class="p">.</span><span class="nx">template</span><span class="p">(</span><span class="s1">'\
+    &lt;div class="header-links"&gt;\
+      &lt;a href="#&lt;%= id %&gt;"&gt;&lt;i class="icon icon-link"&gt;&lt;/i&gt;&lt;/a&gt;\
+    &lt;/div&gt;\
+  '</span><span class="p">);</span>
+
+  <span class="c1">// If your headers dont already have ids, use this slug fn</span>
+  <span class="kd">var</span> <span class="nx">slugize</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">title</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">title</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">()</span>
+      <span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/</span><span class="se">[^\w</span><span class="sr"> ()</span><span class="se">]</span><span class="sr">+/g</span><span class="p">,</span><span class="s1">''</span><span class="p">)</span>
+      <span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/ +/g</span><span class="p">,</span><span class="s1">'-'</span><span class="p">);</span>
+  <span class="p">}</span>
+
+  <span class="c1">// Modify the ':header' selector to apply to other elems</span>
+  <span class="nx">$</span><span class="p">(</span><span class="s1">':header'</span><span class="p">).</span><span class="nx">each</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span> <span class="nx">h</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="c1">// Add an id, if it doesn't have one.</span>
+    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">$</span><span class="p">(</span><span class="nx">h</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">'id'</span><span class="p">))</span> <span class="p">{</span>
+      <span class="kd">var</span> <span class="nx">id</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="nx">h</span><span class="p">).</span><span class="nx">text</span><span class="p">().</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/</span><span class="se">[^</span><span class="sr">A-Za-z0-9_</span><span class="se">]</span><span class="sr">+/g</span><span class="p">,</span> <span class="s1">'-'</span><span class="p">)</span>
+      <span class="nx">id</span> <span class="o">=</span> <span class="nx">id</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/^-+|-+$/g</span><span class="p">,</span> <span class="s1">''</span><span class="p">)</span>
+      <span class="nx">$</span><span class="p">(</span><span class="nx">h</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">'id'</span><span class="p">,</span> <span class="nx">slugize</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="nx">h</span><span class="p">).</span><span class="nx">text</span><span class="p">()));</span>
+    <span class="p">}</span>
+
+    <span class="c1">// Add the link div</span>
+    <span class="nx">$</span><span class="p">(</span><span class="nx">h</span><span class="p">).</span><span class="nx">append</span><span class="p">(</span><span class="nx">$</span><span class="p">(</span><span class="nx">links</span><span class="p">({</span>
+      <span class="na">id</span><span class="p">:</span> <span class="nx">$</span><span class="p">(</span><span class="nx">h</span><span class="p">).</span><span class="nx">attr</span><span class="p">(</span><span class="s1">'id'</span><span class="p">)</span>
+    <span class="p">})));</span>
+  <span class="p">});</span>
+<span class="p">});</span>
+</code></pre></div>
+<h2 id="here-39-s-the-less-assumes-fontawesome-icons-css">Here&#39;s the <code>less</code> (assumes FontAwesome icons <code>css</code>):</h2>
+<div class="highlight"><pre><code class="language-less" data-lang="less">h1, h2, h3, h4, h5, h6 {
+  &amp;:hover .header-links a {
+    text-decoration: none;
+    opacity: 0.4;
+    color: gray;
+  }
+
+  .header-links {
+    float: left;
+    text-align: right;
+    margin-left: -40px;
+    padding-right: 10px;
+    width: 40px;
+
+    a {
+      text-decoration: none;
+      opacity: 0.0; // show on hover
+      color: gray;
+    }
+
+    a:hover, a:active, a:focus {
+      text-decoration: none;
+      opacity: 0.6;
+      color: #428bca;
+    }
+  }
+}
+</code></pre></div>
+<h2 id="and-it-looks-like-this">And it looks like this:</h2>
+
+<hr>
+
+<p><img src="http://note.io/1mXBOMJ" alt="my-markdown-links"></p>
+
+</div>
+
+<hr />
+<h2 id="static---upload-to-s3-and-copy-link-tool">
+  <a href="/note/2014-03-04/static-upload-to-s3-and-copy-link-tool">static - Upload to S3 and copy link tool</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-03-04</p>
+
+<div class="post">
+<p>I use a script to upload files to an S3 bucket and copy the link to the clipboard. Basically:</p>
+<div class="highlight"><pre><code class="language-" data-lang="">static &lt;file&gt; [&lt;s3path&gt;]
+</code></pre></div>
+<h2 id="example">Example:</h2>
+<div class="highlight"><pre><code class="language-" data-lang="">jbenet @ lorien : /tmp % static 24898.png nocturne.png
+&gt; cat 24898.png | pyhash sha1
+&gt; echo "http://jbenet.static.s3.amazonaws.com/d7b220c/nocturne.png" | pbcopy
+&gt; aws s3 cp --profile juanbenet "24898.png" "s3://jbenet.static/d7b220c/nocturne.png"
+&gt; afplay /System/Library/Sounds/Ping.aiff
+
+http://jbenet.static.s3.amazonaws.com/d7b220c/nocturne.png
+</code></pre></div>
+<h2 id="how-it-works">How it works:</h2>
+
+<ol>
+<li>hash (sha1) the file for the url</li>
+<li><code>http://&lt;bucket&gt;.s3.amazonaws.com/&lt;sha1&gt;/&lt;s3path or basename(&lt;file&gt;)&gt;</code></li>
+<li>copy the url to clipboard; done before upload, so you can paste right away</li>
+<li>upload the file to the s3 bucket</li>
+<li>play a sound to announce completion</li>
+</ol>
+
+<h2 id="install">Install:</h2>
+<div class="highlight"><pre><code class="language-" data-lang=""># install pyhash
+curl https://gist.github.com/jbenet/6502583/raw/pyhash.py -o pyhash
+chmod +x pyhash
+sudo mv pyhash /usr/bin/pyhash
+
+# install static
+curl https://gist.github.com/jbenet/4b2e282eba5a1bf291b7/raw/static &gt; static
+chmod +x static
+sudo mv static /usr/bin/static
+</code></pre></div>
+<script src="https://gist.github.com/jbenet/4b2e282eba5a1bf291b7.js"></script>
+
+</div>
+
+<hr />
+<h2 id="design-for-nocturne">
+  <a href="/note/2014-03-04/design-for-nocturne">Design For Nocturne</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-03-04</p>
+
+<div class="post">
+<p>People ask me why my websites are &quot;so light&quot;
+(<a href="http://engine1.athena.ai">athena</a>, <a href="http://acorn.athena.ai">acorn</a>,
+<a href="http://juan.benet.ai">juan.benet.ai</a>, <a href="http://datadex.io">datadex.io</a>)
+when my computer is usually dark, from a shell or text editor. Well...</p>
+
+<p>First, <a href="http://github.com">white</a>
+<a href="http://amazon.com">websites</a>
+<a href="http://pinterest.com">seem</a>
+<a href="http://wikipedia.org">to</a>
+<a href="http://youtube.com">work</a>
+<a href="http://linkedin.com">better</a>
+<a href="http://flickr.com">in</a>
+<a href="http://facebook.com">the</a>
+<a href="http://google.com">mainstream</a>
+(<a href="http://myspace.com">sorry</a>,
+<a href="http://rapgenius.com">guys</a>).</p>
+
+<p>And second, I don&#39;t. I actually design my websites to be black for me.
+I use <a href="https://code.google.com/p/blacktree-nocturne/">Nocturne</a>,
+which inverts the colors + hues of my display.</p>
+
+<p>So when you see:</p>
+
+<p><img src="http://note.io/1kuqNRg" alt="you"></p>
+
+<p>I see:</p>
+
+<p><img src="http://jbenet.static.s3.amazonaws.com/5adf53ab696ba30fe58496fd2cafbe8c4cc78e31/nocturne-home.png" alt="me"></p>
+
+<p>This works out great: I get black &quot;easy on the eyes&quot; websites that the
+rest of the world will like.</p>
+
+<p><a href="https://code.google.com/p/blacktree-nocturne/"><img src="http://jbenet.static.s3.amazonaws.com/d7b220ca45615e8454b7f5c9cc8d98bb667da392/nocturne.png" alt="Nocturne"></a></p>
+
+<p>Nocturne is great. Try it out. I recommend toggling it with a hotkey
+(or with Alfred/Spotlight: <code>Alt+Space -&gt; n -&gt; enter</code>). Though be warned: it&#39;s
+<a href="https://www.bountysource.com/issues/1430592-hue-inversion-does-not-work-on-mac-os-x-10-9-mavericks">broken in Mavericks</a>,
+and it makes pictures of people look absolutely terrifying.</p>
+
+</div>
+
+<hr />
+<h2 id="open-in-writeroom-from-command-line">
+  <a href="/note/2014-03-02/open-in-writeroom">Open in WriteRoom from Command Line</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-03-02</p>
+
+<div class="post">
+<p>I like using <a href="http://www.hogbaysoftware.com/products/writeroom">WriteRoom</a>. I wanted <code>$ wr &lt;file&gt;</code> to open <code>&lt;file&gt;</code> in WriteRoom, and <em>Enter Full Screen Single</em>. So I wrote it. Just put the script below in your <code>$PATH</code>, say <code>/usr/bin/wr</code>:</p>
+<div class="highlight"><pre><code class="language-" data-lang="">curl https://gist.githubusercontent.com/jbenet/9271733/raw/wr &gt; wr
+chmod +x wr
+sudo mv wr /usr/bin/wr
+</code></pre></div>
+<script src="https://gist.github.com/jbenet/9271733.js"></script>
+
+</div>
+
+<hr />
+<h2 id="mutable-repl">
+  <a href="/note/2014-03-01/side-by-side-repl">Mutable REPL</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-03-01</p>
+
+<div class="post">
+<p>Would be great to have a REPL with mutable definitions in another pane. The definitions pane lists all state, in the form:</p>
+<div class="highlight"><pre><code class="language-" data-lang="">&lt;expr num&gt;  &lt;name&gt; = &lt;original evaled expression&gt;
+</code></pre></div>
+<p>And it reassigns variables as the expressions are edited, on every keystroke (if it evaluates. if not, display eval error in a gutter below).</p>
+
+<p>I hope LightTable already does this. And, I wish a REPL-UI lib existed to simplify this and other common aspects of writing REPLs. And <code>repl &lt;lang&gt;</code> should also exist.</p>
+
+</div>
+
+
+  </div>
+
+
+ <!-- Footer -->
+  <footer>
+    <div id="site-map">
+      <h5>juan.benet.ai</h5>
+      <ul class="links no-bullet">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </div>
+    <div id="contact-me">
+      <h5>Contact</h5>
+      <ul class="links no-bullet">
+        <li><a href="https://twitter.com/intent/user?screen_name=juanbenet" target="_blank"><i class="icon-twitter"></i> @juanbenet</a></li>
+        <li><a href="https://github.com/jbenet" id="new-issue" target="_blank"><i class="icon-github"></i> github.com/jbenet</a></li>
+        <li>
+        <a href="http://www.google.com/recaptcha/mailhide/d?k=01LaO8uNTV8Ss8kghGlxHXCw==&amp;c=eEwF2u87Cdkgipi5COLbnA=="
+        onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501LaO8uNTV8Ss8kghGlxHXCw\75\75\46c\75eEwF2u87Cdkgipi5COLbnA\75\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+        title="Reveal this e-mail address"><i class="icon-envelope"></i>
+        click-to-reveal@benet.ai</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+</div>
+
+<!-- cdnlibs -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css"></script>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48626381-1', 'benet.ai');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Modify this template to add or change links.
+  var links = _.template('\
+    <div class="header-links">\
+      <a href="#<%= id %>"><i class="icon icon-link"></i></a>\
+    </div>\
+  ');
+
+  // If your headers dont already have ids, use this slug fn
+  var slugize = function(title) {
+    return title.toLowerCase()
+      .replace(/[^\w ()]+/g,'')
+      .replace(/ +/g,'-');
+  }
+
+  // Modify the ':header' selector to apply to other elems
+  $(':header').each(function(i, h) {
+
+    // Add an id, if it doesn't have one.
+    if (!$(h).attr('id')) {
+      var id = $(h).text().replace(/[^A-Za-z0-9_]+/g, '-')
+      id = id.replace(/^-+|-+$/g, '')
+      $(h).attr('id', slugize($(h).text()));
+    }
+
+    // Add the link div
+    $(h).append($(links({
+      id: $(h).attr('id')
+    })));
+  });
+});
+</script>
+
+</body>
+</html>

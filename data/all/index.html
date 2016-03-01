@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>data - juan.benet.ai</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- CSS -->
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link href="/css/main.css" media="all" rel="stylesheet" type="text/css" />
+
+  <!-- jQuery for inlined $ -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+
+</head>
+<body>
+
+<div class="site">
+
+  <div class="content markdown">
+  <h2>
+  <small><a href="/">Juan Benet</a> /
+  <a href="/data">data</a> /</small>
+  all
+</h2>
+
+
+
+<!-- toc -->
+<ul id="toc" class="posts">
+
+  <li><span>2014-03-11</span> &raquo;
+  <a href="#data-discussion-scienceexchange">Data Discussion @ScienceExchange</a></li>
+
+  <li><span>2014-03-11</span> &raquo;
+  <a href="#related-work">Related Work</a></li>
+
+  <li><span>2014-03-07</span> &raquo;
+  <a href="#format-conversion">Format Conversion</a></li>
+
+  <li><span>2014-03-04</span> &raquo;
+  <a href="#the-case-for-data-package-managers">The Case for Data Package Managers</a></li>
+
+  <li><span>2014-02-21</span> &raquo;
+  <a href="#data-management-problems">Data Management Problems</a></li>
+
+  <li><span>2014-02-21</span> &raquo;
+  <a href="#data-management-vocabulary">Data Management Vocabulary</a></li>
+
+  <li><span>2014-02-21</span> &raquo;
+  <a href="#lets-solve-data-management">Let's Solve Data Management</a></li>
+
+</ul>
+
+<!-- posts -->
+
+<hr />
+<h2 id="data-discussion-scienceexchange">
+  <a href="/data/2014-03-11/discussion-scienceexchange">Data Discussion @ScienceExchange</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-03-11</p>
+
+<div class="post">
+<p>The awesome folks over at <a href="http://scienceexchange.com">ScienceExchange</a> had me over to talk about data management in science, and the tools I&#39;m working on. Slides below.</p>
+
+<script async class="speakerdeck-embed" data-id="1617fcc08c760131a1e9669157168c6d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+<p>Note: <a href="https://github.com/jbenet/data">data</a>, <a href="https://github.com/jbenet/datadex">datadex</a>, and <a href="http://datadex.io">datadex.io</a> are live and work; though, I haven&#39;t written them up and are still early in development</p>
+
+<p>The seemingly unclickable links in the deck are, in order of appearance:</p>
+
+<ul>
+<li><a href="http://juan.benet.ai/data/2014-02-21/lets-solve-data-management">http://juan.benet.ai/data/2014-02-21/lets-solve-data-management</a></li>
+<li><a href="http://juan.benet.ai/data/2014-02-21/data-management-problems">http://juan.benet.ai/data/2014-02-21/data-management-problems</a></li>
+<li><a href="http://juan.benet.ai/data/2014-03-04/the-case-for-data-package-managers">http://juan.benet.ai/data/2014-03-04/the-case-for-data-package-managers</a></li>
+<li><a href="https://github.com/jbenet/data">https://github.com/jbenet/data</a></li>
+<li><a href="https://github.com/jbenet/datadex">https://github.com/jbenet/datadex</a></li>
+<li><a href="http://datadex.io">http://datadex.io</a></li>
+<li><a href="http://juan.benet.ai/data">http://juan.benet.ai/data</a></li>
+<li><a href="http://okfn.org/opendata">http://okfn.org/opendata</a></li>
+<li><a href="http://dat-data.com">http://dat-data.com</a></li>
+<li><a href="http://academictorrents.com">http://academictorrents.com</a></li>
+<li><a href="http://juan.benet.ai/data/2014-03-11/related-work">http://juan.benet.ai/data/2014-03-11/related-work</a></li>
+</ul>
+
+</div>
+
+<hr />
+<h2 id="related-work">
+  <a href="/data/2014-03-11/related-work">Related Work</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-03-11</p>
+
+<div class="post">
+<h3 class="box-highlight">
+Warning: This is a Living Document.
+</h3>
+
+<p>It is important to catalog related work. I will expand on these tools and efforts over time. This list is in its infancy. Please contact me if I should be aware of something else.</p>
+
+<h2 id="academictorrents-com"><a href="http://academictorrents.com">AcademicTorrents.com</a></h2>
+
+<ul>
+<li>BitTorrent Tracker for scientific datasets</li>
+<li>like BioTorrents</li>
+</ul>
+
+<h2 id="dat-version-control-for-data"><a href="http://dat-data.com">dat</a> Version Control for Data</h2>
+
+<ul>
+<li>Awesome version control system for tabular datasets.</li>
+<li>Git inspired, but lots of optimizations for tab-data.</li>
+<li><a href="https://github.com/maxogden/dat">https://github.com/maxogden/dat</a></li>
+</ul>
+
+<h2 id="datahub-ckan-public-index"><a href="http://datahub.io">datahub</a> CKAN public index</h2>
+
+<ul>
+<li>closest thing to a package manager</li>
+<li>website with lots of features</li>
+</ul>
+
+<h2 id="okfn-open-data"><a href="http://okfn.org">OKFN</a> <a href="http://okfn.org/opendata/">Open Data</a></h2>
+
+<ul>
+<li>OKFN <em>gets it</em>.</li>
+<li>Lots of hard work in standards + evangelizing + tools.</li>
+<li>behind datahub.</li>
+</ul>
+
+<h3 id="and-many-more">and many more...</h3>
+
+<p>Please <a href="#contact-me">contact me</a> to add to this list.</p>
+
+</div>
+
+<hr />
+<h2 id="format-conversion">
+  <a href="/data/2014-03-07/format-conversion">Format Conversion</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-03-07</p>
+
+<div class="post">
+<div class="alert alert-danger">
+  <h1>Warning: Work In Progress</h1>
+</div>
+
+<p>File conversion is cumbersome and more complex than it needs to be. There is no good reason why we need thousands of different programs that convert from one format to another. I claim it is possible to create a program which <strong>converts to and from <em>all</em> formats without sacrificing performance or flexibility</strong>.<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup></p>
+
+<h2 id="semantics">Semantics</h2>
+
+<p>Before describing such a program, it is important to define our semantic framework. It strikes me that people use the words <code>encoding</code>, <code>format</code>, and <code>schema</code> too loosely. This is perhaps because the words and their semantic boundaries are not precisely defined. Here are ours:</p>
+
+<ul>
+<li><p><a href="%7B%7B%20page.vocab%20%7D%7D#schema">schema</a>: the structure, or specification of how information represents meaning.</p></li>
+<li><p><a href="%7B%7B%20page.vocab%20%7D%7D#format">format</a>: &quot;the way in which something is arranged&quot;; a specification for how to <code>encode</code> and <code>decode</code> a message.</p></li>
+<li><p><a href="%7B%7B%20page.vocab%20%7D%7D#encoding">encoding</a>: the process of converting <em>information</em> into <em>encoded information</em>, according to a <code>format</code>. The inverse of <code>decoding</code>.</p></li>
+</ul>
+
+<p>In general, we can say that data is structured according to a <code>schema</code>, and <code>encoded</code> into a <a href="%7B%7B%20page.vocab%20%7D%7D#schema-format-compatibility"><code>format</code> compatible with the <code>schema</code></a>.</p>
+
+<h2 id="problem">Problem</h2>
+
+<p>Using these definitions, then, the program should convert any <a href="%7B%7B%20page.vocab%20%7D%7D#format-compatibility">compatible format</a> into another.</p>
+
+<p>Conversion tools between two general formats are not complicated to build. The hard part about building a conversion tool for <em>all</em> formats is that most formats are not general. They are <a href="%7B%7B%20page.vocab%20%7D%7D#schema-laden"><em>schema-laden</em></a>, and are thus not perfectly compatible. Parsing and generating byte sequences is tedious and error-prone, but not hard. The real problem, I claim, is <em>converting between schemas</em>.</p>
+
+<h2 id="the-graph-of-formats">The Graph of Formats</h2>
+
+<p>Today, most format conversions happen via format-pair-specific tools. Examples: &quot;json to xml&quot;, &quot;png to jpg&quot;, &quot;xsl to csv&quot;. Actually, these examples are not quite right, because most &quot;format conversions&quot; are not between <a href="%7B%7B%20page.vocab%20%7D%7D#universal-format">universal  formats</a>, but rather between <a href="%7B%7B%20page.vocab%7D%7D#schema-laden%7D"><em>schema-laden</em> formats</a>. This means tools that convert from &quot;this custom format expressing geometries&quot; to &quot;GeoJSON&quot;, or between csvs with different column sets, or value ranges. For example:</p>
+<div class="highlight"><pre><code class="language-csv" data-lang="csv">% cat area-codes.csv
+CITY,STATE,AREACODE
+SAN DIEGO,CA,619
+SAN FRANCISCO,CA,415
+SAN JOSE,CA,408
+
+% ./us-city-codes.py area-codes.csv
+City,Dial Code
+San Diego,+1-619
+San Francisco,+1-415
+San Jose,+1-408
+</code></pre></div>
+<p>This transformation is trivial: (a) the <code>STATE</code> column was dropped, (b) the casing changed, (c) the <code>AREACODE</code> column shifted to <code>Dial Code</code>, which includes a <code>+1-</code> for international calling. And yet, a custom program had to be written to parse the source file and generate the target file. Chances are every time this had to be done, someone had to write a program to create that conversion. Consider more complex format conversions, with files with dozens of columns or deeply nested JSON or XML trees, with numerous transformations here and there. So much valuable time is wasted creating these conversion programs. More is wasted by end users -- particularly non-programmers -- struggling to wrangle data to make it &quot;look right&quot;. This is silly.</p>
+
+<p>Consider a graph of formats where directed edges represent conversion programs. Every time one format needs to be converted into another, a program is written and an edge is added. Sometimes people publish those programs and they can be found on the internet. And if we&#39;re lucky, it&#39;s possible a conversion through an intermediate format exists. This is a pretty brittle system though. Often, programs do not exist, only work one-way, are out of date, or are written again and again but never published anywhere.</p>
+
+<!-- format graph -->
+
+<h2 id="hub-with-universal-data-representation">Hub with Universal Data Representation</h2>
+
+<p>Instead of using a graph with converter edges between formats, consider a hub graph, where the center node is a &quot;master&quot; format that can then be translated to any other format. While it is ambitious to build <em>one</em> format to convert between all other formats losslessly, the benefits are significant. Rather than building <code>&lt;num formats&gt;^2</code><sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup> tools to convert to-and-from, we would only need to build <code>&lt;num formats&gt;</code>.</p>
+
+<p>(Figure of hub here)</p>
+
+<p>\begin{scope}[mindmap, concept color=orange, text=white]
+  \node [concept] {Informatique}[clockwise from=-5]
+    child {node <a href="log">concept</a> {M{\&#39;e}thodes cat{\&#39;e}goriques}}
+    child {node <a href="alg">concept</a> {Algorithmique}}
+    child {node <a href="cod">concept</a> {Compression &amp; transmission}}
+    child {node <a href="img">concept</a> {Tra{^i}tement des images}}
+    child {node <a href="opt">concept</a> {Optimisation}}
+    child {node <a href="res">concept</a> {R{\&#39;e}seaux}};
+\end{scope}</p>
+
+<h3 id="hub-is-well-established">Hub is Well Established</h3>
+
+<p>This is not new. Compilers have worked with a similar model. Compilers like <a href="http://llvm.org">LLVM</a> take high-level languages, parse them into an Internal Representation (IR), and then emit machine code for the relevant platform. This <em>three-phase design</em> is a great way to address the multiplicity of target architectures and source languages.<sup id="fnref3"><a href="#fn3" rel="footnote">3</a></sup> Rather than building <code>&lt;langs&gt; * &lt;archs&gt;</code> compilers, build one compiler with <code>&lt;langs&gt; + &lt;archs&gt;</code> modules.</p>
+
+<p><img src="http://jbenet.static.s3.amazonaws.com/f44a8a0/llvm-three-phase-design.png" alt="llvm-three-phases"></p>
+
+<!-- Figure from [the AOSA book](http://www.aosabook.org/en/llvm.html). -->
+
+<p>This is not even new to conversion. Conversion tools our there already employ this design. Notably, <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a> converts text documents between a range of markup languages. Though the Pandoc homepage displays a <a href="http://johnmacfarlane.net/pandoc/diagram.png">graph with <code>Source * Target</code> edges</a>, it perhaps should display a hub graph; its design uses parsers, an internal representation, and emitters:</p>
+
+<blockquote>
+<p>Pandoc has a modular design: it consists of a set of readers, which parse text in a given format and produce a native representation of the document, and a set of writers, which convert this native representation into a target format. Thus, adding an input or output format requires only adding a reader or writer.
+<small class="align-right">Pandoc Documentation</small></p>
+</blockquote>
+
+<p>These widely used and well-established software systems use the hub model successfully.</p>
+
+<h3 id="hub-design">Hub Design</h3>
+
+<p>To concretely specify the design, the Hub Design calls for:</p>
+
+<ol>
+<li>a Universal Data Representation capable of handling <em>any</em> data format (ambitious).</li>
+<li>a module per format, which converts to and from the UDR.</li>
+<li>a tool that loads and runs format modules, to facilitate conversion.</li>
+</ol>
+
+<p>Building such a Universal Data Representation (UDR) is hard; we need a format that can express <em>every other format</em> well and efficiently (in storage and conversion computation). Building the modules themselves -- which do the heavy lifting -- should be an easy and straightforward process. Modules could either ship with the base tool (better for end users, but centralized), or shipped independently (falling back to maintaining an index). Of course, the UDR can be piped in and out of format converters manually, but this would <a href="https://xkcd.com/927/">do little to shift the status quo</a>. The adoption of this tool, and the benefits of this system, depend on:</p>
+
+<ul>
+<li>a modular architecture facilitating the building of format modules.</li>
+<li>a wide set of interfaces to simplify usage (CLI, static lib, language bindings, web API)</li>
+<li>an open-source project and community to build the modules.<sup id="fnref4"><a href="#fn4" rel="footnote">4</a></sup></li>
+</ul>
+
+<p>Though the UDR is a non-trivial question, from a software engineering perspective, I claim this design is much easier to realize than others.</p>
+
+<div class="footnotes">
+<hr>
+<ol>
+
+<li id="fn1">
+<p>At present, I offer a framework to think about the problem. In the future, I hope to offer an existence proof.&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn2">
+<p>Maximum, of course. Many converters would never be built as most format pairs are incompatible.&nbsp;<a href="#fnref2" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn3">
+<p>This compiler design is brilliant for many reasons. It  addresses many challenges elegantly, including applying optimization at the IR level, and even <a href="http://www.chromium.org/nativeclient/pnacl/introduction-to-portable-native-client">distributing IR code as &quot;portable&quot; code</a> that is compiled on-demand at the target machines.&nbsp;<a href="#fnref3" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn4">
+<p>It is important to emphasize these points because they are so often overlooked. Many elegant software projects have failed due to the lack of an interested community, a hostile codebase, or a difficult usage pattern.&nbsp;<a href="#fnref4" rev="footnote">&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+</div>
+
+<hr />
+<h2 id="the-case-for-data-package-managers">
+  <a href="/data/2014-03-04/the-case-for-data-package-managers">The Case for Data Package Managers</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-03-04</p>
+
+<div class="post">
+<p><a href="%7B%%20post_url%202014-02-21-data-management-problems%20%%7D">Numerous problems plague data sharing today</a>. This post proposes Package Management as the foundation to address them. Note: to make sure we&#39;re on the same page semantically, check my <a href="%7B%%20post_url%202014-02-21-data-management-vocabulary%20%%7D">data vocabulary</a>.</p>
+
+<div class="align-center">
+<img src="http://jbenet.static.s3.amazonaws.com/51cd6a8/data-flap.png" />
+</div>
+
+<h2 id="package-managers">Package Managers</h2>
+
+<blockquote>
+<p>In software, a package management system, also called package manager, is a collection of software tools to automate the process of installing, upgrading, configuring, and removing software packages for a computer&#39;s operating system in a consistent manner. It typically maintains a database of software dependencies and version information to prevent software mismatches and missing prerequisites. <small class="align-right">From <a href="http://en.wikipedia.org/wiki/Package_management_system">Package Management System (Wikipedia)</a>.</small></p>
+</blockquote>
+
+<p>Package managers have been hailed among <a href="http://ianmurdock.com/solaris/how-package-management-changed-everything/">the most important innovations</a> Linux brought to the computing industry. They greatly simplified and improved software distribution. By versioning, carefully bookkeeping, and maintaining centralized repositories, the various linux communities built robust and usable systems.</p>
+
+<p>For end users, Package Managers automated software installation (adding, upgrading, and removing programs). Typical installation meant having to manually (1) find and download archives, (2) compile binaries (which often failed), (3) move files to their destination, and -- worst of all -- (4) repeat for all dependencies, and dependencies of dependencies. Package managers automated the process into one command: <code>pkgmgr install package-name</code>. Uninstalling software (reverting  installation, often undocumented) became similarly simple: <code>pkgmgr uninstall package-name</code>. Users no longer had to search the web for the compatible versions of programs, walk trees of dependencies, wrestle with compilers, and hope that everything interoperated just right. Instead, users could rely on common programs being versioned, listed, and properly packaged for their systems.</p>
+
+<p>For software authors, Package Managers automated software distribution (packaging, hosting, and disseminating). Before, programmers would have to create bundles of their source code with (often complicated) installation instructions. Though conventions existed (include a <code>Makefile</code>, <code>README</code>, and <code>LICENSE</code>), installation and its documentation were confusing hurdles that harmed the adoption of programs. Additionally, authors had to find a reliable way to transfer the files to end users, which usually meant having to create and maintain a website. If the website failed, the package (and its dependents) would not be installable. Package managers host all files in a central repository and are mirrored for redundancy, which significantly increases the availability of packages and reduces the authors&#39; time and money costs. While packaging across platforms varies from <a href="http://gist.io/1318304">simple</a> to <a href="http://www.debian.org/doc/manuals/packaging-tutorial/packaging-tutorial.en.pdf">complex</a>, it is standardized and well worth it for software authors.</p>
+
+<h2 id="solving-data-problems">Solving Data Problems</h2>
+
+<p>The activities of both publishers and users of datasets resemble those of authors and users of software packages. Moreover, the problems I presented in <a href="%7B%%20post_url%202014-02-21-data-management-problems%20%%7D"><em>Data Management Problems</em></a> are precisely the kind of problems package managers solved for software. Below I outline how package managers can also solve them for data; though each issue is large and worth addressing at length in the future. The takeaway is this:</p>
+
+<blockquote>
+<p>(1) A Package Manager can solve our Data Management problems.</p>
+</blockquote>
+
+<h3 id="distribution">Distribution</h3>
+
+<p>Package Managers generally use centralized repositories to store and distribute their packages. Individual publishers simply upload their files to the repository, offloading the costs of distribution to the network&#39;s infrastructure. This substantially reduces publishing friction, as individuals no longer need to worry about setting up their own websites, paying for distribution themselves, or sourcing funding. It also <em>reduces overall costs</em>, by pooling network resources.</p>
+
+<h4 id="amortizing-distribution-costs">Amortizing Distribution Costs</h4>
+
+<p>Monetary costs are certainly still an issue, but an organization setup with the explicit goal of managing and distributing large datasets is better equipped to handle them than individual dataset authors. By pooling the resources and efforts of interested individuals (engineers, admins, etc), such an organization can better:</p>
+
+<ol>
+<li>Attract and secure funding, such as grants or <a href="http://en.wikipedia.org/wiki/Crowdfunding">crowdfunding</a>.</li>
+<li>Design and implement complex technical solutions to reduce costs.</li>
+<li>Simplify the publishing process with tools addressing common pain points.</li>
+</ol>
+
+<blockquote>
+<p>(2) A Data Package Manager would amortize distribution costs.</p>
+</blockquote>
+
+<h3 id="indexing">Indexing</h3>
+
+<p>Indexing is the raison d&#39;etre of package managers. They are designed precisely to provide central access points where all packages can be found. By collecting domain-specific meta-data, package managers allow efficient and programmable search for packages. For example, in our dataset case, consider collecting dataset meta-data such as the (a) title, (b) research fields, (c) file formats, (d) abstract, (e) relevant keywords, (f) relevant publications, (g) license, (h) sources, (i) authors, and (j) publication date. A central index of this information would provide powerful and precise search of available datasets. It would also standardize the meta-data requirements, ensure publishers provide it, and allow users to view it.</p>
+
+<blockquote>
+<p>(3) A Data Package Manager would index and search datasets.</p>
+</blockquote>
+
+<h3 id="permanence">Permanence</h3>
+
+<p>As <a href="%7B%%20post_url%202014-02-21-data-management-problems%20%%7D%7D">discussed previously</a>,  once published, datasets must not disappear. All publications -- paper or data -- must be available indefinitely. When do we know something is completely and utterly unnecessary anymore, even to historians of a field? Never. Thus, it is important to store <em>all</em> our data -- as we store papers and code. Package managers in software already do this, as it is never clear when an old package will be required. Our Data Package Manager is no different; all datasets would be retrievable at any point in the future, as long as the package manager itself survives. Additionally, as the amount of valuable data stored by the package manager increases, so do the incentives to maintain it. In a sense, by storing all the important datasets together, we increase the survival chances of the whole repository.<sup id="fnref1"><a href="#fn1" rel="footnote">1</a></sup></p>
+
+<blockquote>
+<p>(4) A Data Package Manager would provide datasets permanently.</p>
+</blockquote>
+
+<h3 id="versioning">Versioning</h3>
+
+<p>The need for versioning data is clear. Datasets change over time, often after being shared with others or published broadly. It is critical to track and provide access to these changes, or at least to the different published versions. Regardless of correctness or currency, <em>all</em> versions must be kept available; future work will often seek to understand or compare previous work done with previous dataset versions. To stress the point, <strong>for the sake of the scientific enterprise and data work in general, we must track and distribute all versions of datasets</strong>.</p>
+
+<blockquote>
+<p>(5) A Data Package Manager would provide all versions of datasets.</p>
+</blockquote>
+
+<h4 id="version-control-systems-for-data">Version Control Systems for Data</h4>
+
+<p>But how exactly to version data is a complex question. To date, there is no single Version Control System capable of handling datasets as well as <a href="http://git-scm.com/" title="Git">git</a> handles source code. Unlike code, which is plain text, datasets come in a tremendous variety of formats. Version efforts that assume datasets will follow certain properties (e.g. small size, plaintext format) are bound to be limited in scope. Perhaps this is acceptable, as format-specific VCSes can provide great domain-specific functionality. Or perhaps one VCS could be built to easily accomodate domain-specific extensions.<sup id="fnref2"><a href="#fn2" rel="footnote">2</a></sup> This will be the subject of a future post. For now, let us separate concerns as three different but related needs:</p>
+
+<ol>
+<li>Domain-specific data versioning techniques and tools.</li>
+<li>Version Control Systems that leverage (1.) and track all separate versions.</li>
+<li>Indexing services that (a) understand (2.) and provide access to the tracked versions, (b) but are agnostic to (1.).</li>
+</ol>
+
+<p>Separating these needs out provides clear tool scope. Existing or new Version Control Systems can handle (2.), independent of tools built to handle (1.). A Package Manager can handle (3.).</p>
+
+<p>While git has achieved tremendous success and is currently the most popular version control system, history has shown that preferences shift as better tools emerge (git replaced svn, svn replaced cvs, etc). Unless it becomes abundantly clear that no new VCS would supplant current ones, it would be wise to build Package Managers independent and compatible with various VCSes.</p>
+
+<blockquote>
+<p>(6) A Data Package Manager would be independent of VCS.</p>
+</blockquote>
+
+<h3 id="formatting">Formatting</h3>
+
+<p>The question of formats and conversions is formidable and worth lengthier discussion. For the purposes of this post, package managers would simplify three aspects: re-publishing, tooling, and automation.</p>
+
+<h4 id="1-reformat-and-republish">1. Reformat and Republish</h4>
+
+<p>As <a href="#versioning">discussed above</a>, all versions of a dataset would be available. This includes versions that do not alter the data itself but change the format of the files themselves. Data formatting is a tedious process fraught with problems; valuable data worker time is spent parsing and converting data from one format to another. With a properly namespaced<sup id="fnref3"><a href="#fn3" rel="footnote">3</a></sup> package manager, end-users themselves could reformat and republish a new version of the dataset. This permits users to leverage each other&#39;s efforts and save broader community time.</p>
+
+<blockquote>
+<p>(7) A Data Package Manager would provide reformatted datasets.</p>
+</blockquote>
+
+<h4 id="2-reformatting-tools">2. Reformatting Tools</h4>
+
+<p>There exist thousands of tools to clean, convert, reformat, or otherwise modify datasets. A package manager could provide (a) programmable access to datasets, (b) dataset format information, and (c) standardized file layouts for particular formats. This would significantly simplify building these and other tools, as well as broaden their reach to other datasets outside of the authors&#39; knowledge.  The package manager is an infrastructure tool, a platform for other tools to leverage.</p>
+
+<blockquote>
+<p>(8) A Data Package Manager would enhance data processing tools.</p>
+</blockquote>
+
+<h4 id="3-automating-processes">3. Automating Processes</h4>
+
+<p>On the other hand, these provisions would also enable the package manager itself to automate particular processes for the sake of end users. For example, consider a set of interchangeable formats (e.g. encodings like {<code>JSON</code>, <code>XML</code>}, or {<code>matlab matrix</code>, <code>numpy array</code>}). Suppose these formats and their relationship are registered with the package manager, including bi-directional conversion tools. The package manager would then be able to convert any dataset from one format to another. This could be done either in the user&#39;s own machine, or remotely (e.g. publishing one format automatically produces projections into compatible formats<sup id="fnref4"><a href="#fn4" rel="footnote">4</a></sup>). End users need not be concerned with such simple reformats. Of course, other tasks beyond reformatting could be automated similarly.</p>
+
+<blockquote>
+<p>(9) A Data Package Manager would automate data processing tasks.</p>
+</blockquote>
+
+<h3 id="licensing">Licensing</h3>
+
+<p>By requiring a license, a package manager would enforce dataset authors consider, learn about, and formalize the rights of their end users. Additionally, by encouraging particular licenses, it could guide authors towards more open and modification-friendly licensing. This would reduce ambiguity and <a href="%7B%%20post_url%202014-02-21-data-management-vocabulary%20%%7D#forking-friction">forking friction</a>.</p>
+
+<blockquote>
+<p>(10) A Data Package Manager would encourage better licensing.</p>
+</blockquote>
+
+<h3 id="open-access">Open Access</h3>
+
+<p>First, a package manager would improve <em>accessing</em> open-access datasets. Currently, it is common to find open-access repositories with many hurdles to retrieving its hosted files. A simple package manager interface would better the experience and save time. Also, a package manager would cover the costs and assuage the distribution concerns of authors and publishers.</p>
+
+<p>Second, by reducing <a href="%7B%%20post_url%202014-02-21-data-management-vocabulary%20%%7D#forking-friction">forking friction</a>, a package manager would greatly support modifying and republishing (forking) of datasets. This is precisely what <em>open access data</em> should .</p>
+
+<p>An open Data Package Manager perfectly complements pre-print publication servers like <a href="http://arxiv.org">arXiv</a> and <a href="http://biorxiv.org">bioRxiv</a></p>
+
+<blockquote>
+<p>(11) A Data Package Manager would improve open access.</p>
+</blockquote>
+
+<h2 id="summary">Summary</h2>
+
+<ol>
+<li>A Package Manager can solve <a href="%7B%%20post_url%202014-02-21-data-management-problems%20%%7D">our Data Management problems</a>.</li>
+<li>It would amortize distribution costs.</li>
+<li>It would index and search datasets.</li>
+<li>It would provide datasets permanently.</li>
+<li>It would provide all versions of datasets.</li>
+<li>It would be independent of VCS.</li>
+<li>It would provide reformatted datasets.</li>
+<li>It would enhance data processing tools.</li>
+<li>It would automate data processing tasks.</li>
+<li>It would encourage better licensing.</li>
+<li>It would improve open access.</li>
+</ol>
+
+<p>It is time to build one.</p>
+
+<div class="align-center">
+<img src="http://jbenet.static.s3.amazonaws.com/51cd6a8/data-flap.png" />
+</div>
+
+<!-- The multiplicity of software package managers is, perhaps, an issue in itself. Thankfully, generally there is one canonical package maneger per use case. Still, arguments can be made for a "Package Manager of Package Managers", or "One Package Manager to Manage Them All". Here are some examples:
+
+- Operating System Packages:
+  [apt (debian)](https://packages.debian.org),
+  [apt (ubuntu)](https://packages.ubuntu.com),
+  [rpm (redhat)](http://www.rpm.org),
+  [brew (osx)](http://brew.sh).
+- Source Code:
+  [GitHub](https://github.com/),
+  [Bitbucket](https://bitbucket.org/),
+  [LaunchPad](http://launchpad.net/),
+  [SourceForge](http://sourceforge.net/),
+  [Google Code](http://code.google.com/).
+- Language/Platforms:
+  [PyPI (Python)](https://pypi.python.org/‎),
+  [RubyGems (Ruby)](http://rubygems.org/‎),
+  [npm (node)](https://www.npmjs.org/),
+  [Cabal (Haskell)](http://www.haskell.org/cabal).
+- Text Editors:
+  [Emacs](http://marmalade-repo.org/),
+  [SublimeText](https://sublime.wbond.net/‎),
+  [Atom](https://atom.io/packages).
+- App Stores:
+  Apple ([Mac](http://en.wikipedia.org/wiki/Apple_App_Store),
+         [iOS](http://en.wikipedia.org/wiki/App_Store_(iOS)));
+  Google ([Android](https://play.google.com/store/apps‎),
+          [Chrome](https://chrome.google.com/webstore));
+  Microsoft ([Desktop](windows.microsoft.com/en-us/windows-8/apps‎),
+             [Phone](www.windowsphone.com/en-us/store‎)).
+-->
+
+<div class="footnotes">
+<hr>
+<ol>
+
+<li id="fn1">
+<p>This is clearly the case in software: a package distributed on its own website is significantly less likely to survive than a package distributed through a mainstream software package manager (e.g. debian aptitude).&nbsp;<a href="#fnref1" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn2">
+<p>Why <a href="http://git-scm.com">git</a> is not it (yet) is argued in a future post.&nbsp;<a href="#fnref2" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn3">
+<p>Namespacing is important to reduce publication friction. This is similar to namespacing and forking on github.&nbsp;<a href="#fnref3" rev="footnote">&#8617;</a></p>
+</li>
+
+<li id="fn4">
+<p>It&#39;s worth mentioning that such automatic reformatting at central repositories should occur <a href="http://en.wikipedia.org/wiki/Lazy_evaluation">lazily</a>.&nbsp;<a href="#fnref4" rev="footnote">&#8617;</a></p>
+</li>
+
+</ol>
+</div>
+
+</div>
+
+<hr />
+<h2 id="data-management-problems">
+  <a href="/data/2014-02-21/data-management-problems">Data Management Problems</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-02-21</p>
+
+<div class="post">
+<p>Numerous problems plague data sharing today. This post identifies some of them. Note: to make sure we&#39;re on the same page semantically, check my <a href="%7B%%20post_url%202014-02-21-data-management-vocabulary%20%%7D">data vocabulary</a>.</p>
+
+<h2 id="distribution">Distribution</h2>
+
+<p>Moving files from one computer to another is generally a solved problem. However, when dealing with datasets, there are complexities.</p>
+
+<p>First, data files can be <em>large</em> (100MB+), which makes distribution costly in terms of storage and bandwidth. Usually, only organizations (academic or commercial) commit to fronting the financial costs of storing, transmitting, and maintaining large datasets. For example, academic institutions maintain the most popular Machine Learning datasets (NIST, CIFAR, ImageNet, etc). However, thanks to new cloud storage solutions, the costs (both money and time) are dropping.</p>
+
+<p>Second, unlike source code, few of the people that deal with data files are proficient in setting up reliable and robust distribution of their dataset files over the internet. Today, many scientists outside of computer science are using services like Dropbox, a personal file storage solution, to distribute their data files. The most cost-effective and reliable systems remain obscure to most average users. For example, bittorrent has been used to distribute datasets by only some computer science/bioinformatics research communities.</p>
+
+<h2 id="versioning">Versioning</h2>
+
+<p>Many people do not realize the importance of versioning at all. Some overwrite files with new versions without considering the repercussions. Others fail to keep old versions available, only distributing the latest -- which is still damaging.</p>
+
+<p>There are problems even in how versioning is implemented. While <strong>version control systems</strong> (VCS) have prolifierated in the software engineering world, most data files continue to be managed by ad-hoc and brittle filename <strong>versioning schemes</strong>. We have all seen the terrible ones (see the cartoon below).</p>
+
+<p><img src="http://www.phdcomics.com/comics/archive/phd101212s.gif" alt="phd-comics-final"></p>
+
+<p>Better ones exist (like timestamping the filenames), but still fail to support useful VCS features like branching histories, version description messages, version merging, etc. Sure, the world would be better if everybody used git. But they will not. We need to bake VCS into existing workflows.</p>
+
+<h2 id="permanence">Permanence</h2>
+
+<p>Sometimes published datasets are no longer available in their original location, so one must find them again. Sometimes, datasets disappear completely. <a href="https://www.cell.com/current-biology/abstract/S0960-9822(13)01400-0">This paper</a> found that, in biology alone, &quot;the odds of a data set being extant fall by 17%
+per year.&quot;</p>
+
+<p>This is absurd. The point of research is to gather and reason on data. We ought to be able to keep the data around, in <em>precisely</em> the exact form it was originally published. No single dataset should <em>ever</em> go missing. No single dataset <em>version</em> should ever go missing either. Getting data published is hard enough. We cannot afford to then lose it.</p>
+
+<p>We need a <em>permanent</em> repository, where all data survives.</p>
+
+<h2 id="indexing">Indexing</h2>
+
+<p>Datasets are strewn across the web. Generally, dataset authors need to arrange for the distribution and upkeep of the files, which means they setup whatever solution happens to be most convenient for them. This leads to distribution over a myriad different methods, with widely varying user experiences. And there is no global system to track published datasets, or their publication meta-data (date, authors, license, version, etc). Some aggregated collections exist, but they are often field-specific and wildy varying in quality, usability, or completeness. This all makes searching for datasets tedious at best, and often fruitless.</p>
+
+<p>Imagine a world where every dataset published can be found in one single, persistent global index -- across fields. Imagine this index also tracks the version histories, publication meta-data, related datasets, people, figures, etc. Imagine all this information standardized and easily searchable. Imagine all URLs to this index are guaranteed not to change, and to support a programmable API.</p>
+
+<h2 id="formatting">Formatting</h2>
+
+<p>Researchers often have to clean, reformat, filter, or otherwise modify the data files they wish to work with. This can consume significant time and effort. Sometimes programs have to be written. Sometimes modifications must be done manually -- an error prone waste of valuable time. Often these modifications are the same that others need. Often, re-publishing the dataset after format changes might save the community valuable time.</p>
+
+<h2 id="licensing">Licensing</h2>
+
+<p>Often, it is unclear what license published datasets carry. People tend to distribute raw data files, neglecting to specify what end users can do with the files. Though this feels &quot;open,&quot; it is unclear whether publishing a modified version of the data is allowed. This ambiguity, with potential legal implications, deters forking and re-publishing of data. Most would rather not risk getting in legal trouble.</p>
+
+<p>Open Source code solves this problem with clear licenses and licensing guidelines. It is common practice to always include a license with open source code -- this should be the same for data. While the data licenses are not yet as sophisticated as source code licenses, there are already many licenses covering common use cases (see <a href="http://opendatacommons.org">opendatacommons.org</a> and <a href="http://www.dcc.ac.uk/resources/how-guides/license-research-data"><em>How to License Research Data</em></a>). We simply need licensing to become common practice. Requiring (or defaulting to) licenses in data publishing repositories may nudge people in the right direction, reduce ambiguity, and foster data forking.</p>
+
+<h2 id="open-access">Open Access</h2>
+
+<p>The Open Access discussion often focuses on journals and access to papers. But, open access data is just as critical to scientific progress. Others have discussed this problem much better than I can, so I will link you to them directly:</p>
+
+<ul>
+<li><a href="http://okfn.org/opendata/">Open Data - An Introduction (OKFN)</a></li>
+<li><a href="http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001797">Data Access for the Open Access Literature (PLOS)</a></li>
+<li><a href="http://www.oecd.org/science/sci-tech/sciencetechnologyandinnovationforthe21stcenturymeetingoftheoecdcommitteeforscientificandtechnologicalpolicyatministeriallevel29-30january2004-finalcommunique.htm">Declaration on Access to Research Data from Public Funding (OECD)</a></li>
+<li><a href="http://precedings.nature.com/documents/1526/version/1">Open Data in Science</a></li>
+<li><a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2205145">Big Data for Development: From Information to Knowledge Societies</a></li>
+<li><a href="http://crln.acrl.org/content/73/2/83.full">The impact of open access on research and scholarship</a></li>
+</ul>
+
+<p>The takeaway is data should be <strong>open-source</strong>, for <strong>distribution</strong> and <strong>modification</strong>. What is often left out of these discussions is the friction people experience when attempting to do either. From undergoing a lengthy peer-review process, to applying for accounts, to asking for modification permission for others&#39; data... the hurdles are numerous, <em>even in <strong>open access</strong> repositories</em>. We need to complement <strong>open access</strong> with <strong>easy access</strong>, to both read and write, or download and publish.</p>
+
+<p>Imagine a world where researchers can fork and re-publish fixed, cleaned, reformatted datasets as easily as programmers fork code.</p>
+
+<p>Friends, the promised land is in sight.</p>
+
+</div>
+
+<hr />
+<h2 id="data-management-vocabulary">
+  <a href="/data/2014-02-21/data-management-vocabulary">Data Management Vocabulary</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-02-21</p>
+
+<div class="post">
+<p>Last updated: 2014-02-28.</p>
+
+<p>This is a vocabulary for the purpose of precisely defining propblems and solutions in my data management efforts. Many are standard <a href="#version-control">version control</a> concepts.</p>
+
+<style>
+h2 {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+</style>
+
+<h2 id="bandwidth">bandwidth</h2>
+
+<p>for our purposes, capacity to distribute files across a network, mainly the internet.</p>
+
+<h2 id="data">data</h2>
+
+<p>information stored in digital files</p>
+
+<h2 id="dataset">dataset</h2>
+
+<p>a meaningful collection of related <strong>data</strong>, usually packaged as a set of files and identified with a name.</p>
+
+<h2 id="decoding">Decoding</h2>
+
+<p>the process of converting <em>encoded information</em> into <em>information</em>, according to a <a href="#format">format</a>. The inverse of <a href="#encoding">Encoding</a>.</p>
+
+<p>For example, using <code>TMF</code> <a href="#tmf-format">defined below</a>:</p>
+<div class="highlight"><pre><code class="language-golang" data-lang="golang"><span class="k">func</span><span class="x"> </span><span class="n">TMFDecode</span><span class="p">(</span><span class="n">s</span><span class="x"> </span><span class="n">String</span><span class="p">)</span><span class="x"> </span><span class="n">Devices</span><span class="x"> </span><span class="p">{</span><span class="x">
+  </span><span class="n">d</span><span class="x"> </span><span class="o">:=</span><span class="x"> </span><span class="n">json</span><span class="o">.</span><span class="n">Decode</span><span class="p">(</span><span class="n">devs</span><span class="p">)</span><span class="x">
+  </span><span class="k">if</span><span class="x"> </span><span class="n">d</span><span class="o">.</span><span class="n">IsValid</span><span class="p">()</span><span class="x"> </span><span class="p">{</span><span class="x">
+    </span><span class="k">return</span><span class="x"> </span><span class="n">d</span><span class="x">
+  </span><span class="p">}</span><span class="x">
+  </span><span class="n">throw</span><span class="x"> </span><span class="n">TMFDecodingError</span><span class="p">(</span><span class="n">d</span><span class="p">)</span><span class="x">
+</span><span class="p">}</span><span class="x">
+</span></code></pre></div>
+<h2 id="distributed-version-control-system-dvcs">Distributed Version Control System (DVCS)</h2>
+
+<p>a <strong>version control system</strong> that operates in a distributed, decentralized fashion. Users do not need to interact with, or obtain permission from, a central authority for normal operation.</p>
+
+<h2 id="encoding">Encoding</h2>
+
+<p>the process of converting <em>information</em> into <em>encoded information</em>, according to a <a href="#format">format</a>. The inverse of <a href="#decoding">Decoding</a>.</p>
+
+<p>For example, using <code>TMF</code> <a href="#tmf-format">defined below</a>:</p>
+<div class="highlight"><pre><code class="language-golang" data-lang="golang"><span class="k">func</span><span class="x"> </span><span class="n">TMFEncode</span><span class="p">(</span><span class="n">d</span><span class="x"> </span><span class="n">Devices</span><span class="p">)</span><span class="x"> </span><span class="n">String</span><span class="x"> </span><span class="p">{</span><span class="x">
+  </span><span class="k">if</span><span class="x"> </span><span class="n">d</span><span class="o">.</span><span class="n">IsValid</span><span class="p">()</span><span class="x"> </span><span class="p">{</span><span class="x">
+    </span><span class="k">return</span><span class="x"> </span><span class="n">json</span><span class="o">.</span><span class="n">Encode</span><span class="p">(</span><span class="n">d</span><span class="p">)</span><span class="x">
+  </span><span class="p">}</span><span class="x">
+  </span><span class="n">throw</span><span class="x"> </span><span class="n">TMFEncodingError</span><span class="p">(</span><span class="n">d</span><span class="p">)</span><span class="x">
+</span><span class="p">}</span><span class="x">
+</span></code></pre></div>
+<h2 id="fork">fork</h2>
+
+<p>a distinct project which originated by branching -- copying and subsequently modifying -- another. If project B was built by copying and modifying project A, project B is said to be a <em>fork</em> of project A. Forks are often created to fix bugs, alter or add functionality, or take over maintenance.</p>
+
+<h2 id="forking">forking</h2>
+
+<p>copying the files from one project and modifying them to create another, distinct project. The new project is said to be a <a href="#fork">fork</a> of the original.</p>
+
+<h2 id="forking-friction">forking friction</h2>
+
+<p>infrastructural or cultural resistance to <a href="#forking">forking</a> projects.</p>
+
+<p>In software, developers used to be reluctant to forking because it carried the connotation of an organizational split or schism, and the weight of organizational maintenance. Github greatly reduced <em>forking friction</em> in software by:</p>
+
+<ul>
+<li>terming original projects <em>forks</em> as well (as opposed to only their off-shoots)</li>
+<li>making forking a common part of contributing to projects</li>
+<li>namespacing projects under usernames (e.g. <code>userA/project</code> could be a fork of <code>userB/project</code>)</li>
+<li>effectively combining all open-source communities under one network</li>
+</ul>
+
+<p>In data management, users are often reluctant to forking a dataset because:</p>
+
+<ul>
+<li>they do not know whether they are able to (unclear or no licensing)</li>
+<li>they do not wish to cause an organizational split or schism</li>
+<li>they face <a href="#publishing-friction">publishing friction</a></li>
+</ul>
+
+<h2 id="format">Format</h2>
+
+<p>&quot;the way in which something is arranged&quot;; a specification for how to <code>encode</code> and <code>decode</code> a message.</p>
+
+<p>For example, consider the following <a href="#schema-laden">schema-laden</a> format spec:</p>
+
+<div id="tmf-format"></div>
+
+<blockquote>
+<p>Temperature Measurement Format (TMF)</p>
+
+<ul>
+<li>TMF extends, or is on top of, JSON.</li>
+<li>A <code>TMFFile</code> has a <code>.json</code> extension, and contains <code>TMFData</code></li>
+<li>A <code>TMFData</code> is a sequence of <code>TMFDevice</code> objects.</li>
+<li>A <code>TMFDevice</code> object <em>must</em> have two keys:
+
+<ul>
+<li><code>name</code>, mapped to a string.</li>
+<li><code>temps</code>, mapped to a <code>TMFReadings</code> object.</li>
+</ul></li>
+<li>A <code>TMFReadings</code> object maps <code>ISO Date</code> to a <code>TMFTemp</code></li>
+<li>A <code>TMFTemp</code> is a string with a <code>float</code> followed by one scale letter (<code>C</code>, <code>F</code>, or <code>K</code>).</li>
+</ul>
+<div class="highlight"><pre><code class="language-json" data-lang="json"><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nt">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"device0"</span><span class="p">,</span><span class="w">
+    </span><span class="nt">"temps"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nt">"2014-03-07 05:10:01"</span><span class="p">:</span><span class="w"> </span><span class="s2">"292.0K"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"2014-03-07 05:10:02"</span><span class="p">:</span><span class="w"> </span><span class="s2">"291.7K"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"2014-03-07 05:10:03"</span><span class="p">:</span><span class="w"> </span><span class="s2">"5000.0K"</span><span class="p">,</span><span class="w">
+      </span><span class="nt">"2014-03-07 05:10:04"</span><span class="p">:</span><span class="w"> </span><span class="s2">"291.3K"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre></div></blockquote>
+
+<h2 id="format-compatibility">Format Compatibility</h2>
+
+<p>a directed measure of whether a <a href="#format">format</a> is able to represent the same <a href="#schema">schemas</a> as another. For example, <a href="http://json.org">JSON</a> and <a href="http://en.wikipedia.org/wiki/XML">XML</a> are formats perfectly compatible with each other: all schemas represented in JSON can be represented in XML and viceversa. However, <a href="http://geojson.org">GeoJSON</a> <strong>is</strong> compatible with XML (it follows from JSON being compatible with XML), but XML <strong>is not</strong> compatible with GeoJSON (not all XML files can be transformed into valid GeoJSON).</p>
+
+<p>The idea of format-compatibility is useful to better understand how format conversion relationships work.</p>
+
+<h2 id="git">git</h2>
+
+<p>a popular <a href="#distributed-version-control-system-(dvcs)">distributed version control system</a>. See <a href="http://git-scm.com">http://git-scm.com</a>.</p>
+
+<h2 id="publishing-friction">publishing friction</h2>
+
+<p>individual resistance to <a href="#publishing">publishing</a> projects due to costs or perceived costs in doing so. For example, costs include:</p>
+
+<ul>
+<li>monetary costs for reliable distribution.</li>
+<li>obligation to maintain a published project indefinitely.</li>
+<li>loss of reputation if the project is deemed unsatisfactory.</li>
+</ul>
+
+<p><em>Publishing friction</em> prevents the publishing of valuable projects. Building tools which decrease it boost the possibilities of progress.</p>
+
+<h2 id="schema">Schema</h2>
+
+<p>the structure, or specification of how information represents meaning.</p>
+
+<p>For example:</p>
+
+<ul>
+<li><code>Timestamp</code> specifies the time at which a measurement was taken.</li>
+<li><code>Temperature</code> specifies the temperature measured.</li>
+<li><code>TempMeasurements</code> specifies a sequence relating a <code>Timestamp</code> with a <code>Temperature</code></li>
+<li><code>Device</code> specifies a particular machine, with a <code>Name</code> and <code>TempMeasurements</code></li>
+</ul>
+
+<h2 id="schema-format-compatibility">Schema-Format Compatibility</h2>
+
+<p>a measure of whether a particular <a href="#format">format</a> is able to represent a particular <a href="#schema">schema</a>.</p>
+
+<h2 id="schema-laden-format">Schema-laden Format</h2>
+
+<p>a <a href="#format">format</a> designed to represent a particular <a href="#schema">schema</a>. <em>Schema-less</em> or universal formats, such as <a href="http://json.org">JSON</a>, can represent any schema. <em>Schema-laden</em> formats, such as <a href="http://geojson.org">GeoJSON</a>, are tuned to represent a particular set of schemas. Schema-laden formats tend to implement schema specifications on top of a general format.</p>
+
+<h2 id="schema-compatibility">Schema Compatibility</h2>
+
+<p>a measure of whether a particular <a href="#schema">schema</a> is able to express another. It is useful to consider whether or not data can be transformed from one schema to another.</p>
+
+<h2 id="storage">storage</h2>
+
+<p>for our purposes, digital storage of files in computers.</p>
+
+<h2 id="universal-format">Universal Format</h2>
+
+<p>For our purposes, a format capable of storing any schema. Examples: JSON, XML. Contrast to GeoJSON, a format specific to a set of schemas, or a <a href="#schema-laden-format"><em>schema-laden</em> format</a>.</p>
+
+<h2 id="version">Version</h2>
+
+<p>a snapshot of files at a particular point in time. Versions are useful to trace histories of changes.</p>
+
+<h2 id="versioning">Versioning</h2>
+
+<p>storing multiple versions of a given file to enable tracing the history of changes.</p>
+
+<h2 id="versioning-scheme">Versioning Scheme</h2>
+
+<p>a scheme or protocol to identify different <strong>versions</strong> of file.</p>
+
+<h2 id="version-control">Version Control</h2>
+
+<p>techniques to store, manage, and retrieve numerous digital files, using versioning.</p>
+
+<h2 id="version-control-system-vcs">Version Control System (VCS)</h2>
+
+<p>a system (usually a software tool) used to enact, support, and simplify a particular form of <strong>version control</strong>.</p>
+
+</div>
+
+<hr />
+<h2 id="lets-solve-data-management">
+  <a href="/data/2014-02-21/lets-solve-data-management">Let's Solve Data Management</a>
+  <small><a href="#toc">top</a></small>
+</h2>
+<p class="meta">2014-02-21</p>
+
+<div class="post">
+<p>Numerous problems plague data sharing today. Scientists, engineers, analysts work with exabytes of data daily. So you would think our data management techniques and technologies are top notch. You would think it trivial to move data files from one computer to another, to share this or that dataset with a collaborator, to keep all versions accounted for, to trace the history of particular data, to convert between this and that format, to create and re-create figures from the data... In short, you would think sophisticated and well designed tools have solved these straightforward problems. After all, these same problems plagued software development decades ago.
+<a href="http://en.wikipedia.org/wiki/Package_management_system">And</a>
+<a href="http://opensource.org/">we</a>
+<a href="http://en.wikipedia.org/wiki/Revision_control">have</a>
+<a href="http://npmjs.org/">solved</a>
+<a href="http://github.com/">those</a>
+<a href="http://git-scm.com/">elegantly</a>.</p>
+
+<p>The sad truth is that data management -- particularly among scientists and analysts -- remains almost oblivious of the general solutions software engineering developed to manage code.</p>
+
+<p>The good news is: we can change that in 2014.</p>
+
+<p>The foundations of a better future have been laid. Existing source code tools and entirely new solutions are solving the tough problems. What&#39;s left is to connect the dots with easy to use tools, and to drive their adoption.</p>
+
+<p>Over a series of posts, I will summarize a number of problems I have noticed, discuss potential solutions, and feature current efforts to solve them. I invite you to be part of the discussion, and to help the efforts. My hope is to rally others interested in these problems, and to build the open-source tools to solve them.</p>
+
+<p>Join me.</p>
+
+</div>
+
+
+  </div>
+
+
+ <!-- Footer -->
+  <footer>
+    <div id="site-map">
+      <h5>juan.benet.ai</h5>
+      <ul class="links no-bullet">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </div>
+    <div id="contact-me">
+      <h5>Contact</h5>
+      <ul class="links no-bullet">
+        <li><a href="https://twitter.com/intent/user?screen_name=juanbenet" target="_blank"><i class="icon-twitter"></i> @juanbenet</a></li>
+        <li><a href="https://github.com/jbenet" id="new-issue" target="_blank"><i class="icon-github"></i> github.com/jbenet</a></li>
+        <li>
+        <a href="http://www.google.com/recaptcha/mailhide/d?k=01LaO8uNTV8Ss8kghGlxHXCw==&amp;c=eEwF2u87Cdkgipi5COLbnA=="
+        onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501LaO8uNTV8Ss8kghGlxHXCw\75\75\46c\75eEwF2u87Cdkgipi5COLbnA\75\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+        title="Reveal this e-mail address"><i class="icon-envelope"></i>
+        click-to-reveal@benet.ai</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+</div>
+
+<!-- cdnlibs -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css"></script>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48626381-1', 'benet.ai');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Modify this template to add or change links.
+  var links = _.template('\
+    <div class="header-links">\
+      <a href="#<%= id %>"><i class="icon icon-link"></i></a>\
+    </div>\
+  ');
+
+  // If your headers dont already have ids, use this slug fn
+  var slugize = function(title) {
+    return title.toLowerCase()
+      .replace(/[^\w ()]+/g,'')
+      .replace(/ +/g,'-');
+  }
+
+  // Modify the ':header' selector to apply to other elems
+  $(':header').each(function(i, h) {
+
+    // Add an id, if it doesn't have one.
+    if (!$(h).attr('id')) {
+      var id = $(h).text().replace(/[^A-Za-z0-9_]+/g, '-')
+      id = id.replace(/^-+|-+$/g, '')
+      $(h).attr('id', slugize($(h).text()));
+    }
+
+    // Add the link div
+    $(h).append($(links({
+      id: $(h).attr('id')
+    })));
+  });
+});
+</script>
+
+</body>
+</html>

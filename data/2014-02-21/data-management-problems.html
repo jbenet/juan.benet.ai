@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Data Management Problems - juan.benet.ai</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- CSS -->
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link href="/css/main.css" media="all" rel="stylesheet" type="text/css" />
+
+  <!-- jQuery for inlined $ -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" ></script>
+
+</head>
+<body>
+
+<div class="site">
+
+  <div class="content markdown">
+  <h2>
+  <small><a href="/">Juan Benet</a> /
+  <a class="category" href="/data">
+  data</a> /</small>
+  Data Management Problems</h2>
+<p class="meta">2014-02-21</p>
+
+<div class="post">
+<p>Numerous problems plague data sharing today. This post identifies some of them. Note: to make sure we&#39;re on the same page semantically, check my <a href="/data/2014-02-21/data-management-vocabulary">data vocabulary</a>.</p>
+
+<h2 id="distribution">Distribution</h2>
+
+<p>Moving files from one computer to another is generally a solved problem. However, when dealing with datasets, there are complexities.</p>
+
+<p>First, data files can be <em>large</em> (100MB+), which makes distribution costly in terms of storage and bandwidth. Usually, only organizations (academic or commercial) commit to fronting the financial costs of storing, transmitting, and maintaining large datasets. For example, academic institutions maintain the most popular Machine Learning datasets (NIST, CIFAR, ImageNet, etc). However, thanks to new cloud storage solutions, the costs (both money and time) are dropping.</p>
+
+<p>Second, unlike source code, few of the people that deal with data files are proficient in setting up reliable and robust distribution of their dataset files over the internet. Today, many scientists outside of computer science are using services like Dropbox, a personal file storage solution, to distribute their data files. The most cost-effective and reliable systems remain obscure to most average users. For example, bittorrent has been used to distribute datasets by only some computer science/bioinformatics research communities.</p>
+
+<h2 id="versioning">Versioning</h2>
+
+<p>Many people do not realize the importance of versioning at all. Some overwrite files with new versions without considering the repercussions. Others fail to keep old versions available, only distributing the latest -- which is still damaging.</p>
+
+<p>There are problems even in how versioning is implemented. While <strong>version control systems</strong> (VCS) have prolifierated in the software engineering world, most data files continue to be managed by ad-hoc and brittle filename <strong>versioning schemes</strong>. We have all seen the terrible ones (see the cartoon below).</p>
+
+<p><img src="http://www.phdcomics.com/comics/archive/phd101212s.gif" alt="phd-comics-final"></p>
+
+<p>Better ones exist (like timestamping the filenames), but still fail to support useful VCS features like branching histories, version description messages, version merging, etc. Sure, the world would be better if everybody used git. But they will not. We need to bake VCS into existing workflows.</p>
+
+<h2 id="permanence">Permanence</h2>
+
+<p>Sometimes published datasets are no longer available in their original location, so one must find them again. Sometimes, datasets disappear completely. <a href="https://www.cell.com/current-biology/abstract/S0960-9822(13)01400-0">This paper</a> found that, in biology alone, &quot;the odds of a data set being extant fall by 17%
+per year.&quot;</p>
+
+<p>This is absurd. The point of research is to gather and reason on data. We ought to be able to keep the data around, in <em>precisely</em> the exact form it was originally published. No single dataset should <em>ever</em> go missing. No single dataset <em>version</em> should ever go missing either. Getting data published is hard enough. We cannot afford to then lose it.</p>
+
+<p>We need a <em>permanent</em> repository, where all data survives.</p>
+
+<h2 id="indexing">Indexing</h2>
+
+<p>Datasets are strewn across the web. Generally, dataset authors need to arrange for the distribution and upkeep of the files, which means they setup whatever solution happens to be most convenient for them. This leads to distribution over a myriad different methods, with widely varying user experiences. And there is no global system to track published datasets, or their publication meta-data (date, authors, license, version, etc). Some aggregated collections exist, but they are often field-specific and wildy varying in quality, usability, or completeness. This all makes searching for datasets tedious at best, and often fruitless.</p>
+
+<p>Imagine a world where every dataset published can be found in one single, persistent global index -- across fields. Imagine this index also tracks the version histories, publication meta-data, related datasets, people, figures, etc. Imagine all this information standardized and easily searchable. Imagine all URLs to this index are guaranteed not to change, and to support a programmable API.</p>
+
+<h2 id="formatting">Formatting</h2>
+
+<p>Researchers often have to clean, reformat, filter, or otherwise modify the data files they wish to work with. This can consume significant time and effort. Sometimes programs have to be written. Sometimes modifications must be done manually -- an error prone waste of valuable time. Often these modifications are the same that others need. Often, re-publishing the dataset after format changes might save the community valuable time.</p>
+
+<h2 id="licensing">Licensing</h2>
+
+<p>Often, it is unclear what license published datasets carry. People tend to distribute raw data files, neglecting to specify what end users can do with the files. Though this feels &quot;open,&quot; it is unclear whether publishing a modified version of the data is allowed. This ambiguity, with potential legal implications, deters forking and re-publishing of data. Most would rather not risk getting in legal trouble.</p>
+
+<p>Open Source code solves this problem with clear licenses and licensing guidelines. It is common practice to always include a license with open source code -- this should be the same for data. While the data licenses are not yet as sophisticated as source code licenses, there are already many licenses covering common use cases (see <a href="http://opendatacommons.org">opendatacommons.org</a> and <a href="http://www.dcc.ac.uk/resources/how-guides/license-research-data"><em>How to License Research Data</em></a>). We simply need licensing to become common practice. Requiring (or defaulting to) licenses in data publishing repositories may nudge people in the right direction, reduce ambiguity, and foster data forking.</p>
+
+<h2 id="open-access">Open Access</h2>
+
+<p>The Open Access discussion often focuses on journals and access to papers. But, open access data is just as critical to scientific progress. Others have discussed this problem much better than I can, so I will link you to them directly:</p>
+
+<ul>
+<li><a href="http://okfn.org/opendata/">Open Data - An Introduction (OKFN)</a></li>
+<li><a href="http://www.plosbiology.org/article/info%3Adoi%2F10.1371%2Fjournal.pbio.1001797">Data Access for the Open Access Literature (PLOS)</a></li>
+<li><a href="http://www.oecd.org/science/sci-tech/sciencetechnologyandinnovationforthe21stcenturymeetingoftheoecdcommitteeforscientificandtechnologicalpolicyatministeriallevel29-30january2004-finalcommunique.htm">Declaration on Access to Research Data from Public Funding (OECD)</a></li>
+<li><a href="http://precedings.nature.com/documents/1526/version/1">Open Data in Science</a></li>
+<li><a href="http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2205145">Big Data for Development: From Information to Knowledge Societies</a></li>
+<li><a href="http://crln.acrl.org/content/73/2/83.full">The impact of open access on research and scholarship</a></li>
+</ul>
+
+<p>The takeaway is data should be <strong>open-source</strong>, for <strong>distribution</strong> and <strong>modification</strong>. What is often left out of these discussions is the friction people experience when attempting to do either. From undergoing a lengthy peer-review process, to applying for accounts, to asking for modification permission for others&#39; data... the hurdles are numerous, <em>even in <strong>open access</strong> repositories</em>. We need to complement <strong>open access</strong> with <strong>easy access</strong>, to both read and write, or download and publish.</p>
+
+<p>Imagine a world where researchers can fork and re-publish fixed, cleaned, reformatted datasets as easily as programmers fork code.</p>
+
+<p>Friends, the promised land is in sight.</p>
+
+</div>
+
+  </div>
+
+
+ <!-- Footer -->
+  <footer>
+    <div id="site-map">
+      <h5>juan.benet.ai</h5>
+      <ul class="links no-bullet">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </div>
+    <div id="contact-me">
+      <h5>Contact</h5>
+      <ul class="links no-bullet">
+        <li><a href="https://twitter.com/intent/user?screen_name=juanbenet" target="_blank"><i class="icon-twitter"></i> @juanbenet</a></li>
+        <li><a href="https://github.com/jbenet" id="new-issue" target="_blank"><i class="icon-github"></i> github.com/jbenet</a></li>
+        <li>
+        <a href="http://www.google.com/recaptcha/mailhide/d?k=01LaO8uNTV8Ss8kghGlxHXCw==&amp;c=eEwF2u87Cdkgipi5COLbnA=="
+        onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501LaO8uNTV8Ss8kghGlxHXCw\75\75\46c\75eEwF2u87Cdkgipi5COLbnA\75\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;"
+        title="Reveal this e-mail address"><i class="icon-envelope"></i>
+        click-to-reveal@benet.ai</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+</div>
+
+<!-- cdnlibs -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.1/underscore-min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css"></script>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48626381-1', 'benet.ai');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  // Modify this template to add or change links.
+  var links = _.template('\
+    <div class="header-links">\
+      <a href="#<%= id %>"><i class="icon icon-link"></i></a>\
+    </div>\
+  ');
+
+  // If your headers dont already have ids, use this slug fn
+  var slugize = function(title) {
+    return title.toLowerCase()
+      .replace(/[^\w ()]+/g,'')
+      .replace(/ +/g,'-');
+  }
+
+  // Modify the ':header' selector to apply to other elems
+  $(':header').each(function(i, h) {
+
+    // Add an id, if it doesn't have one.
+    if (!$(h).attr('id')) {
+      var id = $(h).text().replace(/[^A-Za-z0-9_]+/g, '-')
+      id = id.replace(/^-+|-+$/g, '')
+      $(h).attr('id', slugize($(h).text()));
+    }
+
+    // Add the link div
+    $(h).append($(links({
+      id: $(h).attr('id')
+    })));
+  });
+});
+</script>
+
+</body>
+</html>
