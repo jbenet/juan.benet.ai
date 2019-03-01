@@ -4,7 +4,7 @@ $(document).ready(function() {
   // Modify this template to add or change links.
   var links = _.template('\
     <div class="header-links">\
-      <a href="#<%= id %>"><i class="icon icon-link"></i></a>\
+      <a href="#<%= id %>"><i class="typcn typcn-link"></i></a>\
     </div>\
   ')
 

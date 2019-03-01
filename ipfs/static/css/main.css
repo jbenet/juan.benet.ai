@@ -16,6 +16,32 @@ body{
        url('../fonts/eb-garamond/eb-garamond-v10-latin-regular.svg#EBGaramond') format('svg'); /* Legacy iOS */
 }
 
+@media (min-width: 860px) {
+  .site {
+    width: 860px;
+  }
+}
+
+.chroma {
+  margin: 0px;
+}
+
+pre {
+  background: #f3f3f3;
+  padding: 14px 20px;
+}
+
+blockquote {
+  margin-left: 1em;
+  padding-left: 1em;
+  border-left: 2px solid #ddd;
+  font-style: italic;
+}
+
+.breadcrumb {
+  background-color: #f6f6f6;
+}
+
 
 footer{
   margin-top:30px;
@@ -38,21 +64,6 @@ footer{
   footer>div:last-child{
       float:right
   }
-}
-
-@media (min-width: 860px) {
-  .site {
-    width: 860px;
-  }
-}
-
-.chroma {
-  margin: 0px;
-}
-
-pre {
-  background: #f3f3f3;
-  padding: 14px 20px;
 }
 
 ul.no-bullet{
@@ -103,9 +114,6 @@ img.gravatar.large{
     text-align:justify;
     margin:2em auto 2em;
     padding: 0px 25px;
-}
-.breadcrumb {
-  background-color: #f6f6f6;
 }
 .content{
     line-height:1.5em
