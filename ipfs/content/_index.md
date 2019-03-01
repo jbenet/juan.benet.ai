@@ -6,8 +6,6 @@ layout: "single"
 
 # Welcome
 
-This is the website of Juan Benet.
-
-It runs on [IPFS](https://ipfs.io).
-
-Stay a while, and take a look around.
+- This is the website of Juan Benet.
+- It runs on [IPFS](https://ipfs.io).
+- Stay a while, and take a look around.

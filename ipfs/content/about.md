@@ -5,13 +5,5 @@ date: 2019-03-01T13:38:47+01:00
 
 # Juan Benet
 
-## Bio
-
-Juan is a computer scientist, engineer, and entrepreneur.
-He is obsessed with knowledge.
-Currently, he is building tools to assist Knowledge distribution (learning)
-and discovery (science).
-Previously, he cofounded and tech-led Loki Studios, an augmented reality
-mobile gaming company acquired by Yahoo; and worked with StartX as an EIR.
-Juan studied Computer Science at Stanford University (BS 2010, MS on leave).
+Juan is the founder of [Protocol Labs](https://protocol.ai), a research, development, and deployment company. He created [IPFS](https://ipfs.io), a decentralized web protocol, and [Filecoin](https://filecoin.io), a decentralized storage network. He is obsessed with knowledge, science, and technology.
 
