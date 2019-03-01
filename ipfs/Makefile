@@ -1,8 +1,14 @@
 
 domain="juan.benet.ai"
 
-build:
+build: deps
 	hugo
+
+deps:
+	@which hugo >/dev/null || \
+		go get -u github.com/gohugoio/hugo
+	@which ipfs-dumver >/dev/null || \
+		(echo "please install ipfs-dumver" && false)
 
 add-to-ipfs: build
 	ipfs-dumver public
