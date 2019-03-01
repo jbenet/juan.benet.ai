@@ -1,0 +1,18 @@
+{{ partial "header" . }}
+
+<div class="post">
+
+<h1>{{ .Title }}</h1>
+<div>{{ .Date.Format "2006-01-02"}}</div>
+<br />
+
+{{ if .Params.toc }}
+<div id="toc">
+{{.TableOfContents}}
+</div>
+{{ end }}
+
+{{ .Content }}
+</div>
+
+{{ partial "footer" . }}

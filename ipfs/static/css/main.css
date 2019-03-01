@@ -1,0 +1,173 @@
+body{
+    position:relative;
+    font-family: "EB Garamond";
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/eb-garamond/eb-garamond-v10-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('EB Garamond Regular'), local('EBGaramond-Regular'),
+       url('../fonts/eb-garamond/eb-garamond-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/eb-garamond/eb-garamond-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/eb-garamond/eb-garamond-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/eb-garamond/eb-garamond-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/eb-garamond/eb-garamond-v10-latin-regular.svg#EBGaramond') format('svg'); /* Legacy iOS */
+}
+
+
+footer{
+  margin-top:30px;
+  border-top:1px solid #e5e5e5;
+  padding-top:10px;
+  height:100px;
+  margin-bottom:30px;
+  color:#777;
+  text-align:center;
+  font-size: 14px;
+  line-height: 1.3em;
+}
+@media (min-width:768px){
+  footer{
+      text-align:left
+  }
+  footer>div:first-child{
+      float:left
+  }
+  footer>div:last-child{
+      float:right
+  }
+}
+
+@media (min-width: 860px) {
+  .site {
+    width: 860px;
+  }
+}
+
+.chroma {
+  margin: 0px;
+}
+
+pre {
+  background: #f3f3f3;
+  padding: 14px 20px;
+}
+
+ul.no-bullet{
+    list-style-type:none;
+    padding:0px;
+    margin:0px
+}
+h1{
+    font-size:25px
+}
+h2{
+    font-size:22px
+}
+h3{
+    font-size:18px
+}
+h4{
+    font-size:16px
+}
+img.gravatar.large{
+    max-width:200px;
+    border-radius:6px
+}
+.markdown img{
+    max-width:100%
+}
+.posts{
+    list-style-type:none;
+    margin-bottom:2em;
+    margin-left:0em;
+    padding-left:0em
+}
+.posts li{
+    line-height:1.75em
+}
+.posts li a.category{
+    color:#aaa;
+    display:inline-block;
+    width:35px;
+    text-align:center
+}
+.posts span{
+    color:#aaa;
+    font-family:Monaco,"Courier New",monospace;
+    font-size:80%
+}
+.site{
+    text-align:justify;
+    margin:2em auto 2em;
+    padding: 0px 25px;
+}
+.breadcrumb {
+  background-color: #f6f6f6;
+}
+.content{
+    line-height:1.5em
+}
+.header a{
+    font-weight:bold;
+    text-decoration:none
+}
+.meta{
+    color:#aaa
+}
+.post ul,.post ol{
+    margin-left:1.35em;
+    padding-left:0px
+}
+.post .align-right{
+    text-align:right
+}
+.post .align-center{
+    text-align:center
+}
+.post .footnotes{
+    font-size:12px
+}
+h1:hover .header-links a,h2:hover .header-links a,h3:hover .header-links a,h4:hover .header-links a,h5:hover .header-links a,h6:hover .header-links a{
+    text-decoration:none;
+    opacity:0.4;
+    color:gray
+}
+h1 .header-links,h2 .header-links,h3 .header-links,h4 .header-links,h5 .header-links,h6 .header-links{
+    float:left;
+    text-align:right;
+    margin-left:-40px;
+    padding-right:10px;
+    width:40px
+}
+h1 .header-links a,h2 .header-links a,h3 .header-links a,h4 .header-links a,h5 .header-links a,h6 .header-links a{
+    text-decoration:none;
+    opacity:0.0;
+    color:gray
+}
+h1 .header-links a:hover,h2 .header-links a:hover,h3 .header-links a:hover,h4 .header-links a:hover,h5 .header-links a:hover,h6 .header-links a:hover,h1 .header-links a:active,h2 .header-links a:active,h3 .header-links a:active,h4 .header-links a:active,h5 .header-links a:active,h6 .header-links a:active,h1 .header-links a:focus,h2 .header-links a:focus,h3 .header-links a:focus,h4 .header-links a:focus,h5 .header-links a:focus,h6 .header-links a:focus{
+    text-decoration:none;
+    opacity:0.6;
+    color:#428bca
+}
+:target,.box-highlight{
+    background-color:rgba(204,222,255,0.7);
+    border-radius:5px;
+    box-shadow-radius:5px;
+    box-shadow:0 0 10px 10px rgba(204,222,255,0.7)
+}
+.gist{
+    font-size:13px;
+    line-height:18px;
+    margin-bottom:20px;
+    width:100%
+}
+.gist pre{
+    font-family:Menlo,Monaco,'Bitstream Vera Sans Mono','Courier New',monospace !important
+}
+.gist-meta{
+    font-family:Helvetica,Arial,sans-serif;
+    font-size:13px !important
+}

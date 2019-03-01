@@ -1,0 +1,11 @@
+{{ partial "header" . }}
+
+{{ if .Params.toc }}
+<div id="toc">
+{{.TableOfContents}}
+</div>
+{{ end }}
+
+{{ .Content }}
+
+{{ partial "footer" . }}

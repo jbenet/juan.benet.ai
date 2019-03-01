@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html{{ with .Site.LanguageCode }} lang="{{ . }}"{{ end }}>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ .Site.Title }}</title>
+
+  <!-- stylesheets -->
+  <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="/fonts/typicons/typicons.min.css" rel="stylesheet" type="text/css">
+  <link href="/css/syntax.css" rel="stylesheet" type="text/css">
+  <link href="/css/main.css" rel="stylesheet" type="text/css" />
+
+  <!-- scripts -->
+  <script src="/js/jquery.js" ></script>
+  <script src="/js/underscore.js"></script>
+  <script src="/js/bootstrap.js"></script>
+
+  <!-- <link rel="icon" type="image/png" href="/images/icon-coin-128.png"/> -->
+  <meta name="description" content="{{ $.Param "description" }}" />
+  <meta name="author" content="{{ $.Param "author" }}" />
+
+  <!-- open graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="{{ $.Param "description" }}" />
+  <meta property="og:title" content="{{ $.Param "title" }}" />
+  <meta property="og:site_name" content="{{ .Site.Params.name }}" />
+  <meta property="og:url" content="{{ .RelPermalink }}" />
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="{{ .Site.BaseURL }}images/social-media-embed.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" contentlogo="146" />
+  <meta property="og:image:height" content="166" />
+
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="{{ .Site.Params.name }}" />
+  <meta name="twitter:title" content="{{ $.Param "title" }}" />
+  <meta name="twitter:creator" content="{{ $.Param "author" }}" />
+  <meta name="twitter:description" content="{{ $.Param "description" }}" />
+  <meta name="twitter:domain" content="{{ .Site.Params.domain }}" />
+  <meta name="twitter:image:src" content="{{ .Site.BaseURL }}images/social-media-embed.png" />
+</head>
+<body>
+
+<div class="site">
+<div class="content markdown">
+
+{{ partial "breadcrumb" . }}
+
+{{ partial "nav" . }}
+
+<br />

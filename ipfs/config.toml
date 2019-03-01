@@ -1,0 +1,12 @@
+baseURL = "https://juan.benet.ai/"
+languageCode = "en-us"
+canonifyurls = true
+relativeURLs = true
+googleAnalytics = "UA-48626381-1"
+
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+title = "jbenet's blog"
+name = "jbenet's blog"
+description = "a blog"
