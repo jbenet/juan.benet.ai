@@ -10,3 +10,6 @@ pygmentsUseClasses = true
 title = "jbenet's blog"
 name = "jbenet's blog"
 description = "a blog"
+
+[markup.goldmark.renderer]
+unsafe = true
