@@ -12,7 +12,7 @@ layout: "single"
 
 ## Projects
 
-- 2018 &raquo; [PL Research](https://github.com/protocol/research) open research lab
+- 2018 &raquo; [PL Research](https://research.protocol.ai/) open research lab
 - 2017 &raquo; [CoinList](https://coinlist.co) token sale platform
 - 2017 &raquo; [SAFT Project](https://saftproject.com/) legal framework for token sales
 - 2017 &raquo; [Filecoin](https://filecoin.io) decentralized storage network
