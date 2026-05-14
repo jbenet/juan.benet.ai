@@ -1,6 +1,6 @@
 baseURL = "https://juan.benet.ai/"
 languageCode = "en-us"
-canonifyurls = true
+canonifyURLs = false
 relativeURLs = true
 
 pygmentsCodeFences = true
