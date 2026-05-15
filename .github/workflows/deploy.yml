@@ -1,0 +1,86 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - feat/2026-redesign
+      - master
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    name: build, deploy, pin
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: install hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.161.1"
+          extended: true
+
+      - name: build site
+        run: hugo --gc --minify
+
+      - name: deploy to cloudflare workers
+        id: deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: install storacha cli
+        run: npm install -g @storacha/cli
+
+      - name: pin to ipfs via storacha
+        id: pin
+        env:
+          W3_PRINCIPAL: ${{ secrets.STORACHA_PRINCIPAL }}
+          W3_PROOF: ${{ secrets.STORACHA_PROOF }}
+          STORACHA_SPACE_DID: ${{ secrets.STORACHA_SPACE_DID }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          w3 space use "${STORACHA_SPACE_DID}"
+          CID="$(w3 up public/ --json | jq -r '.root."/"')"
+          if [ -z "${CID}" ] || [ "${CID}" = "null" ]; then
+            echo "::error::w3 up returned an empty CID"
+            exit 1
+          fi
+          TS="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          echo "${TS} ${CID}" >> .versions
+          echo "cid=${CID}" >> "$GITHUB_OUTPUT"
+          echo "ts=${TS}"  >> "$GITHUB_OUTPUT"
+          echo "Pinned to IPFS: ${CID}"
+          echo "Verify at: https://dweb.link/ipfs/${CID}/"
+
+      - name: deploy summary
+        shell: bash
+        env:
+          DEPLOY_URL: ${{ steps.deploy.outputs.deployment-url }}
+          CID: ${{ steps.pin.outputs.cid }}
+          PIN_TS: ${{ steps.pin.outputs.ts }}
+        run: |
+          set -euo pipefail
+          {
+            echo "## Deploy complete"
+            echo ""
+            echo "- **Cloudflare Worker URL**: ${DEPLOY_URL:-(see action logs)}"
+            echo "- **IPFS CID**: \`${CID}\`"
+            echo "- **IPFS gateway**: https://dweb.link/ipfs/${CID}/"
+            echo "- **Pinned at (UTC)**: ${PIN_TS}"
+            echo ""
+            echo "> The CID was appended to \`.versions\` inside this CI run."
+            echo "> The workflow does not push that update back — record the CID"
+            echo "> locally if you want to persist it in the repo."
+          } >> "$GITHUB_STEP_SUMMARY"
